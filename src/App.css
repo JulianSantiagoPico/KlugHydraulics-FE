@@ -1,44 +1,56 @@
 @import "tailwindcss";
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #10b981;
+  --accent-color: #f59e0b;
+  --text-dark: #00406f;
+  --bg-light: #f9fafb;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Clases utilitarias personalizadas */
+@layer utilities {
+  .text-brand-dark {
+    color: var(--text-dark);
   }
-  to {
-    transform: rotate(360deg);
+
+  .bg-brand-light {
+    background-color: var(--bg-light);
+  }
+
+  .text-brand-primary {
+    color: var(--primary-color);
+  }
+
+  .bg-brand-primary {
+    background-color: var(--primary-color);
+  }
+
+  .text-brand-secondary {
+    color: var(--secondary-color);
+  }
+
+  .text-brand-accent {
+    color: var(--accent-color);
+  }
+
+  .border-brand-primary {
+    border-color: var(--primary-color);
+  }
+
+  .hover\:text-brand-primary:hover {
+    color: var(--primary-color);
+  }
+
+  .hover\:bg-brand-primary:hover {
+    background-color: var(--primary-color);
+  }
+
+  .focus\:ring-brand-primary:focus {
+    --tw-ring-color: var(--primary-color);
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+* {
+  font-family: "Poppins", sans-serif;
 }
