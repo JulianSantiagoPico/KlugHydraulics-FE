@@ -1,13 +1,24 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import './App.css'
+import Header from './components/layout/Header.jsx'
+import Footer from './components/layout/Footer.jsx'
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-       Hola
-      </div>
+      <BrowserRouter>
+
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<div className="Dbg-red-500">Hola</div>} />
+        </Routes>
+
+        <Footer />
+
+      </BrowserRouter>
     </>
   )
 }
