@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import logo from '../../assets/icons/Logo-Klüg-Hydraulics.webp';
+import Dropdown, { MobileMenuButton } from './Dropdown';
+import { useDropdown } from '../../hooks/useMobile';
 
 import { QUICK_ACCESS_ITEMS, NAVIGATION_ITEMS } from '../NavItems';
 
@@ -36,14 +38,14 @@ const SearchBar = () => {
     <div className="flex-1 max-w-md ml-40">
       <form onSubmit={handleSubmit} role="search" className="relative">
         <label htmlFor="search-input" className="sr-only">
-          Buscar productos
+          Search products
         </label>
         <input
           id="search-input"
           type="search"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Buscar productos..."
+          placeholder="Search products..."
           className="w-full px-4 py-2 pl-10 pr-4 text-gray-700 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-primary focus:border-transparent"
           autoComplete="off"
           aria-describedby="search-help"
@@ -54,7 +56,7 @@ const SearchBar = () => {
           </svg>
         </div>
         <span id="search-help" className="sr-only">
-          Presiona Enter para buscar
+          Press Enter to search
         </span>
       </form>
     </div>
@@ -68,7 +70,7 @@ const QuickAccessItem = ({ item }) => (
     className="flex flex-col items-center text-gray-600 hover:text-brand-primary cursor-pointer group transition-colors duration-200"
     aria-label={item.alt}
   >
-    <div className="w-16 h-16 flex items-center justify-center">
+    <div className="w-[31px] h-[31px] flex items-center justify-center">
       <img 
         src={item.src} 
         alt={item.alt}
@@ -80,12 +82,13 @@ const QuickAccessItem = ({ item }) => (
         }}
       />
     </div>
+    <span className="text-sm">{item.label}</span>
   </a>
 );
 
 // Subcomponente: Accesos rápidos
 const QuickAccess = () => (
-  <div className="flex items-center space-x-8">
+  <div className="hidden md:flex items-center space-x-8">
     {QUICK_ACCESS_ITEMS.map((item) => (
       <QuickAccessItem key={item.id} item={item} />
     ))}
@@ -94,10 +97,10 @@ const QuickAccess = () => (
 
 // Subcomponente: Navegación principal
 const MainNavigation = () => (
-  <nav className="bg-white border-b border-gray-200" role="navigation" aria-label="Navegación principal">
+  <nav className="hidden md:block bg-white border-b border-gray-200" role="navigation" aria-label="Main navigation">
     <div className="container mx-auto">
       <div className="flex items-center justify-evenly">
-        <div className="flex space-x-30">
+        <div className="flex space-x-8">
           {NAVIGATION_ITEMS.map((item) => (
             <a
               key={item.id}
@@ -116,22 +119,40 @@ const MainNavigation = () => (
 
 // Componente principal
 const Header = () => {
-  return (
-    <header className="bg-white shadow-sm" role="banner">
-      {/* Top section with logo, search, and icons */}
-      <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          <Logo />
-          <SearchBar />
-          <QuickAccess />
-        </div>
-      </div>
+  const { isOpen, isAnimating, close, toggle } = useDropdown();
 
-      <MainNavigation />
-      
-      {/* Blue divider line */}
-      <div className="h-1 bg-brand-primary" role="presentation"></div>
-    </header>
+  return (
+    <>
+      <header className="bg-white shadow-sm" role="banner">
+        {/* Top section with logo, search, and icons */}
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex items-center justify-between">
+            <Logo />
+            <SearchBar />
+            
+            {/* Desktop: Quick Access, Mobile: Menu Button */}
+            <div className="flex items-center">
+              <QuickAccess />
+              <MobileMenuButton isOpen={isOpen} onClick={toggle} />
+            </div>
+          </div>
+        </div>
+
+        <MainNavigation />
+        
+        {/* Blue divider line */}
+        <div className="h-1 bg-brand-primary" role="presentation"></div>
+      </header>
+
+      {/* Mobile Dropdown Menu */}
+      <Dropdown
+        isOpen={isOpen}
+        isAnimating={isAnimating}
+        onClose={close}
+        navigationItems={NAVIGATION_ITEMS}
+        quickAccessItems={QUICK_ACCESS_ITEMS}
+      />
+    </>
   );
 };
 

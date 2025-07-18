@@ -1,13 +1,13 @@
-import Products from '../assets/Products.webp';
+import Products from '../assets/images/Products.webp';
 import About from '../assets/images/About.webp';
 import Catalogs from '../assets/images/Catalogs.webp';
 import Contact from '../assets/images/Contact.webp';
 
 const QUICK_ACCESS_ITEMS = [
-  { id: 'about', src: About, alt: 'Acerca de nosotros', label: 'About', href: '/about' },
-  { id: 'products', src: Products, alt: 'Productos', label: 'Products', href: '/products' },
-  { id: 'catalogs', src: Catalogs, alt: 'Catálogos', label: 'Catalogs', href: '/catalogs' },
-  { id: 'contact', src: Contact, alt: 'Contacto', label: 'Contact', href: '/contact' },
+  { id: 'About', src: About, alt: 'Acerca de nosotros', label: 'About', href: '/about' },
+  { id: 'Products', src: Products, alt: 'Productos', label: 'Products', href: '/products' },
+  { id: 'Catalogs', src: Catalogs, alt: 'Catálogos', label: 'Catalogs', href: '/catalogs' },
+  { id: 'Contact', src: Contact, alt: 'Contacto', label: 'Contact', href: '/contact' },
 ];
 
 const NAVIGATION_ITEMS = [
