@@ -1,4 +1,5 @@
 import logo from '../../assets/icons/Logo-Klüg-Hydraulics.webp';
+import { Link } from 'react-router-dom';
 import { Button } from '../ui/button';
 import { QUICK_ACCESS_ITEMS_TEXT, NAVIGATION_ITEMS } from '../NavItems';
 
@@ -48,27 +49,27 @@ const ExternalLinks = () => (
 )
 
 const QuickAccessItem = ({ item }) => (
-  <a 
-    href={item.href}
+  <Link 
+    to={item.href}
     className="flex flex-col items-center text-gray-600 hover:text-brand-primary cursor-pointer group transition-colors duration-200"
     aria-label={item.alt}
   >
     <div className="w-16 h-16 flex items-center justify-center">
       <p>{item.label}</p>
     </div>
-  </a>
+  </Link>
 );
 
 const NavigationItem = ({ item }) => (
-  <a 
-    href={item.href}
+  <Link 
+    to={item.href}
     className="flex flex-col items-center text-gray-600 hover:text-brand-primary cursor-pointer group transition-colors duration-200 underline"
     aria-label={item.alt}
   >
     <div className="w-16 h-16 flex items-center justify-center">
       <p>{item.label}</p>
     </div>
-  </a>
+  </Link>
 );
 
 

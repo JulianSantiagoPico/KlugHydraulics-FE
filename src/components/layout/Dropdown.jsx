@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const Dropdown = ({ 
   isOpen, 
@@ -89,9 +90,9 @@ const Dropdown = ({
               </h3>
               <div className="grid grid-cols-2 gap-3">
                 {quickAccessItems.map((item) => (
-                  <a
+                  <Link
                     key={item.id}
-                    href={item.href}
+                    to={item.href}
                     onClick={onClose}
                     className="flex flex-col items-center p-3 rounded-lg hover:bg-gray-50 transition-all duration-200 group transform hover:scale-105"
                   >
@@ -109,7 +110,7 @@ const Dropdown = ({
                     <span className="text-xs text-center text-gray-700 group-hover:text-brand-primary">
                       {item.label}
                     </span>
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -125,14 +126,14 @@ const Dropdown = ({
               </h3>
               <nav className="space-y-1">
                 {navigationItems.map((item) => (
-                  <a
+                  <Link
                     key={item.id}
-                    href={item.href}
+                    to={item.href}
                     onClick={onClose}
                     className="block px-4 py-3 text-brand-dark hover:text-brand-primary hover:bg-gray-50 rounded-lg transition-all duration-200 font-medium transform hover:translate-x-2"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 ))}
               </nav>
             </div>
@@ -143,13 +144,13 @@ const Dropdown = ({
             isAnimating ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
             <div className="flex items-center justify-center space-x-4 text-sm text-gray-600">
-              <a href="/help" className="hover:text-brand-primary transition-colors">
+              <Link to="/help" className="hover:text-brand-primary transition-colors">
                 Help
-              </a>
+              </Link>
               <span>•</span>
-              <a href="/contact" className="hover:text-brand-primary transition-colors">
+              <Link to="/contact" className="hover:text-brand-primary transition-colors">
                 Support
-              </a>
+              </Link>
             </div>
           </div>
         </div>

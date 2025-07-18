@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/icons/Logo-Klüg-Hydraulics.webp';
 import Dropdown, { MobileMenuButton } from './Dropdown';
 import { useDropdown } from '../../hooks/useMobile';
@@ -65,8 +66,8 @@ const SearchBar = () => {
 
 // Subcomponente: Elemento de acceso rápido
 const QuickAccessItem = ({ item }) => (
-  <a 
-    href={item.href}
+  <Link 
+    to={item.href}
     className="flex flex-col items-center text-gray-600 hover:text-brand-primary cursor-pointer group transition-colors duration-200"
     aria-label={item.alt}
   >
@@ -83,7 +84,7 @@ const QuickAccessItem = ({ item }) => (
       />
     </div>
     <span className="text-sm">{item.label}</span>
-  </a>
+  </Link>
 );
 
 // Subcomponente: Accesos rápidos
@@ -96,26 +97,30 @@ const QuickAccess = () => (
 );
 
 // Subcomponente: Navegación principal
-const MainNavigation = () => (
-  <nav className="hidden md:block bg-white border-b border-gray-200" role="navigation" aria-label="Main navigation">
-    <div className="container mx-auto">
-      <div className="flex items-center justify-evenly">
-        <div className="flex space-x-8">
-          {NAVIGATION_ITEMS.map((item) => (
-            <a
-              key={item.id}
-              href={item.href}
-              className="font-semibold py-4 px-2 text-brand-dark hover:text-brand-primary transition-colors duration-200 border-b-2 border-transparent hover:border-brand-primary"
-              aria-current={item.id === 'pumps' ? 'page' : undefined} // Ejemplo para página actual
-            >
-              {item.label}
-            </a>
-          ))}
+const MainNavigation = () => {
+  const location = useLocation();
+  
+  return (
+    <nav className="hidden md:block bg-white border-b border-gray-200" role="navigation" aria-label="Main navigation">
+      <div className="container mx-auto">
+        <div className="flex items-center justify-evenly">
+          <div className="flex space-x-35">
+            {NAVIGATION_ITEMS.map((item) => (
+              <Link
+                key={item.id}
+                to={item.href}
+                className="font-semibold py-4 text-brand-dark hover:text-brand-primary transition-colors duration-200 border-b-2 border-transparent hover:border-brand-primary"
+                aria-current={location.pathname === item.href ? 'page' : undefined}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-);
+    </nav>
+  );
+};
 
 // Componente principal
 const Header = () => {
