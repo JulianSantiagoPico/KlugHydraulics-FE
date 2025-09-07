@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 // Hook to detect if we are on mobile
 export const useMobile = () => {
@@ -13,30 +13,33 @@ export const useMobile = () => {
     checkIsMobile();
 
     // Listener for size changes
-    window.addEventListener('resize', checkIsMobile);
-    
-    return () => window.removeEventListener('resize', checkIsMobile);
+    window.addEventListener("resize", checkIsMobile);
+
+    return () => window.removeEventListener("resize", checkIsMobile);
   }, []);
 
   return isMobile;
 };
 
-// Hook to handle dropdown state with transitions
+// Hook to handle dropdown state with smooth transitions
 export const useDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
 
   const open = () => {
     setIsOpen(true);
-    setIsAnimating(true);
+    // Pequeño delay para asegurar que el DOM esté listo
+    setTimeout(() => {
+      setIsAnimating(true);
+    }, 10);
   };
 
   const close = () => {
     setIsAnimating(false);
-    // Delay to allow animation to finish before hiding the component
+    // Delay aumentado para permitir que las animaciones terminen
     setTimeout(() => {
       setIsOpen(false);
-    }, 300); // Matches CSS transition duration
+    }, 500); // Matches CSS transition duration
   };
 
   const toggle = () => {
@@ -52,6 +55,6 @@ export const useDropdown = () => {
     isAnimating,
     open,
     close,
-    toggle
+    toggle,
   };
 };
