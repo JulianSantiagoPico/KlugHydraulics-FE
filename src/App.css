@@ -170,3 +170,30 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes scroll-infinite {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-200px * 5 - 1rem * 4));
+  }
+}
+
+.animate-scroll-infinite {
+  animation: scroll-infinite 20s linear infinite;
+}
+
+/* Velocidad más rápida para móviles */
+@media (max-width: 768px) {
+  .animate-scroll-infinite {
+    animation: scroll-infinite 12s linear infinite;
+  }
+}
+
+/* Velocidad intermedia para tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .animate-scroll-infinite {
+    animation: scroll-infinite 16s linear infinite;
+  }
+}

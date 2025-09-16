@@ -1,6 +1,6 @@
 import Carousel from "../components/ui/Carousel";
 import IndustryCarousel from "../components/ui/IndustryCarousel";
-import { useState, useEffect } from "react";
+import DistributorsMap from "../components/ui/DistributorsMap";
 
 // Importar las imágenes
 import gearPumpsImg from "../assets/images/CarouselImages/GearPumps.webp";
@@ -18,15 +18,6 @@ import miningIcon from "../assets/icons/mining-icon.svg";
 import manufacturingIcon from "../assets/icons/manufacturing-icon.svg";
 import constructionIcon from "../assets/icons/construction-icon.svg";
 import agribusinessIcon from "../assets/icons/agribusiness-icon.svg";
-
-// Importar los SVGs del mapa
-import mapLines from "../assets/images/Map/MapLines.svg";
-import mapDots from "../assets/images/Map/MapDots.svg";
-
-// Importar los iconos de contacto
-import phoneIcon from "../assets/icons/phone-icon.svg";
-import personIcon from "../assets/icons/person-icon.svg";
-import emailIcon from "../assets/icons/email-icon.svg";
 
 // Subcomponente ServiceCard
 const ServiceCard = ({ icon, title, description, altText }) => {
@@ -171,42 +162,6 @@ const distributorsData = [
 ];
 
 const Home = () => {
-  const [selectedDistributor, setSelectedDistributor] = useState(null);
-  const [hoveredDistributor, setHoveredDistributor] = useState(null);
-  const [displayedDistributor, setDisplayedDistributor] = useState(null);
-
-  const currentDistributor = hoveredDistributor || selectedDistributor;
-
-  // Efecto para manejar el delay de desaparición
-  useEffect(() => {
-    let timeoutId;
-
-    if (currentDistributor) {
-      // Si hay un distribuidor actual, mostrarlo inmediatamente
-      setDisplayedDistributor(currentDistributor);
-    } else {
-      // Si no hay distribuidor actual, esperar 2 segundos antes de ocultar
-      timeoutId = setTimeout(() => {
-        setDisplayedDistributor(null);
-      }, 2000);
-    }
-
-    return () => {
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-      }
-    };
-  }, [currentDistributor]);
-
-  // Función para manejar clicks fuera del mapa
-  const handleMapClick = (e) => {
-    // Verificar si el click fue en el mapa pero no en un botón
-    if (e.target.closest(".distributor-button") === null) {
-      setSelectedDistributor(null);
-      setHoveredDistributor(null);
-    }
-  };
-
   return (
     <div>
       {/* Carousel Section */}
@@ -309,172 +264,7 @@ const Home = () => {
       </div>
 
       {/* Distributors Map Section */}
-      <div
-        className="py-16 lg:py-20"
-        style={{
-          background:
-            "radial-gradient(50% 50% at 50% 50%, #00406F 0%, #132E43 100%)",
-        }}
-      >
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl lg:text-3xl font-semibold text-white mb-8">
-              Contact our distributors
-            </h2>
-          </div>
-
-          {/* Map Container */}
-          <div
-            className="relative w-full h-[500px] lg:h-[600px]"
-            onClick={handleMapClick}
-          >
-            {/* Background Map */}
-            <div className="absolute inset-0">
-              {/* Map Lines*/}
-              <img
-                src={mapLines}
-                alt="World Map Lines"
-                className="absolute inset-0 w-full h-full object-contain"
-                style={{
-                  transform: "scale(1.003) translateY(0.6%)",
-                }}
-              />
-
-              {/* Map Dots */}
-              <img
-                src={mapDots}
-                alt="World Map Dots"
-                className="absolute inset-0 w-full h-full object-contain"
-                style={{
-                  transform: "scale(0.999) translateX(-0.04%)",
-                }}
-              />
-
-              {/* Interactive Points */}
-              {distributorsData.map((distributor) => (
-                <button
-                  key={distributor.id}
-                  className={`distributor-button absolute w-11 h-11 rounded-full border-2 border-white transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ease-out hover:scale-125 z-10 bg-white flex items-center justify-center ${
-                    currentDistributor?.id === distributor.id ? "scale-110" : ""
-                  }`}
-                  style={{
-                    top: distributor.position.top,
-                    left: distributor.position.left,
-                  }}
-                  onMouseEnter={() => setHoveredDistributor(distributor)}
-                  onMouseLeave={() => setHoveredDistributor(null)}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setSelectedDistributor(distributor);
-                  }}
-                >
-                  {/* Smaller Inner Circle */}
-                  <div className="w-5 h-5 bg-[#00406F] rounded-full transition-all duration-300"></div>
-                  <span className="sr-only">{distributor.region}</span>
-                </button>
-              ))}
-            </div>
-
-            {/* Information Card */}
-            <div
-              className={`absolute bottom-4 left-32 w-80 max-w-sm transition-all duration-700 ease-out ${
-                displayedDistributor
-                  ? "opacity-100 translate-y-0 scale-100"
-                  : "opacity-0 translate-y-6 scale-95 pointer-events-none"
-              }`}
-            >
-              <div className="p-6 text-white">
-                <div
-                  className={`inline-block bg-[#6EC2FF] text-white px-4 py-2 rounded-xl text-sm font-medium mb-4 transition-all duration-500 ease-out ${
-                    displayedDistributor
-                      ? "opacity-100 translate-x-0 scale-100"
-                      : "opacity-0 -translate-x-4 scale-95"
-                  }`}
-                  style={{
-                    transitionDelay: displayedDistributor ? "200ms" : "0ms",
-                  }}
-                >
-                  Contact
-                </div>
-                <h3
-                  className={`text-xl font-bold mb-4 transition-all duration-600 ease-out ${
-                    displayedDistributor
-                      ? "opacity-100 translate-x-0 scale-100"
-                      : "opacity-0 -translate-x-4 scale-95"
-                  }`}
-                  style={{
-                    transitionDelay: displayedDistributor ? "300ms" : "0ms",
-                  }}
-                >
-                  {displayedDistributor?.region}
-                </h3>
-                <div className="space-y-3 text-sm">
-                  <div
-                    className={`flex items-center transition-all duration-500 ease-out ${
-                      displayedDistributor
-                        ? "opacity-100 translate-x-0 scale-100"
-                        : "opacity-0 -translate-x-4 scale-95"
-                    }`}
-                    style={{
-                      transitionDelay: displayedDistributor ? "400ms" : "0ms",
-                    }}
-                  >
-                    <img
-                      src={phoneIcon}
-                      alt="Phone"
-                      className="w-4 h-4 mr-3 filter brightness-0 invert opacity-70"
-                    />
-                    <span>{displayedDistributor?.phone}</span>
-                  </div>
-                  <div
-                    className={`flex items-center transition-all duration-500 ease-out ${
-                      displayedDistributor
-                        ? "opacity-100 translate-x-0 scale-100"
-                        : "opacity-0 -translate-x-4 scale-95"
-                    }`}
-                    style={{
-                      transitionDelay: displayedDistributor ? "500ms" : "0ms",
-                    }}
-                  >
-                    <img
-                      src={personIcon}
-                      alt="Person"
-                      className="w-4 h-4 mr-3 filter brightness-0 invert opacity-70"
-                    />
-                    <span>{displayedDistributor?.person}</span>
-                  </div>
-                  <div
-                    className={`flex items-center transition-all duration-500 ease-out ${
-                      displayedDistributor && displayedDistributor.email
-                        ? "opacity-100 translate-x-0 scale-100"
-                        : "opacity-0 -translate-x-4 scale-95"
-                    }`}
-                    style={{
-                      transitionDelay:
-                        displayedDistributor && displayedDistributor.email
-                          ? "600ms"
-                          : "0ms",
-                    }}
-                  >
-                    {displayedDistributor?.email && (
-                      <>
-                        <img
-                          src={emailIcon}
-                          alt="Email"
-                          className="w-4 h-4 mr-3 filter brightness-0 invert opacity-70"
-                        />
-                        <span className="truncate">
-                          {displayedDistributor.email}
-                        </span>
-                      </>
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <DistributorsMap distributorsData={distributorsData} />
     </div>
   );
 };

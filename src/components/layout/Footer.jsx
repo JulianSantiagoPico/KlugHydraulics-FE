@@ -95,7 +95,7 @@ const NavigationItem = ({ item }) => (
 
 const Footer = () => {
   return (
-    <footer className="bg-white mt-auto">
+    <footer className="bg-white mt-auto py-12">
       <ExternalLinks />
       <FooterNavigation />
     </footer>
