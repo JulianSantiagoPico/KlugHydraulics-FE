@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../../assets/icons/Logo-Klüg-Hydraulics.webp";
+import logo from "../../assets/logos/Logo-Klüg-Hydraulics.webp";
 import Dropdown, { MobileMenuButton } from "./Dropdown";
 import { useDropdown } from "../../hooks/useMobile";
 

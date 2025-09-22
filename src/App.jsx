@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/layout/Header.jsx";
 import Footer from "./components/layout/Footer.jsx";
+import FloatingLogos from "./components/layout/FloatingLogos.jsx";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
@@ -14,6 +15,24 @@ import HydraulicMotors from "./pages/HydraulicMotors";
 import Filters from "./pages/Filters";
 import PowerUnits from "./pages/PowerUnits";
 import Accessories from "./pages/Accessories";
+
+// Importar los logos
+import klugPneumaticsLogo from "./assets/logos/klug-pneumatics-logo.webp";
+import klugElectricLogo from "./assets/logos/klug-electric-logo.webp";
+
+// Configuración de los logos
+const floatingLogos = [
+  {
+    src: klugPneumaticsLogo,
+    alt: "Klüg Pneumatics",
+    url: "https://klugpneumatics.com/",
+  },
+  {
+    src: klugElectricLogo,
+    alt: "Klüg Electric",
+    url: "https://klugelectric.com/",
+  },
+];
 
 function App() {
   return (
@@ -39,6 +58,9 @@ function App() {
           </main>
 
           <Footer />
+
+          {/* Floating Logos */}
+          <FloatingLogos logos={floatingLogos} />
         </div>
       </BrowserRouter>
     </>
