@@ -1,82 +1,67 @@
+import DistributorsMap from "../components/ui/DistributorsMap";
+import DistributorsData from "../components/DistributorsData";
+import PageHeader from "../components/ui/PageHeader";
+import HeaderBg from "../assets/images/SitesBg.webp";
+
 const Contact = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-brand-dark mb-6">Contact Us</h1>
-      <p className="text-lg text-gray-700 mb-8">
-        Get in touch with our team for inquiries, support, or more information.
-      </p>
-      
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <div>
-          <h2 className="text-2xl font-semibold text-brand-dark mb-4">Get in Touch</h2>
-          <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <div className="w-5 h-5 text-brand-primary">📧</div>
-              <span className="text-gray-700">info@klughydraulics.com</span>
+    <div>
+      <PageHeader title="Contact Us" />
+
+      <DistributorsMap
+        title="Where to buy? We have global presence!"
+        titleColor="text-[#00406F]"
+        titleWeight="font-bold"
+        distributorsData={DistributorsData}
+        mapTheme="blue"
+        pointBackgroundColor="#6EC2FF"
+        showRadialBackground={false}
+        mapLinesTranslateY={-0.05}
+        mapLinesScale={0.99}
+        cardTextColor="text-gray-900"
+        cardIconFilter="filter brightness-0 opacity-70"
+        cardShadow="none"
+        mobileCardIconColor="filter brightness-0 opacity-70"
+      />
+
+      {/* Información de contacto */}
+      <div className="py-4 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            {/* Our office */}
+            <div className="space-y-2">
+              <h3 className="text-lg font-semibold text-[#00406F]">
+                Our office
+              </h3>
+              <p className="text-[#00406F]">Yangming Mountain 144, China</p>
             </div>
-            <div className="flex items-center space-x-3">
-              <div className="w-5 h-5 text-brand-primary">📞</div>
-              <span className="text-gray-700">+1 (555) 123-4567</span>
+
+            {/* Our email */}
+            <div className="space-y-2">
+              <h3 className="text-lg font-semibold text-[#00406F]">
+                Our email
+              </h3>
+              <a
+                href="mailto:info@klugcompany.com"
+                className="text-[#00406F] hover:text-blue-800 transition-colors block"
+              >
+                info@klugcompany.com
+              </a>
             </div>
-            <div className="flex items-center space-x-3">
-              <div className="w-5 h-5 text-brand-primary">📍</div>
-              <span className="text-gray-700">123 Industrial Ave, City, State 12345</span>
+
+            {/* Our phone number */}
+            <div className="space-y-2">
+              <h3 className="text-lg font-semibold text-[#00406F]">
+                Our phone number
+              </h3>
+              <a
+                href="tel:+8618138859780"
+                className="text-[#00406F] hover:text-blue-800 transition-colors block"
+              >
+                +86 18138859780
+              </a>
             </div>
           </div>
-          
-          <div className="mt-8">
-            <h3 className="text-xl font-semibold text-brand-dark mb-4">Business Hours</h3>
-            <div className="space-y-2 text-gray-700">
-              <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-              <p>Saturday: 9:00 AM - 4:00 PM</p>
-              <p>Sunday: Closed</p>
-            </div>
-          </div>
-        </div>
-        
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold text-brand-dark mb-4">Send us a Message</h2>
-          <form className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Name
-              </label>
-              <input 
-                type="text" 
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary"
-                placeholder="Your name"
-              />
-            </div>
-            
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Email
-              </label>
-              <input 
-                type="email" 
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary"
-                placeholder="your@email.com"
-              />
-            </div>
-            
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Message
-              </label>
-              <textarea 
-                rows="4" 
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary"
-                placeholder="Your message..."
-              ></textarea>
-            </div>
-            
-            <button 
-              type="submit" 
-              className="w-full bg-brand-primary text-white py-2 px-4 rounded-md hover:bg-brand-primary/90 transition-colors"
-            >
-              Send Message
-            </button>
-          </form>
         </div>
       </div>
     </div>

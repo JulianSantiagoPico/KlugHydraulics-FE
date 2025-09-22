@@ -1,272 +1,352 @@
-import Carousel from "../components/ui/Carousel";
-import IndustryCarousel from "../components/ui/IndustryCarousel";
-import DistributorsMap from "../components/ui/DistributorsMap";
+import { useState, useEffect } from "react";
 
-// Importar las imágenes
-import gearPumpsImg from "../assets/images/CarouselImages/GearPumps.webp";
-import monoblockValvesImg from "../assets/images/CarouselImages/MonoblockValves.webp";
-import solenoidDirectionalImg from "../assets/images/CarouselImages/SolenoidDirectional.webp";
+// Importar los SVGs del mapa - Blancos
+import mapLinesWhite from "../../assets/images/Map/MapLines.svg";
+import mapDotsWhite from "../../assets/images/Map/MapDots.svg";
 
-// Importar los iconos
-import durabilityIcon from "../assets/icons/durability-icon.svg";
-import performanceIcon from "../assets/icons/performance-icon.svg";
-import optimizationIcon from "../assets/icons/optimization-icon.svg";
+// Importar los SVGs del mapa - Azules
+import mapLinesBlue from "../../assets/images/Map/MapLines-Blue.png";
+import mapDotsBlue from "../../assets/images/Map/MapDots-Blue.svg";
 
-// Importar los iconos de industrias
-import liftingIcon from "../assets/icons/lifting-equipment-icon.svg";
-import miningIcon from "../assets/icons/mining-icon.svg";
-import manufacturingIcon from "../assets/icons/manufacturing-icon.svg";
-import constructionIcon from "../assets/icons/construction-icon.svg";
-import agribusinessIcon from "../assets/icons/agribusiness-icon.svg";
+// Importar los iconos de contacto
+import phoneIcon from "../../assets/icons/phone-icon.svg";
+import personIcon from "../../assets/icons/person-icon.svg";
+import emailIcon from "../../assets/icons/email-icon.svg";
 
-// Subcomponente ServiceCard
-const ServiceCard = ({ icon, title, description, altText }) => {
+// Componente Card para vista mobile
+const DistributorCard = ({
+  distributor,
+  cardIconColor = "opacity-70",
+  cardTextColor = "text-gray-700",
+}) => {
   return (
-    <div className="bg-white rounded-3xl shadow-sm relative pt-8 p-8 lg:p-12">
-      {/* Icono posicionado en el borde superior */}
-      <div className="absolute -top-6 left-6">
-        <div className="bg-[#30A7FF] p-3 rounded-xl">
-          <img src={icon} alt={altText} className="w-8 h-8" />
+    <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+      <div className="mb-4">
+        <div className="inline-block bg-[#6EC2FF] text-white px-4 py-2 rounded-xl text-sm font-medium mb-3">
+          Contact
         </div>
+        <h3 className="text-xl font-bold text-gray-900 mb-4">
+          {distributor.region}
+        </h3>
       </div>
-      <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-4">{title}</h3>
-      <p className="text-gray-600 leading-relaxed">{description}</p>
+
+      <div className="space-y-3 text-sm">
+        <div className="flex items-center">
+          <img
+            src={phoneIcon}
+            alt="Phone"
+            className={`w-4 h-4 mr-3 ${cardIconColor}`}
+          />
+          <span className={cardTextColor}>{distributor.phone}</span>
+        </div>
+
+        <div className="flex items-center">
+          <img
+            src={personIcon}
+            alt="Person"
+            className={`w-4 h-4 mr-3 ${cardIconColor}`}
+          />
+          <span className={cardTextColor}>{distributor.person}</span>
+        </div>
+
+        {distributor.email && (
+          <div className="flex items-center">
+            <img
+              src={emailIcon}
+              alt="Email"
+              className={`w-4 h-4 mr-3 ${cardIconColor}`}
+            />
+            <span className={`${cardTextColor} truncate`}>
+              {distributor.email}
+            </span>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
 
-const carouselImages = [
-  {
-    src: monoblockValvesImg,
-    alt: "Monoblock Valves",
-    title: "Monoblock Valves",
-    description: "High-quality hydraulic valves for industrial applications",
-  },
-  {
-    src: solenoidDirectionalImg,
-    alt: "Solenoid Directional",
-    title: "Solenoid Directional Valves",
-    description: "Precision control for hydraulic systems",
-  },
-  {
-    src: gearPumpsImg,
-    alt: "Gear Pumps",
-    title: "Gear Pumps",
-    description: "Reliable and efficient hydraulic pumps",
-  },
-];
+const DistributorsMap = ({
+  distributorsData,
+  title = "Contact our distributors",
+  titleColor = "text-white",
+  titleSize = "text-2xl lg:text-3xl",
+  titleWeight = "font-semibold",
+  titleAlign = "text-center",
+  titleMargin = "mb-8",
+  className = "",
+  showTitle = true,
+  mapHeight = "h-[500px] lg:h-[600px]",
+  mapTheme = "white", // "white" o "blue"
+  pointColor = "#00406F",
+  pointBackgroundColor = "white", // Color de fondo del punto
+  pointBorderColor = "white", // Color del borde del punto
+  showRadialBackground = true, // Nueva prop para mostrar/ocultar el fondo radial
+  backgroundColor = "", // Color de fondo alternativo si no se usa el radial
+  // Props para ajustar posición del mapa
+  mapLinesScale = 1.003,
+  mapLinesTranslateX = 0,
+  mapLinesTranslateY = 0.6,
+  mapDotsScale = 0.999,
+  mapDotsTranslateX = -0.04,
+  mapDotsTranslateY = 0,
+  // Props para personalizar las cards de información
+  cardBackgroundColor = "transparent", // Color de fondo de la card de información
+  cardTextColor = "text-white", // Color del texto de la card de información
+  cardIconFilter = "filter brightness-0 invert opacity-70", // Filtro para los iconos de la card
+  cardBorderRadius = "rounded-2xl", // Border radius de la card
+  cardPadding = "p-6", // Padding de la card
+  cardShadow = "shadow-lg", // Sombra de la card
+  // Props para personalizar mobile cards
+  mobileCardIconColor = "opacity-70", // Color/filtro de iconos en mobile
+  mobileCardTextColor = "text-gray-700", // Color del texto en mobile
+}) => {
+  const [selectedDistributor, setSelectedDistributor] = useState(null);
+  const [hoveredDistributor, setHoveredDistributor] = useState(null);
+  const [displayedDistributor, setDisplayedDistributor] = useState(null);
 
-// Array con los datos de los servicios
-const servicesData = [
-  {
-    icon: durabilityIcon,
-    title: "Durability",
-    description:
-      "Components built to withstand extreme conditions and last longer.",
-    altText: "Durability",
-  },
-  {
-    icon: performanceIcon,
-    title: "Maximum performance",
-    description:
-      "Maximum efficiency and power to take your machinery to the next level.",
-    altText: "Maximum performance",
-  },
-  {
-    icon: optimizationIcon,
-    title: "Optimization",
-    description:
-      "Solutions that reduce waste and enhance your system's productivity.",
-    altText: "Optimization",
-  },
-];
+  const currentDistributor = hoveredDistributor || selectedDistributor;
 
-// Array con los datos de las industrias
-const industriesData = [
-  {
-    icon: liftingIcon,
-    title: "Lifting equipment",
-    color: "#B9E1FF",
-  },
-  {
-    icon: miningIcon,
-    title: "Mining",
-    color: "#6EC2FF",
-  },
-  {
-    icon: manufacturingIcon,
-    title: "Manufacturing",
-    color: "#30A7FF",
-  },
-  {
-    icon: constructionIcon,
-    title: "Construction",
-    color: "#B9E1FF",
-  },
-  {
-    icon: agribusinessIcon,
-    title: "Agribusiness",
-    color: "#6EC2FF",
-  },
-];
+  // Construir clases del título dinámicamente
+  const titleClasses = `${titleSize} ${titleWeight} ${titleColor} ${titleMargin}`;
 
-// Datos de los distribuidores
-const distributorsData = [
-  {
-    id: "north-america",
-    region: "North America",
-    phone: "+52 1 55 2690 1662",
-    person: "Ingepromac",
-    email: "Info@ingepromac.com.mx",
-    position: { top: "38.5%", left: "24.2%" },
-  },
-  {
-    id: "south-america",
-    region: "South America",
-    phone: "(+57) 313 750 44 93",
-    person: "Camilo Zapata",
-    email: "Saleslatam@klughydraulics.com",
-    position: { top: "69.5%", left: "34.5%" },
-  },
-  {
-    id: "colombia",
-    region: "Colombia",
-    phone: "(+57) 317 641 76 66",
-    person: "Bitac S.A.S",
-    email: "grupobitac@bitac.com.co",
-    position: { top: "56%", left: "31.5%" },
-  },
-  {
-    id: "europe",
-    region: "Europe",
-    phone: "+34 603 53 03 22",
-    person: "Sara Al Jafari",
-    email: "Europe@klughydraulics.com",
-    position: { top: "23%", left: "47%" },
-  },
-  {
-    id: "asia",
-    region: "Asia",
-    phone: "(+86) 18138859780",
-    person: "Customer Service",
-    email: "info@klughydraulics.com",
-    position: { top: "27%", left: "73.2%" },
-  },
-  {
-    id: "oceania",
-    region: "Oceania",
-    phone: "(+61) 029098 6961",
-    person: "TITAN UP PTY LTD",
-    position: { top: "78%", left: "78%" },
-  },
-];
+  // Seleccionar los SVGs según el tema
+  const mapLines = mapTheme === "blue" ? mapLinesBlue : mapLinesWhite;
+  const mapDots = mapTheme === "blue" ? mapDotsBlue : mapDotsWhite;
 
-const Home = () => {
+  // Configurar el estilo de fondo
+  const containerStyle = showRadialBackground
+    ? {
+        background:
+          "radial-gradient(50% 50% at 50% 50%, #00406F 0%, #132E43 100%)",
+      }
+    : backgroundColor
+    ? { backgroundColor }
+    : {};
+
+  // Estilo para la card de información
+  const cardStyle =
+    cardBackgroundColor !== "transparent"
+      ? { backgroundColor: cardBackgroundColor }
+      : {};
+
+  // Efecto para manejar el delay de desaparición
+  useEffect(() => {
+    let timeoutId;
+
+    if (currentDistributor) {
+      // Si hay un distribuidor actual, mostrarlo inmediatamente
+      setDisplayedDistributor(currentDistributor);
+    } else {
+      // Si no hay distribuidor actual, esperar 2 segundos antes de ocultar
+      timeoutId = setTimeout(() => {
+        setDisplayedDistributor(null);
+      }, 2000);
+    }
+
+    return () => {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+    };
+  }, [currentDistributor]);
+
+  // Función para manejar clicks fuera del mapa
+  const handleMapClick = (e) => {
+    // Verificar si el click fue en el mapa pero no en un botón
+    if (e.target.closest(".distributor-button") === null) {
+      setSelectedDistributor(null);
+      setHoveredDistributor(null);
+    }
+  };
+
   return (
-    <div>
-      {/* Carousel Section */}
-      <Carousel images={carouselImages} autoScrollInterval={3000} />
-
-      {/* Featured Products Section */}
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-brand-dark mb-6 text-center">
-          Featured Products
-        </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-brand-dark mb-3">
-              Reliable Service
-            </h3>
-            <p className="text-gray-600">
-              Fast delivery and comprehensive service solutions.
-            </p>
+    <div className={`py-16 lg:py-20 ${className}`} style={containerStyle}>
+      <div className="container mx-auto px-4">
+        {showTitle && (
+          <div className={titleAlign + " mb-12"}>
+            <h2 className={titleClasses}>{title}</h2>
           </div>
-        </div>
-      </div>
+        )}
 
-      {/* Our Services Section */}
-      <div className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-12xl mx-auto bg-gray-100 rounded-3xl p-12 lg:p-16">
-            {/* First Line: Our Services title + Main Content */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
-              {/* Left Column - Our Services Title */}
-              <div className="flex items-center justify-center min-h-[6rem]">
-                <div className="relative w-72 h-32 flex items-center justify-center">
-                  <span className="absolute bg-[#30A7FF] text-white px-12 py-4 rounded-xl text-2xl lg:text-5xl font-medium z-0 transform -rotate-[-4deg] shadow-lg lg:translate-y-16">
-                    Our
-                  </span>
-                  <span className="absolute bg-white text-black px-12 py-4 rounded-xl text-2xl lg:text-5xl font-medium z-10 transform -rotate-[4deg] lg:-rotate-[5deg] shadow-lg translate-y-13 lg:translate-x-12 lg:translate-y-34">
-                    services
-                  </span>
-                </div>
-              </div>
+        {/* Vista Desktop - Mapa Interactivo */}
+        <div className="hidden md:block">
+          {/* Map Container */}
+          <div
+            className={`relative w-full ${mapHeight}`}
+            onClick={handleMapClick}
+          >
+            {/* Background Map */}
+            <div className="absolute inset-0">
+              {/* Map Lines*/}
+              <img
+                src={mapLines}
+                alt="World Map Lines"
+                className="absolute inset-0 w-full h-full object-contain"
+                style={{
+                  transform: `scale(${mapLinesScale}) translateX(${mapLinesTranslateX}%) translateY(${mapLinesTranslateY}%)`,
+                }}
+              />
 
-              {/* Right Column - Main Content */}
-              <div className="text-left p-8 lg:p-12">
-                <h2 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-6">
-                  Powering Innovation in Hydraulic Systems
-                </h2>
-                <p className="text-gray-600 text-md lg:text-lg leading-relaxed">
-                  At Klüg Hydraulics, we take hydraulic power to the next level
-                  with high-performance solutions for the global industry. With
-                  years of experience and an unwavering commitment to quality,
-                  we provide hydraulic components designed to optimize
-                  efficiency, precision, and durability in the most demanding
-                  systems.
-                </p>
-              </div>
-            </div>
+              {/* Map Dots */}
+              <img
+                src={mapDots}
+                alt="World Map Dots"
+                className="absolute inset-0 w-full h-full object-contain"
+                style={{
+                  transform: `scale(${mapDotsScale}) translateX(${mapDotsTranslateX}%) translateY(${mapDotsTranslateY}%)`,
+                }}
+              />
 
-            {/* Second Line: Services Cards*/}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-8">
-              {servicesData.map((service, index) => (
-                <ServiceCard
-                  key={index}
-                  icon={service.icon}
-                  title={service.title}
-                  description={service.description}
-                  altText={service.altText}
-                />
+              {/* Interactive Points */}
+              {distributorsData.map((distributor) => (
+                <button
+                  key={distributor.id}
+                  className={`distributor-button absolute w-11 h-11 rounded-full border-2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ease-out hover:scale-125 z-10 flex items-center justify-center ${
+                    currentDistributor?.id === distributor.id ? "scale-110" : ""
+                  }`}
+                  style={{
+                    top: distributor.position.top,
+                    left: distributor.position.left,
+                    backgroundColor: pointBackgroundColor,
+                    borderColor: pointBorderColor,
+                  }}
+                  onMouseEnter={() => setHoveredDistributor(distributor)}
+                  onMouseLeave={() => setHoveredDistributor(null)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setSelectedDistributor(distributor);
+                  }}
+                >
+                  {/* Smaller Inner Circle */}
+                  <div
+                    className="w-5 h-5 rounded-full transition-all duration-300"
+                    style={{ backgroundColor: pointColor }}
+                  ></div>
+                  <span className="sr-only">{distributor.region}</span>
+                </button>
               ))}
             </div>
+
+            {/* Information Card */}
+            <div
+              className={`absolute bottom-4 left-32 w-80 max-w-sm transition-all duration-700 ease-out ${
+                displayedDistributor
+                  ? "opacity-100 translate-y-0 scale-100"
+                  : "opacity-0 translate-y-6 scale-95 pointer-events-none"
+              }`}
+            >
+              <div
+                className={`${cardPadding} ${cardTextColor} ${cardBorderRadius} ${cardShadow}`}
+                style={cardStyle}
+              >
+                <div
+                  className={`inline-block bg-[#6EC2FF] text-white px-4 py-2 rounded-xl text-sm font-medium mb-4 transition-all duration-500 ease-out ${
+                    displayedDistributor
+                      ? "opacity-100 translate-x-0 scale-100"
+                      : "opacity-0 -translate-x-4 scale-95"
+                  }`}
+                  style={{
+                    transitionDelay: displayedDistributor ? "200ms" : "0ms",
+                  }}
+                >
+                  Contact
+                </div>
+                <h3
+                  className={`text-xl font-bold mb-4 transition-all duration-600 ease-out ${
+                    displayedDistributor
+                      ? "opacity-100 translate-x-0 scale-100"
+                      : "opacity-0 -translate-x-4 scale-95"
+                  }`}
+                  style={{
+                    transitionDelay: displayedDistributor ? "300ms" : "0ms",
+                  }}
+                >
+                  {displayedDistributor?.region}
+                </h3>
+                <div className="space-y-3 text-sm">
+                  <div
+                    className={`flex items-center transition-all duration-500 ease-out ${
+                      displayedDistributor
+                        ? "opacity-100 translate-x-0 scale-100"
+                        : "opacity-0 -translate-x-4 scale-95"
+                    }`}
+                    style={{
+                      transitionDelay: displayedDistributor ? "400ms" : "0ms",
+                    }}
+                  >
+                    <img
+                      src={phoneIcon}
+                      alt="Phone"
+                      className={`w-4 h-4 mr-3 ${cardIconFilter}`}
+                    />
+                    <span>{displayedDistributor?.phone}</span>
+                  </div>
+                  <div
+                    className={`flex items-center transition-all duration-500 ease-out ${
+                      displayedDistributor
+                        ? "opacity-100 translate-x-0 scale-100"
+                        : "opacity-0 -translate-x-4 scale-95"
+                    }`}
+                    style={{
+                      transitionDelay: displayedDistributor ? "500ms" : "0ms",
+                    }}
+                  >
+                    <img
+                      src={personIcon}
+                      alt="Person"
+                      className={`w-4 h-4 mr-3 ${cardIconFilter}`}
+                    />
+                    <span>{displayedDistributor?.person}</span>
+                  </div>
+                  <div
+                    className={`flex items-center transition-all duration-500 ease-out ${
+                      displayedDistributor && displayedDistributor.email
+                        ? "opacity-100 translate-x-0 scale-100"
+                        : "opacity-0 -translate-x-4 scale-95"
+                    }`}
+                    style={{
+                      transitionDelay:
+                        displayedDistributor && displayedDistributor.email
+                          ? "600ms"
+                          : "0ms",
+                    }}
+                  >
+                    {displayedDistributor?.email && (
+                      <>
+                        <img
+                          src={emailIcon}
+                          alt="Email"
+                          className={`w-4 h-4 mr-3 ${cardIconFilter}`}
+                        />
+                        <span className="truncate">
+                          {displayedDistributor.email}
+                        </span>
+                      </>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Vista Mobile - Cards Grid */}
+        <div className="block md:hidden">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {distributorsData.map((distributor) => (
+              <DistributorCard
+                key={distributor.id}
+                distributor={distributor}
+                cardIconColor={mobileCardIconColor}
+                cardTextColor={mobileCardTextColor}
+              />
+            ))}
           </div>
         </div>
       </div>
-
-      {/* Industries Carousel Section */}
-      <div className="py-16">
-        <div className="container mx-auto px-6 mb-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-center">
-            {/* Left Column - Title */}
-            <div>
-              <p className="text-sm text-gray-900 uppercase tracking-wide mb-2">
-                who we help
-              </p>
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
-                Power and precision
-                <br />
-                for every industry
-              </h2>
-            </div>
-
-            {/* Right Column - Description */}
-            <div>
-              <p className="text-gray-900 text-lg leading-relaxed">
-                Our products are designed to suit the most diverse applications.
-                Wherever there's a challenge, there's a hydraulic solution from
-                Klüg Hydraulics.
-              </p>
-            </div>
-          </div>
-        </div>
-        <IndustryCarousel industries={industriesData} />
-      </div>
-
-      {/* Distributors Map Section */}
-      <DistributorsMap distributorsData={distributorsData} />
     </div>
   );
 };
 
-export default Home;
+export default DistributorsMap;
