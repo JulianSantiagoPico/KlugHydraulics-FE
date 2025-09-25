@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "../ui/button";
-import { QUICK_ACCESS_ITEMS_TEXT, NAVIGATION_ITEMS } from "../NavItems";
+import { QUICK_ACCESS_ITEMS_TEXT, NAVIGATION_ITEMS } from "../../data/NavItems";
 
 import logo from "../../assets/logos/Logo-Klüg-Hydraulics.webp";
 

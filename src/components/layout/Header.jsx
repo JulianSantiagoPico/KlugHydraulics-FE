@@ -4,7 +4,7 @@ import logo from "../../assets/logos/Logo-Klüg-Hydraulics.webp";
 import Dropdown, { MobileMenuButton } from "./Dropdown";
 import { useDropdown } from "../../hooks/useMobile";
 
-import { QUICK_ACCESS_ITEMS, NAVIGATION_ITEMS } from "../NavItems";
+import { QUICK_ACCESS_ITEMS, NAVIGATION_ITEMS } from "../../data/NavItems";
 
 // Subcomponente: Logo
 const Logo = () => (

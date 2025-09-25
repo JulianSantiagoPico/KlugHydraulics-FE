@@ -1,5 +1,5 @@
 import DistributorsMap from "../components/ui/DistributorsMap";
-import DistributorsData from "../components/DistributorsData";
+import DistributorsData from "../data/DistributorsData";
 import PageHeader from "../components/ui/PageHeader";
 import HeaderBg from "../assets/images/SitesBg.webp";
 
