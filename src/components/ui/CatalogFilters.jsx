@@ -1,6 +1,6 @@
 import { RotateCcw, X } from "lucide-react";
 import FilterIcon from "../../assets/icons/filter-icon.svg";
-import { categories } from "../../data/catalogsData";
+import { categories } from "../../data/CatalogsData";
 
 const CatalogFilters = ({
   activeFilters,
