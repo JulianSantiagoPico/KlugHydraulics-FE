@@ -170,7 +170,7 @@ const DistributorsMap = ({
         )}
 
         {/* Vista Desktop - Mapa Interactivo */}
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           {/* Map Container */}
           <div
             className={`relative w-full ${mapHeight}`}
@@ -332,7 +332,7 @@ const DistributorsMap = ({
         </div>
 
         {/* Vista Mobile - Cards Grid */}
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {distributorsData.map((distributor) => (
               <DistributorCard

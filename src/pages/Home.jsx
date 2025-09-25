@@ -1,4 +1,4 @@
-import Carousel from "../components/ui/Carousel";
+import Carousel from "../components/ui/carousel";
 import IndustryCarousel from "../components/ui/IndustryCarousel";
 import DistributorsMap from "../components/ui/DistributorsMap";
 
@@ -20,7 +20,7 @@ import constructionIcon from "../assets/icons/construction-icon.svg";
 import agribusinessIcon from "../assets/icons/agribusiness-icon.svg";
 
 // Importar los datos de los distribuidores
-import DistributorsData from "../components/DistributorsData";
+import DistributorsData from "../data/DistributorsData";
 
 // Subcomponente ServiceCard
 const ServiceCard = ({ icon, title, description, altText }) => {
