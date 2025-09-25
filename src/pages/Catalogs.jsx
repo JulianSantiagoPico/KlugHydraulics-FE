@@ -3,7 +3,7 @@ import * as pdfjsLib from "pdfjs-dist/webpack";
 import PageHeader from "../components/ui/PageHeader";
 import CatalogCard from "../components/ui/CatalogCard";
 import CatalogFilters from "../components/ui/CatalogFilters";
-import { catalogsData as initialCatalogsData } from "../data/catalogsData";
+import { catalogsData as initialCatalogsData } from "../data/CatalogsData";
 import { useFilters } from "../hooks/useFilters";
 
 const Catalogs = () => {
