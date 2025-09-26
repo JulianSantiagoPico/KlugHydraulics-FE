@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/layout/Header.jsx";
 import Footer from "./components/layout/Footer.jsx";
 import FloatingLogos from "./components/layout/FloatingLogos.jsx";
+import { useDropdown } from "./hooks/useMobile";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
@@ -35,11 +36,19 @@ const floatingLogos = [
 ];
 
 function App() {
+  // Mover el estado del dropdown aquí
+  const { isOpen, isAnimating, close, toggle } = useDropdown();
+
   return (
     <>
       <BrowserRouter>
         <div className="min-h-screen flex flex-col">
-          <Header />
+          <Header
+            isDropdownOpen={isOpen}
+            isDropdownAnimating={isAnimating}
+            onDropdownClose={close}
+            onDropdownToggle={toggle}
+          />
 
           <main className="flex-grow">
             <Routes>
@@ -60,7 +69,7 @@ function App() {
           <Footer />
 
           {/* Floating Logos */}
-          <FloatingLogos logos={floatingLogos} />
+          <FloatingLogos logos={floatingLogos} isDropdownOpen={isOpen} />
         </div>
       </BrowserRouter>
     </>

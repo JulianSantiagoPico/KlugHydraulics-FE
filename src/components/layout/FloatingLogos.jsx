@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FloatingLogos = ({ logos }) => {
+const FloatingLogos = ({ logos, isDropdownOpen = false }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleExpanded = () => {
@@ -13,7 +13,11 @@ const FloatingLogos = ({ logos }) => {
   const logoColors = ["#6EC2FF", "#30A7FF"];
 
   return (
-    <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
+    <div
+      className={`fixed right-0 top-1/2 transform -translate-y-1/2 z-50 transition-opacity duration-300 ${
+        isDropdownOpen ? "opacity-0 pointer-events-none" : "opacity-100"
+      }`}
+    >
       {/* Vista Desktop - Siempre visible */}
       <div className="hidden md:block">
         <div className="shadow-lg rounded-l-lg overflow-hidden">

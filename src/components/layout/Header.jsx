@@ -2,8 +2,6 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/logos/Logo-Klüg-Hydraulics.webp";
 import Dropdown, { MobileMenuButton } from "./Dropdown";
-import { useDropdown } from "../../hooks/useMobile";
-
 import { QUICK_ACCESS_ITEMS, NAVIGATION_ITEMS } from "../../data/NavItems";
 
 // Subcomponente: Logo
@@ -140,9 +138,12 @@ const MainNavigation = () => {
 };
 
 // Componente principal
-const Header = () => {
-  const { isOpen, isAnimating, close, toggle } = useDropdown();
-
+const Header = ({
+  isDropdownOpen,
+  isDropdownAnimating,
+  onDropdownClose,
+  onDropdownToggle,
+}) => {
   return (
     <>
       <header className="bg-white shadow-sm" role="banner">
@@ -155,7 +156,10 @@ const Header = () => {
             {/* Desktop XL: Quick Access, Mobile/Tablet: Menu Button */}
             <div className="flex items-center">
               <QuickAccess />
-              <MobileMenuButton isOpen={isOpen} onClick={toggle} />
+              <MobileMenuButton
+                isOpen={isDropdownOpen}
+                onClick={onDropdownToggle}
+              />
             </div>
           </div>
         </div>
@@ -168,9 +172,9 @@ const Header = () => {
 
       {/* Mobile/Tablet Dropdown Menu */}
       <Dropdown
-        isOpen={isOpen}
-        isAnimating={isAnimating}
-        onClose={close}
+        isOpen={isDropdownOpen}
+        isAnimating={isDropdownAnimating}
+        onClose={onDropdownClose}
         navigationItems={NAVIGATION_ITEMS}
         quickAccessItems={QUICK_ACCESS_ITEMS}
       />
