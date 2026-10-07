@@ -1,29 +1,13 @@
-import js from '@eslint/js'
-import globals from 'globals'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
-import { defineConfig, globalIgnores } from 'eslint/config'
+import { FlatCompat } from "@eslint/eslintrc";
 
-export default defineConfig([
-  globalIgnores(['dist']),
+const compat = new FlatCompat({ baseDirectory: import.meta.dirname });
+
+const config = [
   {
-    files: ['**/*.{js,jsx}'],
-    extends: [
-      js.configs.recommended,
-      reactHooks.configs['recommended-latest'],
-      reactRefresh.configs.vite,
-    ],
-    languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
-      parserOptions: {
-        ecmaVersion: 'latest',
-        ecmaFeatures: { jsx: true },
-        sourceType: 'module',
-      },
-    },
-    rules: {
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
-    },
+    // Salidas de build y material que no es código del proyecto.
+    ignores: [".next/**", "out/**", "public/**", "scripts/out/**", "assets-inbox/**"],
   },
-])
+  ...compat.extends("next/core-web-vitals"),
+];
+
+export default config;

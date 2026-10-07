@@ -1,106 +1,75 @@
-import { Link } from "react-router-dom";
-import { Button } from "../ui/button";
-import { QUICK_ACCESS_ITEMS_TEXT, NAVIGATION_ITEMS } from "../../data/NavItems";
+import Image from "next/image";
+import Link from "next/link";
 
-import logo from "../../assets/logos/Logo-Klüg-Hydraulics.webp";
+import logo from "@/assets/logos/Logo-Klüg-Hydraulics.webp";
+import { mainNavigation, quickAccess } from "@/data/navigation";
+import { homeHref } from "@/lib/routes";
 
-const Logo = () => (
-  <div className="flex items-center justify-center lg:justify-start">
-    <Link to="/" aria-label="Ir a página de inicio">
-      <img
-        src={logo}
-        alt="Logo de Klüg-Hydraulics"
-        className="h-[40px] w-[80px] sm:h-[45px] sm:w-[90px] lg:h-[55px] lg:w-[111px] hover:opacity-80 transition-opacity duration-200 cursor-pointer"
-        loading="eager"
-        onError={(e) => {
-          e.target.style.display = "none";
-          console.error("Error loading logo");
-        }}
-      />
-    </Link>
-  </div>
-);
+const SISTER_BRANDS = [
+  { label: "KLÜG ELECTRIC", url: "https://klugelectric.com/" },
+  { label: "KLÜG PNEUMATICS", url: "https://klugpneumatics.com/" },
+];
 
-const FooterNavigation = () => (
-  <div className="flex flex-col items-center justify-center space-y-4 sm:space-y-6 lg:flex-row lg:space-y-0 lg:space-x-10 px-4 mb-8 mt-4">
-    <p className="text-gray-600 text-sm sm:text-base text-center">
-      © {new Date().getFullYear()} Klüg Company. All rights reserved.
-    </p>
-    <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:gap-8">
-      {QUICK_ACCESS_ITEMS_TEXT.map((item) => (
-        <QuickAccessItem key={item.id} item={item} />
-      ))}
-      {NAVIGATION_ITEMS.map((item) => (
-        <NavigationItem key={item.id} item={item} />
-      ))}
-    </div>
-  </div>
-);
+export default function Footer({ locale, t }) {
+  return (
+    <footer className="bg-white mt-auto py-12 border-t border-gray-100">
+      <div className="container mx-auto px-4 py-4 sm:py-6">
+        <div className="flex flex-col items-center gap-6 lg:flex-row lg:justify-center lg:gap-28">
+          <Link href={homeHref(locale)} aria-label={t.nav.home}>
+            <Image
+              src={logo}
+              alt="Klüg Hydraulics"
+              className="h-[40px] w-auto sm:h-[45px] lg:h-[55px] hover:opacity-80 transition-opacity duration-200"
+            />
+          </Link>
 
-const ExternalLinks = () => (
-  <div className="container mx-auto px-4 py-4 sm:py-6">
-    <div className="flex flex-col items-center space-y-6 lg:flex-row lg:justify-center lg:space-y-0 lg:space-x-28">
-      <Logo />
-      <div className="flex flex-col items-center space-y-4 sm:space-y-6 lg:flex-row lg:space-y-0 lg:items-center lg:gap-4">
-        <p className="text-lg sm:text-xl font-bold text-center lg:text-left">
-          Visit our others line products:
-        </p>
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
-          <a
-            href="https://klugelectric.com/"
-            target="_blank"
-            className="w-full sm:w-auto"
-          >
-            <Button className="bg-[#30A7FF] text-base sm:text-lg lg:text-xl p-4 sm:p-5 lg:p-6 hover:bg-[#30A7FF]/90 hover:cursor-pointer w-full sm:w-auto">
-              KLÜG ELECTRIC
-            </Button>
-          </a>
-          <a
-            href="https://klugpneumatics.com/"
-            target="_blank"
-            className="w-full sm:w-auto"
-          >
-            <Button className="bg-[#30A7FF] text-base sm:text-lg lg:text-xl p-4 sm:p-5 lg:p-6 hover:bg-[#30A7FF]/90 hover:cursor-pointer w-full sm:w-auto">
-              KLÜG PNEUMATICS
-            </Button>
-          </a>
+          <div className="flex flex-col items-center gap-4 sm:gap-6 lg:flex-row lg:gap-4">
+            <p className="text-lg sm:text-xl font-bold text-center lg:text-left">
+              {t.footer.otherLines}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
+              {SISTER_BRANDS.map((brand) => (
+                <a
+                  key={brand.url}
+                  href={brand.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-md bg-klug-blue px-6 py-3 text-base sm:text-lg lg:text-xl font-medium text-white hover:bg-klug-blue/90 transition-colors"
+                >
+                  {brand.label}
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-);
 
-const QuickAccessItem = ({ item }) => (
-  <Link
-    to={item.href}
-    className="flex flex-col items-center text-gray-600 hover:text-brand-primary cursor-pointer group transition-colors duration-200"
-    aria-label={item.alt}
-  >
-    <div className="flex items-center justify-center px-2">
-      <p className="text-sm sm:text-base text-center">{item.label}</p>
-    </div>
-  </Link>
-);
+      <div className="flex flex-col items-center gap-4 sm:gap-6 lg:flex-row lg:justify-center lg:gap-10 px-4 mt-8">
+        <p className="text-gray-600 text-sm sm:text-base text-center">
+          © {new Date().getFullYear()} {t.footer.rights}
+        </p>
 
-const NavigationItem = ({ item }) => (
-  <Link
-    to={item.href}
-    className="flex flex-col items-center text-gray-600 hover:text-brand-primary cursor-pointer group transition-colors duration-200 underline"
-    aria-label={item.alt}
-  >
-    <div className="flex items-center justify-center px-2">
-      <p className="text-sm sm:text-base text-center">{item.label}</p>
-    </div>
-  </Link>
-);
-
-const Footer = () => {
-  return (
-    <footer className="bg-white mt-auto py-12">
-      <ExternalLinks />
-      <FooterNavigation />
+        <nav className="flex flex-wrap items-center justify-center gap-4 sm:gap-6" aria-label="Footer">
+          {quickAccess(locale, t).map((item) => (
+            <Link
+              key={item.id}
+              href={item.href}
+              className="text-sm sm:text-base text-gray-600 hover:text-klug-blue transition-colors"
+            >
+              {item.label}
+            </Link>
+          ))}
+          {mainNavigation(locale).map((category) => (
+            <Link
+              key={category.id}
+              href={category.href}
+              className="text-sm sm:text-base text-gray-600 underline hover:text-klug-blue transition-colors"
+            >
+              {category.label}
+            </Link>
+          ))}
+        </nav>
+      </div>
     </footer>
   );
-};
-
-export default Footer;
+}

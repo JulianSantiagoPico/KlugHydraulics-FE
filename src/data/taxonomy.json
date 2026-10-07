@@ -1,0 +1,350 @@
+[
+ {
+  "slug": "pumps",
+  "name": {
+   "es": "Bombas",
+   "en": "Pumps"
+  },
+  "subcategories": [
+   {
+    "slug": "din-pumps",
+    "name": {
+     "es": "Bombas DIN",
+     "en": "DIN pumps"
+    }
+   },
+   {
+    "slug": "sae-pumps",
+    "name": {
+     "es": "Bombas SAE",
+     "en": "SAE pumps"
+    }
+   },
+   {
+    "slug": "cbk-pumps-compact-units",
+    "name": {
+     "es": "Bomba CBK para unidades compactas",
+     "en": "CBK pump for compact units"
+    }
+   },
+   {
+    "slug": "piston-pumps",
+    "name": {
+     "es": "Bombas de pistones",
+     "en": "Piston pumps"
+    }
+   }
+  ]
+ },
+ {
+  "slug": "valves",
+  "name": {
+   "es": "Válvulas",
+   "en": "Valves"
+  },
+  "subcategories": [
+   {
+    "slug": "solenoid-directional-valves",
+    "name": {
+     "es": "Válvulas direccionales solenoide",
+     "en": "Solenoid directional valves"
+    }
+   },
+   {
+    "slug": "monoblock-directional-control-valves",
+    "name": {
+     "es": "Válvulas direccionales monoblock",
+     "en": "Monoblock directional control valves"
+    }
+   },
+   {
+    "slug": "check-valves",
+    "name": {
+     "es": "Válvulas cheque",
+     "en": "Check valves"
+    }
+   },
+   {
+    "slug": "relief-valves",
+    "name": {
+     "es": "Válvulas de alivio",
+     "en": "Relief valves"
+    }
+   },
+   {
+    "slug": "piloted-relief-valves",
+    "name": {
+     "es": "Válvulas de alivio pilotadas",
+     "en": "Piloted relief valves"
+    }
+   },
+   {
+    "slug": "in-line-check-valves",
+    "name": {
+     "es": "Cheque en línea",
+     "en": "In-line check valves"
+    }
+   },
+   {
+    "slug": "reduction-valves",
+    "name": {
+     "es": "Válvulas reductoras",
+     "en": "Reduction valves"
+    }
+   },
+   {
+    "slug": "brand-type-valves",
+    "name": {
+     "es": "Válvulas tipo Brand",
+     "en": "Brand type valves"
+    }
+   },
+   {
+    "slug": "control-valves",
+    "name": {
+     "es": "Válvulas de control",
+     "en": "Control valves"
+    }
+   },
+   {
+    "slug": "lifting-valves",
+    "name": {
+     "es": "Válvulas de elevador",
+     "en": "Lifting valves"
+    }
+   },
+   {
+    "slug": "fusible-valves",
+    "name": {
+     "es": "Válvulas fusibles",
+     "en": "Fusible valves"
+    }
+   },
+   {
+    "slug": "manual-valves-compact-units",
+    "name": {
+     "es": "Válvula manual de unidades compactas",
+     "en": "Manual valves for compact units"
+    }
+   },
+   {
+    "slug": "counterbalance-valves",
+    "name": {
+     "es": "Válvulas de contrabalance",
+     "en": "Counterbalance valves"
+    }
+   },
+   {
+    "slug": "vrse-valves",
+    "name": {
+     "es": "Válvulas VRSE",
+     "en": "VRSE valves"
+    }
+   },
+   {
+    "slug": "cartridge-valves",
+    "name": {
+     "es": "Válvulas de cartucho",
+     "en": "Cartridge valves"
+    }
+   },
+   {
+    "slug": "coils",
+    "name": {
+     "es": "Bobinas",
+     "en": "Coils"
+    }
+   }
+  ]
+ },
+ {
+  "slug": "hydraulic-motors",
+  "name": {
+   "es": "Motores hidráulicos",
+   "en": "Hydraulic motors"
+  },
+  "subcategories": [
+   {
+    "slug": "bmr-motor",
+    "name": {
+     "es": "Motor BMR",
+     "en": "BMR motor"
+    }
+   },
+   {
+    "slug": "bms-motor",
+    "name": {
+     "es": "Motor BMS",
+     "en": "BMS motor"
+    }
+   },
+   {
+    "slug": "radial-motor",
+    "name": {
+     "es": "Motor radial",
+     "en": "Radial motor"
+    }
+   }
+  ]
+ },
+ {
+  "slug": "filters",
+  "name": {
+   "es": "Filtros",
+   "en": "Filters"
+  },
+  "subcategories": [
+   {
+    "slug": "rfa",
+    "name": {
+     "es": "RFA",
+     "en": "RFA"
+    }
+   },
+   {
+    "slug": "return-filter",
+    "name": {
+     "es": "Filtro de retorno",
+     "en": "Return filter"
+    }
+   },
+   {
+    "slug": "suction-filter",
+    "name": {
+     "es": "Filtro de succión",
+     "en": "Suction filter"
+    }
+   }
+  ]
+ },
+ {
+  "slug": "power-units",
+  "name": {
+   "es": "Unidades de potencia",
+   "en": "Power units"
+  },
+  "subcategories": [
+   {
+    "slug": "rotcw-motor",
+    "name": {
+     "es": "Motor ROTCW",
+     "en": "ROTCW motor"
+    }
+   },
+   {
+    "slug": "compact-units",
+    "name": {
+     "es": "Unidades compactas",
+     "en": "Compact units"
+    }
+   },
+   {
+    "slug": "compact-units-10000-psi",
+    "name": {
+     "es": "Unidades compactas 10.000 psi",
+     "en": "Compact units 10.000 psi"
+    }
+   },
+   {
+    "slug": "starters",
+    "name": {
+     "es": "Arrancadores",
+     "en": "Starters"
+    }
+   }
+  ]
+ },
+ {
+  "slug": "accessories",
+  "name": {
+   "es": "Accesorios",
+   "en": "Accessories"
+  },
+  "subcategories": [
+   {
+    "slug": "manometers",
+    "name": {
+     "es": "Manómetros",
+     "en": "Manometers"
+    }
+   },
+   {
+    "slug": "temperature-level-indicator",
+    "name": {
+     "es": "Visor de nivel y temperatura",
+     "en": "Temperature and level indicator"
+    }
+   },
+   {
+    "slug": "couplings",
+    "name": {
+     "es": "Acoples",
+     "en": "Couplings"
+    }
+   },
+   {
+    "slug": "accumulators",
+    "name": {
+     "es": "Acumuladores",
+     "en": "Accumulators"
+    }
+   },
+   {
+    "slug": "aluminum-head-filter",
+    "name": {
+     "es": "Cabeza de aluminio para filtro",
+     "en": "Aluminum head for filter"
+    }
+   },
+   {
+    "slug": "hoods",
+    "name": {
+     "es": "Campanas",
+     "en": "Hoods"
+    }
+   },
+   {
+    "slug": "din-connectors",
+    "name": {
+     "es": "Conectores DIN",
+     "en": "DIN connectors"
+    }
+   },
+   {
+    "slug": "cartridge-valve-body",
+    "name": {
+     "es": "Cuerpo válvula cartucho",
+     "en": "Cartridge valve body"
+    }
+   },
+   {
+    "slug": "coolers",
+    "name": {
+     "es": "Enfriadores",
+     "en": "Coolers"
+    }
+   },
+   {
+    "slug": "pressure-switch",
+    "name": {
+     "es": "Presostato",
+     "en": "Pressure switch"
+    }
+   },
+   {
+    "slug": "subplates",
+    "name": {
+     "es": "Subplacas",
+     "en": "Subplates"
+    }
+   },
+   {
+    "slug": "mini-central-medium-block",
+    "name": {
+     "es": "Bloque medio minicentral",
+     "en": "Mini-central medium block"
+    }
+   }
+  ]
+ }
+]

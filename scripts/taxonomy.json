@@ -1,0 +1,505 @@
+{
+ "_comment": "Taxonomia oficial del sitio: 6 categorias / 44 subcategorias, extraida de los menus desplegables del Figma (nodos 163:1207 y 239:4634-4638). `usb` lista las carpetas de assets-inbox/usb que alimentan cada subcategoria; los nombres van normalizados (sin marcas invisibles del Finder). `web` apunta a usb/KLUG/WEB, que trae tablas y esquemas ya listos para la ficha.",
+ "categories": [
+  {
+   "slug": "pumps",
+   "en": "Pumps",
+   "es": "Bombas",
+   "subcategories": [
+    {
+     "slug": "din-pumps",
+     "en": "DIN pumps",
+     "es": "Bombas DIN",
+     "usb": [
+      "BOMBAS"
+     ],
+     "web": [
+      "KLUG/WEB/Pumps"
+     ],
+     "match": [
+      "^bhp",
+      "^cbn",
+      "bhp"
+     ]
+    },
+    {
+     "slug": "sae-pumps",
+     "en": "SAE pumps",
+     "es": "Bombas SAE",
+     "usb": [
+      "BOMBAS"
+     ],
+     "web": [
+      "KLUG/WEB/Pumps"
+     ],
+     "match": [
+      "^hgp"
+     ]
+    },
+    {
+     "slug": "cbk-pumps-compact-units",
+     "en": "CBK pump for compact units",
+     "es": "Bomba CBK para unidades compactas",
+     "usb": [
+      "BOMBAS/CBK-F7.0"
+     ],
+     "web": [
+      "KLUG/WEB/Pumps/CBN-300",
+      "KLUG/WEB/Pumps/CBN-F300"
+     ],
+     "match": [
+      "^cbk",
+      "cbk"
+     ]
+    },
+    {
+     "slug": "piston-pumps",
+     "en": "Piston pumps",
+     "es": "Bombas de pistones",
+     "usb": [
+      "BOMBAS"
+     ],
+     "web": [
+      "KLUG/WEB/Pumps/VP-30 VP40+SL"
+     ],
+     "match": [
+      "^bomba-de-pistones",
+      "^vp-"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "valves",
+   "en": "Valves",
+   "es": "Válvulas",
+   "subcategories": [
+    {
+     "slug": "solenoid-directional-valves",
+     "en": "Solenoid directional valves",
+     "es": "Válvulas direccionales solenoide",
+     "usb": [
+      "ELECTRO VALVULAS"
+     ],
+     "web": [
+      "KLUG/WEB/directional valves"
+     ]
+    },
+    {
+     "slug": "monoblock-directional-control-valves",
+     "en": "Monoblock directional control valves",
+     "es": "Válvulas direccionales monoblock",
+     "usb": [
+      "MANDOS PALANCAS"
+     ],
+     "web": [
+      "KLUG/WEB/monoblock valves"
+     ]
+    },
+    {
+     "slug": "check-valves",
+     "en": "Check valves",
+     "es": "Válvulas cheque",
+     "usb": [
+      "VALVULA CHEQUE"
+     ],
+     "web": []
+    },
+    {
+     "slug": "relief-valves",
+     "en": "Relief valves",
+     "es": "Válvulas de alivio",
+     "usb": [
+      "VALVULA DE ALIVIO"
+     ],
+     "web": [
+      "KLUG/WEB/pressure valves"
+     ]
+    },
+    {
+     "slug": "piloted-relief-valves",
+     "en": "Piloted relief valves",
+     "es": "Válvulas de alivio pilotadas",
+     "usb": [
+      "VALVULA DE ALIVIO PILOTADA"
+     ],
+     "web": [
+      "KLUG/WEB/pressure valves"
+     ]
+    },
+    {
+     "slug": "in-line-check-valves",
+     "en": "In-line check valves",
+     "es": "Cheque en línea",
+     "usb": [
+      "CHEQUE EN LINEA"
+     ],
+     "web": []
+    },
+    {
+     "slug": "reduction-valves",
+     "en": "Reduction valves",
+     "es": "Válvulas reductoras",
+     "usb": [
+      "VALVULA REDUCTORA"
+     ],
+     "web": [
+      "KLUG/WEB/valvulas modulares"
+     ]
+    },
+    {
+     "slug": "brand-type-valves",
+     "en": "Brand type valves",
+     "es": "Válvulas tipo Brand",
+     "usb": [
+      "VALVULA TIPO BRAND"
+     ],
+     "web": []
+    },
+    {
+     "slug": "control-valves",
+     "en": "Control valves",
+     "es": "Válvulas de control",
+     "usb": [
+      "VALVULAS DE CONTROL",
+      "FILTROS CONTROL DE FLUJO",
+      "AISLADORA RECTA",
+      "AISLADORA CODO VOLVER A TOMAR FOTOS"
+     ],
+     "web": []
+    },
+    {
+     "slug": "lifting-valves",
+     "en": "Lifting valves",
+     "es": "Válvulas de elevador",
+     "usb": [
+      "VALVULAS ELEVADOR"
+     ],
+     "web": []
+    },
+    {
+     "slug": "fusible-valves",
+     "en": "Fusible valves",
+     "es": "Válvulas fusibles",
+     "usb": [
+      "VÁLVULAS FUSIBLES"
+     ],
+     "web": []
+    },
+    {
+     "slug": "manual-valves-compact-units",
+     "en": "Manual valves for compact units",
+     "es": "Válvula manual de unidades compactas",
+     "usb": [
+      "VÁLVULA MANUAL DE UNIDADES COMPACTAS"
+     ],
+     "web": []
+    },
+    {
+     "slug": "counterbalance-valves",
+     "en": "Counterbalance valves",
+     "es": "Válvulas de contrabalance",
+     "usb": [
+      "CONTRABALANCE 1_2",
+      "CONTRABALANCE 3_4"
+     ],
+     "web": []
+    },
+    {
+     "slug": "vrse-valves",
+     "en": "VRSE valves",
+     "es": "Válvulas VRSE",
+     "usb": [
+      "VRSE",
+      "VALVULAS DE CONTROL/VRSE-G12"
+     ],
+     "web": []
+    },
+    {
+     "slug": "cartridge-valves",
+     "en": "Cartridge valves",
+     "es": "Válvulas de cartucho",
+     "usb": [
+      "VALVULAS CARTUCHO",
+      "VÁLVULAS DE CARTUCHO",
+      "VALVULA CARTUCHO 22"
+     ],
+     "web": []
+    },
+    {
+     "slug": "coils",
+     "en": "Coils",
+     "es": "Bobinas",
+     "usb": [
+      "BOBINAS"
+     ],
+     "web": []
+    }
+   ]
+  },
+  {
+   "slug": "hydraulic-motors",
+   "en": "Hydraulic motors",
+   "es": "Motores hidráulicos",
+   "subcategories": [
+    {
+     "slug": "bmr-motor",
+     "en": "BMR motor",
+     "es": "Motor BMR",
+     "usb": [
+      "MOTOR/MOTOR BMR",
+      "MOTOR"
+     ],
+     "web": [],
+     "match": [
+      "^motor-bmr",
+      "^bmr"
+     ]
+    },
+    {
+     "slug": "bms-motor",
+     "en": "BMS motor",
+     "es": "Motor BMS",
+     "usb": [
+      "MOTOR"
+     ],
+     "web": [],
+     "match": [
+      "^bms"
+     ]
+    },
+    {
+     "slug": "radial-motor",
+     "en": "Radial motor",
+     "es": "Motor radial",
+     "usb": [
+      "MOTOR"
+     ],
+     "web": [],
+     "match": [
+      "^rotcw",
+      "^radial"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "filters",
+   "en": "Filters",
+   "es": "Filtros",
+   "subcategories": [
+    {
+     "slug": "rfa",
+     "en": "RFA",
+     "es": "RFA",
+     "usb": [
+      "FILTROS",
+      "ACCESORIOS"
+     ],
+     "web": []
+    },
+    {
+     "slug": "return-filter",
+     "en": "Return filter",
+     "es": "Filtro de retorno",
+     "usb": [
+      "ACCESORIOS/FILTROS"
+     ],
+     "web": [
+      "KLUG/WEB/COMPONENTS"
+     ]
+    },
+    {
+     "slug": "suction-filter",
+     "en": "Suction filter",
+     "es": "Filtro de succión",
+     "usb": [
+      "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN"
+     ],
+     "web": [
+      "KLUG/WEB/COMPONENTS"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "power-units",
+   "en": "Power units",
+   "es": "Unidades de potencia",
+   "subcategories": [
+    {
+     "slug": "rotcw-motor",
+     "en": "ROTCW motor",
+     "es": "Motor ROTCW",
+     "usb": [
+      "MOTOR ROTCW MODELO MD12160"
+     ],
+     "web": []
+    },
+    {
+     "slug": "compact-units",
+     "en": "Compact units",
+     "es": "Unidades compactas",
+     "usb": [
+      "MINICENTRALES",
+      "UNIDADES DE POTENCIA"
+     ],
+     "web": []
+    },
+    {
+     "slug": "compact-units-10000-psi",
+     "en": "Compact units 10.000 psi",
+     "es": "Unidades compactas 10.000 psi",
+     "usb": [
+      "UNIDADES DE POTENCIA"
+     ],
+     "web": []
+    },
+    {
+     "slug": "starters",
+     "en": "Starters",
+     "es": "Arrancadores",
+     "usb": [
+      "ARRANCADORES"
+     ],
+     "web": []
+    }
+   ]
+  },
+  {
+   "slug": "accessories",
+   "en": "Accessories",
+   "es": "Accesorios",
+   "subcategories": [
+    {
+     "slug": "manometers",
+     "en": "Manometers",
+     "es": "Manómetros",
+     "usb": [
+      "ACCESORIOS/MANÓMETROS"
+     ],
+     "web": [
+      "KLUG/WEB/COMPONENTS"
+     ]
+    },
+    {
+     "slug": "temperature-level-indicator",
+     "en": "Temperature and level indicator",
+     "es": "Visor de nivel y temperatura",
+     "usb": [
+      "MEDIDORES",
+      "ACCESORIOS/MEDIDORES",
+      "VISORES DE SATURACIÓN"
+     ],
+     "web": [
+      "KLUG/WEB/COMPONENTS"
+     ]
+    },
+    {
+     "slug": "couplings",
+     "en": "Couplings",
+     "es": "Acoples",
+     "usb": [
+      "ACOPLES",
+      "ARAÑA PARA ACOPLES"
+     ],
+     "web": []
+    },
+    {
+     "slug": "accumulators",
+     "en": "Accumulators",
+     "es": "Acumuladores",
+     "usb": [
+      "ACUMULADORES"
+     ],
+     "web": []
+    },
+    {
+     "slug": "aluminum-head-filter",
+     "en": "Aluminum head for filter",
+     "es": "Cabeza de aluminio para filtro",
+     "usb": [
+      "CABEZA DE ALUMINIO PARA FILTRO",
+      "ACCESORIOS/TAPA FILTROS"
+     ],
+     "web": []
+    },
+    {
+     "slug": "hoods",
+     "en": "Hoods",
+     "es": "Campanas",
+     "usb": [
+      "CAMPANAS"
+     ],
+     "web": []
+    },
+    {
+     "slug": "din-connectors",
+     "en": "DIN connectors",
+     "es": "Conectores DIN",
+     "usb": [
+      "CONECTORES DIN"
+     ],
+     "web": []
+    },
+    {
+     "slug": "cartridge-valve-body",
+     "en": "Cartridge valve body",
+     "es": "Cuerpo válvula cartucho",
+     "usb": [
+      "CUERPO VÁLVULA CARTUCHO SAE 8",
+      "CUERPO VÁLVULA CARTUCHO SAE 10"
+     ],
+     "web": []
+    },
+    {
+     "slug": "coolers",
+     "en": "Coolers",
+     "es": "Enfriadores",
+     "usb": [
+      "INTERCAMBIADOR DE CALOR AIRE ACEITE",
+      "INTERCAMBIADOR DE CALOR AGUA ACEITE"
+     ],
+     "web": [
+      "KLUG/WEB/Coolers"
+     ]
+    },
+    {
+     "slug": "pressure-switch",
+     "en": "Pressure switch",
+     "es": "Presostato",
+     "usb": [
+      "PRESESTATO"
+     ],
+     "web": []
+    },
+    {
+     "slug": "subplates",
+     "en": "Subplates",
+     "es": "Subplacas",
+     "usb": [
+      "SUBPLACAS"
+     ],
+     "web": []
+    },
+    {
+     "slug": "mini-central-medium-block",
+     "en": "Mini-central medium block",
+     "es": "Bloque medio minicentral",
+     "usb": [
+      "BLOQUE MEDIO MINICENTRAL"
+     ],
+     "web": []
+    }
+   ]
+  }
+ ],
+ "unmapped": {
+  "_comment": "Carpetas del USB que no corresponden a ninguna subcategoria del Figma.",
+  "SELLOS": "Kits de sellos (BMR/BMS/25VQ). Aparecen en la lista de precios pero no en el menu del Figma: candidatos a repuestos.",
+  "CONTROLADOR": "Controlador electronico. Sin subcategoria asignada.",
+  "PUBLICISTA": "Logos y afiches de marketing, no es producto.",
+  "KLUG": "Catalogos, fotos de estudio e insumos de diseno."
+ },
+ "_matchNote": "`match` reparte por codigo de modelo las carpetas del USB que alimentan varias subcategorias (BOMBAS -> DIN/SAE/CBK/pistones, MOTOR -> BMR/BMS/radial). Los grupos que no casan con ninguna regla NO se asignan: build_images.py los lista como 'sin asignar' para decidirlos a mano, en vez de etiquetar mal una foto tecnica."
+}
