@@ -1,181 +1,249 @@
-import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
-import logo from "../../assets/logos/Logo-Klüg-Hydraulics.webp";
-import Dropdown, { MobileMenuButton } from "./Dropdown";
-import { useDropdown } from "../../hooks/useMobile";
+"use client";
 
-import { QUICK_ACCESS_ITEMS, NAVIGATION_ITEMS } from "../../data/NavItems";
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 
-// Subcomponente: Logo
-const Logo = () => (
-  <div className="flex items-center justify-center xl:justify-start">
-    <Link to="/" aria-label="Ir a página de inicio">
-      <img
+import logo from "@/assets/logos/Logo-Klüg-Hydraulics.webp";
+import { mainNavigation, quickAccess } from "@/data/navigation";
+import { localeNames, locales } from "@/i18n/config";
+import { homeHref, productsHref, switchLocale } from "@/lib/routes";
+import MobileMenu, { MobileMenuButton } from "./MobileMenu";
+import { useQuote } from "@/components/quote/QuoteProvider";
+
+function Logo({ locale, t }) {
+  return (
+    <Link href={homeHref(locale)} aria-label={t.nav.home} className="shrink-0">
+      <Image
         src={logo}
-        alt="Logo de Klüg-Hydraulics"
-        className="h-[32px] w-[64px] sm:h-[40px] sm:w-[80px] md:h-[45px] md:w-[90px] lg:h-[50px] lg:w-[100px] xl:h-[55px] xl:w-[111px] hover:opacity-80 transition-opacity duration-200 cursor-pointer"
-        loading="eager"
-        onError={(e) => {
-          e.target.style.display = "none";
-          console.error("Error loading logo");
-        }}
+        alt="Klüg Hydraulics"
+        priority
+        className="h-[32px] w-auto sm:h-[40px] md:h-[45px] lg:h-[50px] xl:h-[55px] hover:opacity-80 transition-opacity duration-200"
       />
     </Link>
-  </div>
-);
+  );
+}
 
-// Subcomponente: Barra de búsqueda
-const SearchBar = () => {
-  const [searchTerm, setSearchTerm] = useState("");
+function SearchBar({ locale, t }) {
+  const router = useRouter();
+  const [term, setTerm] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (searchTerm.trim()) {
-      console.log("Searching for:", searchTerm);
-      //logica pa después
-    }
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const query = term.trim();
+    if (query) router.push(`${productsHref(locale)}?q=${encodeURIComponent(query)}`);
   };
 
   return (
-    <div className="hidden sm:flex flex-1 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-2 sm:mx-4 md:mx-6 lg:mx-8 xl:mx-16 2xl:mx-40">
-      <form onSubmit={handleSubmit} role="search" className="relative w-full">
-        <label htmlFor="search-input" className="sr-only">
-          Search products
-        </label>
-        <input
-          id="search-input"
-          type="search"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Search products..."
-          className="w-full px-3 py-1.5 sm:px-4 sm:py-2 pl-8 sm:pl-10 pr-3 sm:pr-4 text-sm sm:text-base text-gray-700 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-primary focus:border-transparent"
-          autoComplete="off"
-          aria-describedby="search-help"
-        />
-        <div className="absolute inset-y-0 left-0 pl-2 sm:pl-3 flex items-center pointer-events-none">
-          <svg
-            className="h-4 w-4 sm:h-5 sm:w-5 text-gray-400"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            />
-          </svg>
-        </div>
-        <span id="search-help" className="sr-only">
-          Press Enter to search
-        </span>
-      </form>
+    <form
+      onSubmit={handleSubmit}
+      role="search"
+      className="hidden sm:block relative flex-1 max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-2 sm:mx-4 md:mx-6 lg:mx-8 xl:mx-16"
+    >
+      <label htmlFor="site-search" className="sr-only">
+        {t.nav.searchLabel}
+      </label>
+      <input
+        id="site-search"
+        type="search"
+        value={term}
+        onChange={(event) => setTerm(event.target.value)}
+        placeholder={t.nav.search}
+        autoComplete="off"
+        className="w-full py-1.5 sm:py-2 pl-8 sm:pl-10 pr-3 text-sm sm:text-base text-gray-700 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-klug-blue focus:border-transparent"
+      />
+      <span className="absolute inset-y-0 left-0 pl-2 sm:pl-3 flex items-center pointer-events-none">
+        <svg className="h-4 w-4 sm:h-5 sm:w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </span>
+    </form>
+  );
+}
+
+function QuickAccess({ locale, t }) {
+  return (
+    <div className="hidden xl:flex items-center gap-6 xl:gap-8">
+      {quickAccess(locale, t).map((item) => (
+        <Link
+          key={item.id}
+          href={item.href}
+          className="flex flex-col items-center text-gray-600 hover:text-klug-blue transition-colors duration-200"
+        >
+          <Image src={item.image} alt="" aria-hidden="true" className="w-[28px] h-[28px] xl:w-[31px] xl:h-[31px] object-contain" />
+          <span className="text-xs sm:text-sm mt-1">{item.label}</span>
+        </Link>
+      ))}
     </div>
   );
-};
+}
 
-// Subcomponente: Elemento de acceso rápido
-const QuickAccessItem = ({ item }) => (
-  <Link
-    to={item.href}
-    className="flex flex-col items-center text-gray-600 hover:text-brand-primary cursor-pointer group transition-colors duration-200"
-    aria-label={item.alt}
-  >
-    <div className="w-[24px] h-[24px] sm:w-[28px] sm:h-[28px] md:w-[30px] md:h-[30px] xl:w-[31px] xl:h-[31px] flex items-center justify-center">
-      <img
-        src={item.src}
-        alt={item.alt}
-        className="object-contain object-center max-h-full max-w-full"
-        loading="lazy"
-        onError={(e) => {
-          e.target.style.display = "none";
-          console.error(`Error loading ${item.label} icon`);
-        }}
-      />
+/** Contador de la lista de cotización. Solo aparece cuando hay algo dentro. */
+function QuoteBadge({ t }) {
+  const { count, hydrated, openQuote } = useQuote();
+  if (!hydrated || count === 0) return null;
+
+  return (
+    <button
+      type="button"
+      onClick={openQuote}
+      className="relative flex items-center gap-2 ml-4 px-3 py-2 rounded-lg bg-klug-blue text-white text-sm font-medium hover:bg-klug-blue/90 transition-colors"
+    >
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-4-7 4V5z" />
+      </svg>
+      <span className="hidden sm:inline">{t.quote.saved}</span>
+      <span className="inline-flex items-center justify-center min-w-5 h-5 px-1 rounded-full bg-white text-klug-blue text-xs font-bold">
+        {count}
+      </span>
+    </button>
+  );
+}
+
+function LocaleSwitcher({ locale }) {
+  const pathname = usePathname();
+
+  return (
+    <div className="hidden xl:flex items-center gap-1 ml-4 text-sm">
+      {locales.map((code, index) => (
+        <span key={code} className="flex items-center">
+          {index > 0 && <span className="text-gray-300 mx-1">|</span>}
+          <Link
+            href={switchLocale(pathname, code)}
+            hrefLang={code}
+            aria-current={code === locale ? "true" : undefined}
+            className={
+              code === locale
+                ? "font-semibold text-klug-navy"
+                : "text-gray-500 hover:text-klug-blue transition-colors"
+            }
+          >
+            {localeNames[code]}
+          </Link>
+        </span>
+      ))}
     </div>
-    <span className="text-xs sm:text-sm mt-1">{item.label}</span>
-  </Link>
-);
+  );
+}
 
-// Subcomponente: Accesos rápidos
-const QuickAccess = () => (
-  <div className="hidden xl:flex items-center space-x-3 sm:space-x-4 md:space-x-5 lg:space-x-6 xl:space-x-8">
-    {QUICK_ACCESS_ITEMS.map((item) => (
-      <QuickAccessItem key={item.id} item={item} />
-    ))}
-  </div>
-);
+/**
+ * Navegación de categorías con submenú. El Figma abre un panel por categoría
+ * con sus subcategorías; se abre al pasar el ratón y también con teclado.
+ */
+function MainNavigation({ locale }) {
+  const pathname = usePathname();
+  const [openId, setOpenId] = useState(null);
+  const navRef = useRef(null);
+  const categories = mainNavigation(locale);
 
-// Subcomponente: Navegación principal
-const MainNavigation = () => {
-  const location = useLocation();
+  useEffect(() => {
+    const onKeyDown = (event) => {
+      if (event.key === "Escape") setOpenId(null);
+    };
+    const onClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) setOpenId(null);
+    };
+    document.addEventListener("keydown", onKeyDown);
+    document.addEventListener("mousedown", onClickOutside);
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      document.removeEventListener("mousedown", onClickOutside);
+    };
+  }, []);
+
+  // Al navegar, el panel abierto debe cerrarse solo.
+  useEffect(() => setOpenId(null), [pathname]);
 
   return (
     <nav
-      className="hidden xl:block bg-white border-b border-gray-200"
-      role="navigation"
-      aria-label="Main navigation"
+      ref={navRef}
+      className="hidden xl:block bg-white border-b border-gray-200 relative"
+      aria-label="Categorías de producto"
+      onMouseLeave={() => setOpenId(null)}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-center">
-          <div className="flex space-x-8 xl:space-x-12">
-            {NAVIGATION_ITEMS.map((item) => (
-              <Link
-                key={item.id}
-                to={item.href}
-                className="font-semibold py-3 xl:py-4 text-sm xl:text-base text-brand-dark hover:text-brand-primary transition-colors duration-200 border-b-2 border-transparent hover:border-brand-primary whitespace-nowrap"
-                aria-current={
-                  location.pathname === item.href ? "page" : undefined
-                }
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-        </div>
+        <ul className="flex items-center justify-center gap-8 xl:gap-12">
+          {categories.map((category) => {
+            const active = pathname.startsWith(category.href);
+            const open = openId === category.id;
+
+            return (
+              <li key={category.id} onMouseEnter={() => setOpenId(category.id)}>
+                <Link
+                  href={category.href}
+                  onFocus={() => setOpenId(category.id)}
+                  aria-current={active ? "page" : undefined}
+                  aria-expanded={open}
+                  className={`block font-semibold py-3 xl:py-4 text-sm xl:text-base uppercase tracking-wide whitespace-nowrap border-b-2 transition-colors duration-200 ${
+                    active
+                      ? "text-klug-blue border-klug-blue"
+                      : "text-klug-navy border-transparent hover:text-klug-blue hover:border-klug-blue"
+                  }`}
+                >
+                  {category.label}
+                </Link>
+
+                {open && category.subcategories.length > 0 && (
+                  <div className="absolute left-0 right-0 top-full bg-white shadow-xl border-t border-gray-100 z-40">
+                    <div className="container mx-auto px-4 py-6">
+                      <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-2">
+                        {category.subcategories.map((sub) => (
+                          <li key={sub.id}>
+                            <Link
+                              href={sub.href}
+                              className="block py-1.5 text-sm text-gray-600 hover:text-klug-blue transition-colors"
+                            >
+                              {sub.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                )}
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </nav>
   );
-};
+}
 
-// Componente principal
-const Header = () => {
-  const { isOpen, isAnimating, close, toggle } = useDropdown();
+export default function Header({ locale, t }) {
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
-      <header className="bg-white shadow-sm" role="banner">
-        {/* Top section with logo, search, and icons */}
+      <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto px-2 sm:px-4 py-2 sm:py-3 md:py-4">
           <div className="flex items-center justify-between gap-2 sm:gap-4">
-            <Logo />
-            <SearchBar />
-
-            {/* Desktop XL: Quick Access, Mobile/Tablet: Menu Button */}
+            <Logo locale={locale} t={t} />
+            <SearchBar locale={locale} t={t} />
             <div className="flex items-center">
-              <QuickAccess />
-              <MobileMenuButton isOpen={isOpen} onClick={toggle} />
+              <QuickAccess locale={locale} t={t} />
+              <QuoteBadge t={t} />
+              <LocaleSwitcher locale={locale} />
+              <MobileMenuButton
+                isOpen={menuOpen}
+                onClick={() => setMenuOpen((open) => !open)}
+                label={menuOpen ? t.nav.closeMenu : t.nav.openMenu}
+              />
             </div>
           </div>
         </div>
 
-        <MainNavigation />
-
-        {/* Blue divider line */}
-        <div className="h-1 bg-[#30A7FF]" role="presentation"></div>
+        <MainNavigation locale={locale} />
+        <div className="h-1 bg-klug-blue" role="presentation" />
       </header>
 
-      {/* Mobile/Tablet Dropdown Menu */}
-      <Dropdown
-        isOpen={isOpen}
-        isAnimating={isAnimating}
-        onClose={close}
-        navigationItems={NAVIGATION_ITEMS}
-        quickAccessItems={QUICK_ACCESS_ITEMS}
+      <MobileMenu
+        isOpen={menuOpen}
+        onClose={() => setMenuOpen(false)}
+        locale={locale}
+        t={t}
       />
     </>
   );
-};
-
-export default Header;
+}

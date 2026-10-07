@@ -1,0 +1,161 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Paleta de marca, tomada del Figma */
+  --klug-blue: #30a7ff;
+  --klug-blue-mid: #6ec2ff;
+  --klug-blue-soft: #b9e1ff;
+  --klug-navy: #00406f;
+  --klug-ink: #0e2233;
+
+  --primary-color: var(--klug-blue);
+  --text-dark: var(--klug-navy);
+  --bg-light: #f9fafb;
+
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+}
+
+@theme inline {
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  --color-klug-blue: var(--klug-blue);
+  --color-klug-blue-mid: var(--klug-blue-mid);
+  --color-klug-blue-soft: var(--klug-blue-soft);
+  --color-klug-navy: var(--klug-navy);
+  --color-klug-ink: var(--klug-ink);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+/* Utilidades de marca heredadas del proyecto Vite. */
+@layer utilities {
+  .text-brand-dark {
+    color: var(--text-dark);
+  }
+  .bg-brand-light {
+    background-color: var(--bg-light);
+  }
+  .text-brand-primary {
+    color: var(--primary-color);
+  }
+  .bg-brand-primary {
+    background-color: var(--primary-color);
+  }
+  .border-brand-primary {
+    border-color: var(--primary-color);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Cinta infinita.
+ *
+ * La pista repite el contenido tres veces y se desplaza exactamente un tercio,
+ * así que al reiniciarse el fotograma final coincide pixel a pixel con el
+ * inicial y no se ve la costura. Por eso el separación entre tarjetas va en
+ * `margin` y no en `gap`: con `gap` el ancho de la pista no es múltiplo exacto
+ * de un juego de tarjetas y el bucle salta.
+ */
+@keyframes scroll-infinite {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.3333%);
+  }
+}
+
+.animate-scroll-infinite {
+  animation: scroll-infinite var(--marquee-duration, 30s) linear infinite;
+  will-change: transform;
+}
+
+/* Al pasar el ratón la cinta se detiene para poder leer una tarjeta. */
+.marquee:hover .animate-scroll-infinite,
+.marquee:focus-within .animate-scroll-infinite {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .animate-scroll-infinite {
+    animation-duration: var(--marquee-duration-sm, 18s);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+/* Respeta a quien pide menos movimiento en el sistema.
+ *
+ * Las cintas y el carrusel de portada NO se desactivan aquí: son parte del
+ * diseño y el cliente los quiere en marcha. El mecanismo de pausa que exige la
+ * WCAG lo cubren `.marquee:hover` / `:focus-within` y, en el carrusel, el
+ * `onMouseEnter`. Lo que sí se quita es el movimiento decorativo de entrada.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in {
+    animation: none;
+  }
+}

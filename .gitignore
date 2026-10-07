@@ -8,17 +8,28 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
+.claude/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Material fuente sin procesar (USB, entregas del cliente)
+assets-inbox/
+
+# Salidas del pipeline de contenido (se regeneran con los scripts)
+scripts/out/

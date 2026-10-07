@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "siteName": "Klüg Hydraulics",
+    "tagline": "High-performance hydraulic components",
+    "defaultDescription": "Pumps, valves, hydraulic motors, filters and power units for industry. Components engineered to optimize efficiency, precision and durability."
+  },
+  "nav": {
+    "about": "About",
+    "products": "Products",
+    "catalogs": "Catalogs",
+    "contact": "Contact",
+    "menu": "Menu",
+    "quickAccess": "Quick access",
+    "search": "Search products...",
+    "searchLabel": "Search products",
+    "home": "Go to home page",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "home": {
+    "servicesKicker": "Our",
+    "servicesKickerAccent": "services",
+    "servicesTitle": "Powering Innovation in Hydraulic Systems",
+    "servicesBody": "At Klüg Hydraulics, we take hydraulic power to the next level with high-performance solutions for the global industry. With years of experience and an unwavering commitment to quality, we provide hydraulic components designed to optimize efficiency, precision, and durability in the most demanding systems.",
+    "industriesKicker": "who we help",
+    "industriesTitle": "Power and precision\nfor every industry",
+    "industriesBody": "Our products are designed to suit the most diverse applications. Wherever there's a challenge, there's a hydraulic solution from Klüg Hydraulics.",
+    "slideMonoblock": "Monoblock valves",
+    "slideSolenoid": "Solenoid directional valves",
+    "slideGearPumps": "Gear pumps",
+    "featuredTitle": "Featured products",
+    "featuredPrev": "Previous",
+    "featuredNext": "Next",
+    "featured": {
+      "relief": "Relief valve",
+      "vrse": "VRSE valve",
+      "monoblock": "Monoblock directional control valve",
+      "filter": "Power unit filter"
+    }
+  },
+  "services": {
+    "durability": {
+      "title": "Durability",
+      "body": "Components built to withstand extreme conditions and last longer."
+    },
+    "performance": {
+      "title": "Maximum performance",
+      "body": "Maximum efficiency and power to take your machinery to the next level."
+    },
+    "optimization": {
+      "title": "Optimization",
+      "body": "Solutions that reduce waste and enhance your system's productivity."
+    }
+  },
+  "industries": {
+    "lifting": "Lifting equipment",
+    "mining": "Mining",
+    "manufacturing": "Manufacturing",
+    "construction": "Construction",
+    "agribusiness": "Agribusiness"
+  },
+  "products": {
+    "title": "Products",
+    "allProducts": "All products",
+    "browseBy": "Products",
+    "empty": "No products in this category yet.",
+    "seeCategory": "View category",
+    "modelsCount": "{count} models",
+    "modelsCountOne": "1 model",
+    "allProductsCount": "{count} products",
+    "page": "Page",
+    "pageOf": "Page {page} of {total}",
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "goToPage": "Go to page {page}"
+  },
+  "product": {
+    "description": "Description",
+    "details": "Details",
+    "catalog": "Catalog",
+    "viewCatalog": "View catalog",
+    "specifications": "Specifications",
+    "technicalData": "Technical data",
+    "generalData": "General data",
+    "hydraulicData": "Hydraulic data",
+    "electricalData": "Electrical data",
+    "spoolSymbols": "Spool symbols",
+    "dimensions": "Installation dimension drawing",
+    "orderingCode": "Ordering code",
+    "models": "Available models",
+    "reference": "Reference",
+    "saveProduct": "Save product",
+    "savedProduct": "Saved",
+    "heavyDuty": "Heavy duty series",
+    "original": "100% original product",
+    "gallery": "Product gallery",
+    "previousImage": "Previous image",
+    "nextImage": "Next image"
+  },
+  "quote": {
+    "saved": "Saved products",
+    "quote": "Quote",
+    "quoteAll": "Quote all products",
+    "remove": "Remove",
+    "empty": "You haven't saved any products yet.",
+    "emptyHint": "Use \"Save product\" on any product page to build your list.",
+    "title": "Request a quote",
+    "items": "Products in this request",
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send request",
+    "sending": "Sending...",
+    "success": "Request sent. We'll get back to you shortly.",
+    "error": "The request could not be sent. Please try again or email us at info@klugcompany.com.",
+    "required": "This field is required",
+    "invalidEmail": "Enter a valid email address",
+    "modalTitleLead": "Leave your contacts and",
+    "modalTitleStrong": "we will contact you",
+    "intro": "You are going to quote the following products:",
+    "whatsapp": "WhatsApp number",
+    "submit": "Submit form",
+    "orContact": "Or contact us to",
+    "close": "Close",
+    "emailUs": "Send us an email",
+    "listLabel": "Products you are going to quote",
+    "requiredMark": "required"
+  },
+  "catalogs": {
+    "title": "Catalogs",
+    "download": "Download",
+    "filterBy": "Filter by category",
+    "reset": "Reset filters",
+    "empty": "No catalogs found for this category."
+  },
+  "footer": {
+    "otherLines": "Visit our others line products:",
+    "rights": "Klüg Company. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "breadcrumb": "Breadcrumb"
+  },
+  "distributors": {
+    "title": "Contact our distributors",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About us",
+    "whoTitle": "Who we are?",
+    "whoBody": "With over a decade of experience in the industry, Klüg Hydraulics is a company specialized in the manufacture and distribution of high-performance hydraulic components. With engineering inspired by German precision, we design smart, reliable and efficient solutions for diverse industries, including construction, industrial automation, agriculture and transportation.",
+    "mission": "Mission",
+    "missionBody": "At KLÜG, we engineer innovative hydraulic solutions that enhance performance, minimize downtime, and drive sustainability. Through precision engineering, robust quality control, and a commitment to customer success, we deliver products that power industries with efficiency and reliability.",
+    "vision": "Vision",
+    "visionBody": "To revolutionize the hydraulics industry by creating efficient, innovative and sustainable components that drive the future of automation and industrial development globally.",
+    "whyKicker": "Here's how it works",
+    "whyTitle": "Why choose Klüg?",
+    "whyBody": "From precision valves to energy-efficient hydraulic systems, our products deliver superior performance, durability, and cost-effectiveness.",
+    "why": {
+      "precision": {
+        "title": "Precision Engineering",
+        "body": "We base our designs on German standards, guaranteeing maximum performance and reliability."
+      },
+      "innovation": {
+        "title": "Innovation and Agility",
+        "body": "We adapt quickly to market needs, introducing new technologies and efficient solutions."
+      },
+      "personalized": {
+        "title": "Personalized Approach",
+        "body": "Unlike the giants in the industry, we design solutions tailored to the specific needs of each customer."
+      },
+      "sustainability": {
+        "title": "Commitment to Sustainability",
+        "body": "We develop energy-efficient components aligned with Industry 4.0 trends."
+      },
+      "quality": {
+        "title": "Quality – Price Ratio",
+        "body": "We offer high performance products without the cost overruns of the big brands."
+      }
+    },
+    "joinTitle": "Join the Hydraulic Revolution with Klüg",
+    "joinBody": "We have a team of highly trained professionals committed to excellence. Our organizational culture fosters continuous development and collaboration, allowing us to adapt to market challenges and exceed our clients' expectations.",
+    "cta": "Contact us!",
+    "photoAlt": "Klüg Hydraulics team at the plant"
+  },
+  "contact": {
+    "title": "Contact us",
+    "whereTitle": "Where to buy? We have global presence!",
+    "office": "Our office",
+    "officeValue": "Yangming Mountain 144, China",
+    "email": "Our email",
+    "emailValue": "info@klugcompany.com",
+    "phone": "Our phone number",
+    "phoneValue": "+86 18138859780",
+    "salesEmail": "info@klugcompany.com"
+  },
+  "opportunities": {
+    "kicker": "Here are the benefits",
+    "title": "Industry & Market Opportunities",
+    "body": "Hydraulic components are essential for multiple industrial sectors, ensuring efficiency and durability under extreme conditions. Opportunities for Klüg include:",
+    "cards": {
+      "aftermarket": {
+        "title": "Expanding Aftermarket Services",
+        "body": "Building a strong service and maintenance network can enhance brand loyalty."
+      },
+      "smart": {
+        "title": "Smart Hydraulics & IoT",
+        "body": "Investing in Industry 4.0-ready solutions can differentiate KLÜG in a competitive market."
+      },
+      "energy": {
+        "title": "Energy-Efficient Systems",
+        "body": "Promoting low-energy consumption solutions to align with global sustainability trends."
+      },
+      "global": {
+        "title": "Global Expansion",
+        "body": "Expanding in regions with industrial growth could provide new revenue streams."
+      },
+      "oem": {
+        "title": "OEM Partnerships",
+        "body": "Collaborating with equipment manufacturers to integrate KLÜG components into their systems."
+      }
+    }
+  }
+}

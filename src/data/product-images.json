@@ -1,0 +1,3278 @@
+{
+ "pumps/din-pumps": [
+  {
+   "group": "bhp2b0d",
+   "src": "/products/pumps/din-pumps/bhp2b0d-1.webp",
+   "width": 1087,
+   "height": 1200,
+   "cutout": true,
+   "source": "BOMBAS/BHP2B0D/BHP2B0D6TOUO 1.png"
+  },
+  {
+   "group": "bhp2b0d",
+   "src": "/products/pumps/din-pumps/bhp2b0d-2.webp",
+   "width": 1200,
+   "height": 1012,
+   "cutout": true,
+   "source": "BOMBAS/BHP2B0D/BHP2B0D6TOUO 2.png"
+  },
+  {
+   "group": "bhp2b0d",
+   "src": "/products/pumps/din-pumps/bhp2b0d-3.webp",
+   "width": 1087,
+   "height": 1200,
+   "cutout": true,
+   "source": "BOMBAS/BHP2B0D/BHP2B0D6TOUO.png"
+  },
+  {
+   "group": "bhp2b0d",
+   "src": "/products/pumps/din-pumps/bhp2b0d-4.webp",
+   "width": 973,
+   "height": 1200,
+   "cutout": true,
+   "source": "BOMBAS/BHP2B0D/BHP3B1D46TOUO  1.png"
+  },
+  {
+   "group": "bhp2b0d4",
+   "src": "/products/pumps/din-pumps/bhp2b0d4-1.webp",
+   "width": 1200,
+   "height": 820,
+   "cutout": true,
+   "source": "BOMBAS/BHP2B0D/BHP2B0D4/Fondo de BHP2B0D 4 eliminado.png"
+  },
+  {
+   "group": "bhp2b0d4",
+   "src": "/products/pumps/din-pumps/bhp2b0d4-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/BHP2B0D/BHP2B0D4/ORIGINAL/BHP2B0D 4.jpeg"
+  },
+  {
+   "group": "bhp2b0d4",
+   "src": "/products/pumps/din-pumps/bhp2b0d4-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/BHP2B0D/BHP2B0D4/ORIGINAL/BHP2B0D. 1.jpeg"
+  },
+  {
+   "group": "bombas-bhp",
+   "src": "/products/pumps/din-pumps/bombas-bhp-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "BOMBAS/BOMBAS DE PIÑONES/BOMBAS BHP/BHP2B0D28TOUO 1.png"
+  },
+  {
+   "group": "bombas-bhp",
+   "src": "/products/pumps/din-pumps/bombas-bhp-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "BOMBAS/BOMBAS DE PIÑONES/BOMBAS BHP/BHP2B0D28TOUO 4.png"
+  },
+  {
+   "group": "bombas-bhp",
+   "src": "/products/pumps/din-pumps/bombas-bhp-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "BOMBAS/BOMBAS DE PIÑONES/BOMBAS BHP/BHP2B0D6TOUO 1.png"
+  },
+  {
+   "group": "bombas-bhp",
+   "src": "/products/pumps/din-pumps/bombas-bhp-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "BOMBAS/BOMBAS DE PIÑONES/BOMBAS BHP/BHP3B1D46TOUO .png"
+  }
+ ],
+ "pumps/sae-pumps": [
+  {
+   "group": "hgp-1a-f4rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-1a-f4rx2b-1.webp",
+   "width": 443,
+   "height": 417,
+   "cutout": true,
+   "source": "BOMBAS/HGP-1A-F4RX2B/HGP-1A-F4RX2B .png"
+  },
+  {
+   "group": "hgp-1a-f4rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-1a-f4rx2b-2.webp",
+   "width": 465,
+   "height": 355,
+   "cutout": true,
+   "source": "BOMBAS/HGP-1A-F4RX2B/HGP-1A-F4RX2B 1 .png"
+  },
+  {
+   "group": "hgp-1a-f4rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-1a-f4rx2b-3.webp",
+   "width": 600,
+   "height": 465,
+   "cutout": false,
+   "source": "BOMBAS/HGP-1A-F4RX2B/ORIGINAL/HGP-1A-F4RX2B 1.jpg"
+  },
+  {
+   "group": "hgp-1a-f4rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-1a-f4rx2b-4.webp",
+   "width": 600,
+   "height": 465,
+   "cutout": false,
+   "source": "BOMBAS/HGP-1A-F4RX2B/ORIGINAL/HGP-1A-F4RX2B.jpg"
+  },
+  {
+   "group": "hgp-1a-f6rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-1a-f6rx2b-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP-1A-F6RX2B/ORIGINAL/HGP-1A-F6RX2B 1.jpeg"
+  },
+  {
+   "group": "hgp-1a-f6rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-1a-f6rx2b-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP-1A-F6RX2B/ORIGINAL/HGP-1A-F6RX2B 3.jpeg"
+  },
+  {
+   "group": "hgp-1a-f6rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-1a-f6rx2b-3.webp",
+   "width": 600,
+   "height": 465,
+   "cutout": false,
+   "source": "BOMBAS/HGP-1A-F6RX2B/ORIGINAL/HGP-1A-F6RX2B ..jpg"
+  },
+  {
+   "group": "hgp-1a-f6rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-1a-f6rx2b-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP-1A-F6RX2B/ORIGINAL/HGP-1A-F6RX2B 2.jpeg"
+  },
+  {
+   "group": "hgp-3a-f2rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-3a-f2rx2b-1.webp",
+   "width": 1200,
+   "height": 957,
+   "cutout": true,
+   "source": "BOMBAS/HGP-3A-F2RX2B/HGP-3A-F2RX2B 1 .png"
+  },
+  {
+   "group": "hgp-3a-f2rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-3a-f2rx2b-2.webp",
+   "width": 1200,
+   "height": 852,
+   "cutout": true,
+   "source": "BOMBAS/HGP-3A-F2RX2B/HGP-3A-F2RX2B 3 .png"
+  },
+  {
+   "group": "hgp-3a-f2rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-3a-f2rx2b-3.webp",
+   "width": 535,
+   "height": 362,
+   "cutout": true,
+   "source": "BOMBAS/HGP-3A-F2RX2B/HGP-3A-F2RX2B .png"
+  },
+  {
+   "group": "hgp-3a-f2rx2b",
+   "src": "/products/pumps/sae-pumps/hgp-3a-f2rx2b-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP-3A-F2RX2B/ORIGINAL/HGP-3A-F2RX2B 1.jpeg"
+  },
+  {
+   "group": "hgp4a-f28-rx12bbn",
+   "src": "/products/pumps/sae-pumps/hgp4a-f28-rx12bbn-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP4A-F28-RX12BBN/ORIGINAL/HGP4A-F28-RX12BBN .jpeg"
+  },
+  {
+   "group": "hgp4a-f28-rx12bbn",
+   "src": "/products/pumps/sae-pumps/hgp4a-f28-rx12bbn-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP4A-F28-RX12BBN/ORIGINAL/HGP4A-F28-RX12BBN 1.jpeg"
+  },
+  {
+   "group": "hgp4a-f28-rx12bbn",
+   "src": "/products/pumps/sae-pumps/hgp4a-f28-rx12bbn-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP4A-F28-RX12BBN/ORIGINAL/HGP4A-F28-RX12BBN 2.jpeg"
+  },
+  {
+   "group": "hgp4a-f45-rx12ban",
+   "src": "/products/pumps/sae-pumps/hgp4a-f45-rx12ban-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP4A-F45-RX12BAN/ORIGINAL/HGP4A-F45-RX12BA 1.jpeg"
+  },
+  {
+   "group": "hgp4a-f45-rx12ban",
+   "src": "/products/pumps/sae-pumps/hgp4a-f45-rx12ban-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP4A-F45-RX12BAN/ORIGINAL/HGP4A-F45-RX12BA 2.jpeg"
+  },
+  {
+   "group": "hgp4a-f45-rx12ban",
+   "src": "/products/pumps/sae-pumps/hgp4a-f45-rx12ban-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP4A-F45-RX12BAN/ORIGINAL/HGP4A-F45-RX12BA 4.jpeg"
+  },
+  {
+   "group": "hgp4a-f45-rx12ban",
+   "src": "/products/pumps/sae-pumps/hgp4a-f45-rx12ban-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOMBAS/HGP4A-F45-RX12BAN/ORIGINAL/HGP4A-F45-RX12BA.jpeg"
+  }
+ ],
+ "pumps/cbk-pumps-compact-units": [
+  {
+   "group": "cbk-f7-0",
+   "src": "/products/pumps/cbk-pumps-compact-units/cbk-f7-0-1.webp",
+   "width": 1200,
+   "height": 1117,
+   "cutout": true,
+   "source": "BOMBAS/CBK-F7.0/CBK-F7  .0JPG.png"
+  },
+  {
+   "group": "cbk-f7-0",
+   "src": "/products/pumps/cbk-pumps-compact-units/cbk-f7-0-2.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "BOMBAS/CBK-F7.0/ORIGINALES/CBK-F7.0(1)JPG.JPG"
+  },
+  {
+   "group": "cbk-f7-0",
+   "src": "/products/pumps/cbk-pumps-compact-units/cbk-f7-0-3.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "BOMBAS/CBK-F7.0/ORIGINALES/CBK-F7.0.JPG"
+  },
+  {
+   "group": "cbk-f7-0",
+   "src": "/products/pumps/cbk-pumps-compact-units/cbk-f7-0-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "BOMBAS/CBK-F7.0/4.png"
+  }
+ ],
+ "pumps/piston-pumps": [
+  {
+   "group": "bomba-de-pistones",
+   "src": "/products/pumps/piston-pumps/bomba-de-pistones-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "BOMBAS/BOMBA DE PISTONES/13.png"
+  },
+  {
+   "group": "bomba-de-pistones",
+   "src": "/products/pumps/piston-pumps/bomba-de-pistones-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "BOMBAS/BOMBA DE PISTONES/14.png"
+  }
+ ],
+ "valves/solenoid-directional-valves": [
+  {
+   "group": "3-0bl",
+   "src": "/products/valves/solenoid-directional-valves/3-0bl.webp",
+   "width": 1200,
+   "height": 431,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/DG4V-3/3-0BL/DG4V-3-0BL-M-D12L-60  .png"
+  },
+  {
+   "group": "3-6c",
+   "src": "/products/valves/solenoid-directional-valves/3-6c-1.webp",
+   "width": 1200,
+   "height": 495,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/DG4V-3/3-6C/DG4V-3-6C-M-D24L-60 .png"
+  },
+  {
+   "group": "3-6c",
+   "src": "/products/valves/solenoid-directional-valves/3-6c-2.webp",
+   "width": 1200,
+   "height": 391,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/DG4V-3/3-6C/DG4V-3-6C-M-D24L-60 1 .png"
+  },
+  {
+   "group": "3-8c",
+   "src": "/products/valves/solenoid-directional-valves/3-8c.webp",
+   "width": 1200,
+   "height": 418,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/DG4V-3/3-8C/DG4V-3-8C-M-D24L-60  .png"
+  },
+  {
+   "group": "4we10g",
+   "src": "/products/valves/solenoid-directional-valves/4we10g-1.webp",
+   "width": 1200,
+   "height": 470,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/4WE/4WE10G/4WE10G1 .png"
+  },
+  {
+   "group": "4we10g",
+   "src": "/products/valves/solenoid-directional-valves/4we10g-2.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE10G/ORIGINALES/4WE10G0.JPG"
+  },
+  {
+   "group": "4we10g",
+   "src": "/products/valves/solenoid-directional-valves/4we10g-3.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE10G/ORIGINALES/4WE10G1.JPG"
+  },
+  {
+   "group": "4we10g",
+   "src": "/products/valves/solenoid-directional-valves/4we10g-4.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE10G/ORIGINALES/4WE10G3.JPG"
+  },
+  {
+   "group": "4we16g",
+   "src": "/products/valves/solenoid-directional-valves/4we16g-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE16G/ORIGINAL/4WE16G 5.JPG"
+  },
+  {
+   "group": "4we16g",
+   "src": "/products/valves/solenoid-directional-valves/4we16g-2.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE16G/ORIGINAL/4WE16G 5 2.JPG"
+  },
+  {
+   "group": "4we16g",
+   "src": "/products/valves/solenoid-directional-valves/4we16g-3.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE16G/ORIGINAL/4WE16G 6 2.JPG"
+  },
+  {
+   "group": "4we16g",
+   "src": "/products/valves/solenoid-directional-valves/4we16g-4.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE16G/ORIGINAL/4WE16G 7 2.JPG"
+  },
+  {
+   "group": "4we6c",
+   "src": "/products/valves/solenoid-directional-valves/4we6c-1.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE6C/ORIGINALES/4WE6C 6.JPG"
+  },
+  {
+   "group": "4we6c",
+   "src": "/products/valves/solenoid-directional-valves/4we6c-2.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE6C/ORIGINALES/4WE6C 1.JPG"
+  },
+  {
+   "group": "4we6c",
+   "src": "/products/valves/solenoid-directional-valves/4we6c-3.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/4WE6C/ORIGINALES/4WE6C 7.JPG"
+  },
+  {
+   "group": "4we6hb",
+   "src": "/products/valves/solenoid-directional-valves/4we6hb-1.webp",
+   "width": 1200,
+   "height": 523,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/4WE/4WE6HB/4WE6HB0 .png"
+  },
+  {
+   "group": "4we6hb",
+   "src": "/products/valves/solenoid-directional-valves/4we6hb-2.webp",
+   "width": 1200,
+   "height": 1149,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/4WE/4WE6HB/4WE6HB1 .png"
+  },
+  {
+   "group": "4we6hb",
+   "src": "/products/valves/solenoid-directional-valves/4we6hb-3.webp",
+   "width": 1200,
+   "height": 1120,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/4WE/4WE6HB/4WE6HB3 .png"
+  },
+  {
+   "group": "4we6hb",
+   "src": "/products/valves/solenoid-directional-valves/4we6hb-4.webp",
+   "width": 1200,
+   "height": 829,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/4WE/4WE6HB/4WE6HB9 .png"
+  },
+  {
+   "group": "dg4v-3",
+   "src": "/products/valves/solenoid-directional-valves/dg4v-3-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/DG4V-3/ORIGINALES/DG4V-3-0BL-M-D12L-60 1 .jpg"
+  },
+  {
+   "group": "dg4v-3",
+   "src": "/products/valves/solenoid-directional-valves/dg4v-3-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/DG4V-3/ORIGINALES/DG4V-3-0BL-M-D12L-60.jpg"
+  },
+  {
+   "group": "dg4v-3",
+   "src": "/products/valves/solenoid-directional-valves/dg4v-3-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/DG4V-3/ORIGINALES/DG4V-3-2C-M-D24L-60 1.jpg"
+  },
+  {
+   "group": "dg4v-3",
+   "src": "/products/valves/solenoid-directional-valves/dg4v-3-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/DG4V-3/ORIGINALES/DG4V-3-2C-M-D24L-60 2.jpg"
+  },
+  {
+   "group": "dg4v-5-2c",
+   "src": "/products/valves/solenoid-directional-valves/dg4v-5-2c.webp",
+   "width": 1200,
+   "height": 418,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/DG4V-5/DG4V-5-2C/DG4V-5-2C0.png"
+  },
+  {
+   "group": "dg4v-5-oa-electro-valvulas",
+   "src": "/products/valves/solenoid-directional-valves/dg4v-5-oa-electro-valvulas-1.webp",
+   "width": 1200,
+   "height": 549,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/DG4V-5/DG4V-5-OA ELECTRO VALVULAS/DG4V-5-OA5.png"
+  },
+  {
+   "group": "dg4v-5-oa-electro-valvulas",
+   "src": "/products/valves/solenoid-directional-valves/dg4v-5-oa-electro-valvulas-2.webp",
+   "width": 1200,
+   "height": 1044,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/DG4V-5/DG4V-5-OA ELECTRO VALVULAS/DG4V-5-OA1.png"
+  },
+  {
+   "group": "electro-valvulas",
+   "src": "/products/valves/solenoid-directional-valves/electro-valvulas.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/VALVULAS DIRECCIONALES.jpeg"
+  },
+  {
+   "group": "varias",
+   "src": "/products/valves/solenoid-directional-valves/varias-1.webp",
+   "width": 1200,
+   "height": 464,
+   "cutout": true,
+   "source": "ELECTRO VALVULAS/4WE/VARIAS/4WE 11 .png"
+  },
+  {
+   "group": "varias",
+   "src": "/products/valves/solenoid-directional-valves/varias-2.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/VARIAS/ORIGINAL/4WE 11.JPG"
+  },
+  {
+   "group": "varias",
+   "src": "/products/valves/solenoid-directional-valves/varias-3.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/VARIAS/ORIGINAL/4WE 41.JPG"
+  },
+  {
+   "group": "varias",
+   "src": "/products/valves/solenoid-directional-valves/varias-4.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "ELECTRO VALVULAS/4WE/VARIAS/ORIGINAL/4WE 42.JPG"
+  }
+ ],
+ "valves/monoblock-directional-control-valves": [
+  {
+   "group": "mando-1-palanca",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-1-palanca-1.webp",
+   "width": 1200,
+   "height": 816,
+   "cutout": true,
+   "source": "MANDOS PALANCAS/MANDO 1 PALANCA/MANCO UNA PALANCA4 .png"
+  },
+  {
+   "group": "mando-1-palanca",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-1-palanca-2.webp",
+   "width": 1100,
+   "height": 1200,
+   "cutout": true,
+   "source": "MANDOS PALANCAS/MANDO 1 PALANCA/MANDO UNA PALANCA.png"
+  },
+  {
+   "group": "mando-1-palanca",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-1-palanca-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/MANDO 1 PALANCA/Copia de Mando 1 palanca.png"
+  },
+  {
+   "group": "mando-1-palanca",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-1-palanca-4.webp",
+   "width": 1080,
+   "height": 931,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/MANDO 1 PALANCA/Mando 1 palanca.png"
+  },
+  {
+   "group": "mando-2-palanca",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-2-palanca-1.webp",
+   "width": 1200,
+   "height": 777,
+   "cutout": true,
+   "source": "MANDOS PALANCAS/MANDO 2 PALANCA/2P40 A1A1 3 .png"
+  },
+  {
+   "group": "mando-2-palanca",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-2-palanca-2.webp",
+   "width": 353,
+   "height": 428,
+   "cutout": true,
+   "source": "MANDOS PALANCAS/MANDO 2 PALANCA/Mando2 .png"
+  },
+  {
+   "group": "mando-2-palanca",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-2-palanca-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/MANDO 2 PALANCA/2P40 A1A1 4 .png"
+  },
+  {
+   "group": "mando-2-palanca",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-2-palanca-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/MANDO 2 PALANCA/Copia de Mando 2 palancas.png"
+  },
+  {
+   "group": "mando-3-palancas",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-3-palancas-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/MANDO 3  PALANCAS/Mando 3 palancas.png"
+  },
+  {
+   "group": "mando-3-palancas",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-3-palancas-2.webp",
+   "width": 800,
+   "height": 1200,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/MANDO 3  PALANCAS/mando 3 (2).jpg"
+  },
+  {
+   "group": "mando-3-palancas",
+   "src": "/products/valves/monoblock-directional-control-valves/mando-3-palancas-3.webp",
+   "width": 1080,
+   "height": 832,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/MANDO 3  PALANCAS/Copia de Mando 3 palancas.png"
+  },
+  {
+   "group": "mandos-palancas",
+   "src": "/products/valves/monoblock-directional-control-valves/mandos-palancas-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/ORIGINALES/DSC_0600.JPG"
+  },
+  {
+   "group": "mandos-palancas",
+   "src": "/products/valves/monoblock-directional-control-valves/mandos-palancas-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/ORIGINALES/DSC_8302.jpeg"
+  },
+  {
+   "group": "mandos-palancas",
+   "src": "/products/valves/monoblock-directional-control-valves/mandos-palancas-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/ORIGINALES/DSC_8303.jpeg"
+  },
+  {
+   "group": "mandos-palancas",
+   "src": "/products/valves/monoblock-directional-control-valves/mandos-palancas-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "MANDOS PALANCAS/ORIGINALES/DSC_8304.jpeg"
+  }
+ ],
+ "valves/check-valves": [
+  {
+   "group": "valvula-cheque",
+   "src": "/products/valves/check-valves/valvula-cheque-1.webp",
+   "width": 1200,
+   "height": 534,
+   "cutout": true,
+   "source": "VALVULA CHEQUE/MPCV-03W 1 .png"
+  },
+  {
+   "group": "valvula-cheque",
+   "src": "/products/valves/check-valves/valvula-cheque-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA CHEQUE/ORIGINALES/MPCV-03W 6.JPG"
+  },
+  {
+   "group": "valvula-cheque",
+   "src": "/products/valves/check-valves/valvula-cheque-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA CHEQUE/ORIGINALES/MPCV-03W 7.JPG"
+  },
+  {
+   "group": "valvula-cheque",
+   "src": "/products/valves/check-valves/valvula-cheque-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA CHEQUE/ORIGINALES/MPCV-03W.JPG"
+  },
+  {
+   "group": "valvulas-de-cheque-modular",
+   "src": "/products/valves/check-valves/valvulas-de-cheque-modular-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULA CHEQUE/VÁLVULAS DE CHEQUE MODULAR/CHEQUE MODULAR .png"
+  },
+  {
+   "group": "valvulas-de-cheque-modular",
+   "src": "/products/valves/check-valves/valvulas-de-cheque-modular-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULA CHEQUE/VÁLVULAS DE CHEQUE MODULAR/CHEQUE MODULAR 2.png"
+  }
+ ],
+ "valves/relief-valves": [
+  {
+   "group": "valvula-de-alivio",
+   "src": "/products/valves/relief-valves/valvula-de-alivio.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULA DE ALIVIO/valvula de alivio MRV 3 CETOP 5.png"
+  }
+ ],
+ "valves/piloted-relief-valves": [
+  {
+   "group": "valvula-bst-06-alivio-piston-pilotada",
+   "src": "/products/valves/piloted-relief-valves/valvula-bst-06-alivio-piston-pilotada-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "VALVULA DE ALIVIO PILOTADA/VÁLVULA BST 06 ALIVIO PISTÓN PILOTADA/BST 06 ALIVIO PISTÓN PILOTADA2.png"
+  },
+  {
+   "group": "valvula-bst-06-alivio-piston-pilotada",
+   "src": "/products/valves/piloted-relief-valves/valvula-bst-06-alivio-piston-pilotada-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "VALVULA DE ALIVIO PILOTADA/VÁLVULA BST 06 ALIVIO PISTÓN PILOTADA/BST 06 ALIVIO PISTÓN PILOTADA3.png"
+  },
+  {
+   "group": "valvula-de-alivio-pilotada",
+   "src": "/products/valves/piloted-relief-valves/valvula-de-alivio-pilotada-1.webp",
+   "width": 1200,
+   "height": 721,
+   "cutout": true,
+   "source": "VALVULA DE ALIVIO PILOTADA/BT-04-3-30 1 .png"
+  },
+  {
+   "group": "valvula-de-alivio-pilotada",
+   "src": "/products/valves/piloted-relief-valves/valvula-de-alivio-pilotada-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA DE ALIVIO PILOTADA/ORIGINAL/BT-04-3-30 1.jpg"
+  },
+  {
+   "group": "valvula-de-alivio-pilotada",
+   "src": "/products/valves/piloted-relief-valves/valvula-de-alivio-pilotada-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA DE ALIVIO PILOTADA/ORIGINAL/BT-04-3-30 6.jpg"
+  },
+  {
+   "group": "valvula-de-alivio-pilotada",
+   "src": "/products/valves/piloted-relief-valves/valvula-de-alivio-pilotada-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA DE ALIVIO PILOTADA/ORIGINAL/BT-04-3-30 2.jpg"
+  }
+ ],
+ "valves/in-line-check-valves": [
+  {
+   "group": "cit-03",
+   "src": "/products/valves/in-line-check-valves/cit-03-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CHEQUE EN LINEA/CIT-03/CHEQUE EN LÍNEA 3_8 (2).png"
+  },
+  {
+   "group": "cit-03",
+   "src": "/products/valves/in-line-check-valves/cit-03-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CHEQUE EN LINEA/CIT-03/CHEQUE EN LÍNEA 3_8 (3).png"
+  },
+  {
+   "group": "cit-03",
+   "src": "/products/valves/in-line-check-valves/cit-03-3.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CHEQUE EN LINEA/CIT-03/CHEQUE EN LÍNEA 3_8.png"
+  },
+  {
+   "group": "cit-04",
+   "src": "/products/valves/in-line-check-valves/cit-04-1.webp",
+   "width": 1200,
+   "height": 805,
+   "cutout": true,
+   "source": "CHEQUE EN LINEA/CIT-04/CIT-04 2 .png"
+  },
+  {
+   "group": "cit-04",
+   "src": "/products/valves/in-line-check-valves/cit-04-2.webp",
+   "width": 1200,
+   "height": 907,
+   "cutout": true,
+   "source": "CHEQUE EN LINEA/CIT-04/CIT-04 4 .png"
+  },
+  {
+   "group": "cit-04",
+   "src": "/products/valves/in-line-check-valves/cit-04-3.webp",
+   "width": 1200,
+   "height": 1094,
+   "cutout": true,
+   "source": "CHEQUE EN LINEA/CIT-04/CIT-04 5 .png"
+  },
+  {
+   "group": "cit-04",
+   "src": "/products/valves/in-line-check-valves/cit-04-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "CHEQUE EN LINEA/CIT-04/ORIGINALES/CIT-04 1.jpg"
+  },
+  {
+   "group": "cit-06-05",
+   "src": "/products/valves/in-line-check-valves/cit-06-05-1.webp",
+   "width": 1200,
+   "height": 747,
+   "cutout": true,
+   "source": "CHEQUE EN LINEA/CIT-06-05/CIT-06-05 10 .png"
+  },
+  {
+   "group": "cit-06-05",
+   "src": "/products/valves/in-line-check-valves/cit-06-05-2.webp",
+   "width": 1200,
+   "height": 533,
+   "cutout": true,
+   "source": "CHEQUE EN LINEA/CIT-06-05/CIT-06-05 4 .png"
+  },
+  {
+   "group": "cit-06-05",
+   "src": "/products/valves/in-line-check-valves/cit-06-05-3.webp",
+   "width": 1200,
+   "height": 523,
+   "cutout": true,
+   "source": "CHEQUE EN LINEA/CIT-06-05/CIT-06-05 7 .png"
+  },
+  {
+   "group": "cit-06-05",
+   "src": "/products/valves/in-line-check-valves/cit-06-05-4.webp",
+   "width": 1200,
+   "height": 799,
+   "cutout": true,
+   "source": "CHEQUE EN LINEA/CIT-06-05/CIT-06-05 9 .png"
+  },
+  {
+   "group": "cit-08",
+   "src": "/products/valves/in-line-check-valves/cit-08-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "CHEQUE EN LINEA/CIT-08/CIT-08 1 .png"
+  },
+  {
+   "group": "cit-08",
+   "src": "/products/valves/in-line-check-valves/cit-08-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "CHEQUE EN LINEA/CIT-08/CIT-08 3 .png"
+  },
+  {
+   "group": "cit-08",
+   "src": "/products/valves/in-line-check-valves/cit-08-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "CHEQUE EN LINEA/CIT-08/ORIGINALES/CIT-08 1.jpg"
+  },
+  {
+   "group": "cit-08",
+   "src": "/products/valves/in-line-check-valves/cit-08-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "CHEQUE EN LINEA/CIT-08/ORIGINALES/CIT-08 3.jpg"
+  }
+ ],
+ "valves/reduction-valves": [
+  {
+   "group": "valvula-reductora",
+   "src": "/products/valves/reduction-valves/valvula-reductora-1.webp",
+   "width": 1200,
+   "height": 622,
+   "cutout": true,
+   "source": "VALVULA REDUCTORA/MBRV-02P-1 4 .png"
+  },
+  {
+   "group": "valvula-reductora",
+   "src": "/products/valves/reduction-valves/valvula-reductora-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA REDUCTORA/ORIGINALES/MBRV-02P-1 2.JPG"
+  },
+  {
+   "group": "valvula-reductora",
+   "src": "/products/valves/reduction-valves/valvula-reductora-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA REDUCTORA/ORIGINALES/MBRV-02P-1 5.JPG"
+  },
+  {
+   "group": "valvula-reductora",
+   "src": "/products/valves/reduction-valves/valvula-reductora-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA REDUCTORA/MBRV-02P-1 .png"
+  }
+ ],
+ "valves/brand-type-valves": [
+  {
+   "group": "valvula-tipo-brand",
+   "src": "/products/valves/brand-type-valves/valvula-tipo-brand-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA TIPO BRAND/ORIGINAL/VALVULA TIPO BRAND 5.JPG"
+  },
+  {
+   "group": "valvula-tipo-brand",
+   "src": "/products/valves/brand-type-valves/valvula-tipo-brand-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA TIPO BRAND/ORIGINAL/VALVULA TIPO BRAND 9.JPG"
+  },
+  {
+   "group": "valvula-tipo-brand",
+   "src": "/products/valves/brand-type-valves/valvula-tipo-brand-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA TIPO BRAND/ORIGINAL/VALVULA TIPO BRAND 0.JPG"
+  },
+  {
+   "group": "valvula-tipo-brand",
+   "src": "/products/valves/brand-type-valves/valvula-tipo-brand-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA TIPO BRAND/ORIGINAL/VALVULA TIPO BRAND 1.JPG"
+  }
+ ],
+ "valves/control-valves": [
+  {
+   "group": "aisladora-codo-volver-a-tomar-fotos",
+   "src": "/products/valves/control-valves/aisladora-codo-volver-a-tomar-fotos.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "AISLADORA CODO VOLVER A TOMAR FOTOS/ORIGINAL/GCLT-02 4.jpg"
+  },
+  {
+   "group": "aisladora-recta",
+   "src": "/products/valves/control-valves/aisladora-recta-1.webp",
+   "width": 1200,
+   "height": 638,
+   "cutout": true,
+   "source": "AISLADORA RECTA/GCT02 3 .png"
+  },
+  {
+   "group": "aisladora-recta",
+   "src": "/products/valves/control-valves/aisladora-recta-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "AISLADORA RECTA/ORIGINAL/GCT02 3.jpg"
+  },
+  {
+   "group": "aisladora-recta",
+   "src": "/products/valves/control-valves/aisladora-recta-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "AISLADORA RECTA/GCT02 1 .png"
+  },
+  {
+   "group": "aisladora-recta",
+   "src": "/products/valves/control-valves/aisladora-recta-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "AISLADORA RECTA/GCT02 4 .png"
+  },
+  {
+   "group": "control-de-flujo-kc08",
+   "src": "/products/valves/control-valves/control-de-flujo-kc08-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/CONTROL DE FLUJO KC08/CONTROL DE FLUJO KC-08 1_..png"
+  },
+  {
+   "group": "control-de-flujo-kc08",
+   "src": "/products/valves/control-valves/control-de-flujo-kc08-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/CONTROL DE FLUJO KC08/CONTROL DE FLUJO KC-08 1_.png"
+  },
+  {
+   "group": "filtro-de-control-kc03",
+   "src": "/products/valves/control-valves/filtro-de-control-kc03-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC03/CONTROL DE FLUJO KC03.png"
+  },
+  {
+   "group": "filtro-de-control-kc03",
+   "src": "/products/valves/control-valves/filtro-de-control-kc03-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC03/Copia de CONTROL DE FLUJO KC03.png"
+  },
+  {
+   "group": "filtro-de-control-kc03",
+   "src": "/products/valves/control-valves/filtro-de-control-kc03-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC03/Copia de FILTRO DE CONTROL KC03.png"
+  },
+  {
+   "group": "filtro-de-control-kc03",
+   "src": "/products/valves/control-valves/filtro-de-control-kc03-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC03/FILTRO DE CONTROL KC03.png"
+  },
+  {
+   "group": "filtro-de-control-kc04",
+   "src": "/products/valves/control-valves/filtro-de-control-kc04-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC04/Copia de FILTRO DE CONTROL KC04.png"
+  },
+  {
+   "group": "filtro-de-control-kc04",
+   "src": "/products/valves/control-valves/filtro-de-control-kc04-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC04/FILTRO DE CONTROL KC04.png"
+  },
+  {
+   "group": "filtro-de-control-kc04",
+   "src": "/products/valves/control-valves/filtro-de-control-kc04-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC04/FILTRO DE CONTROL KC04_.png"
+  },
+  {
+   "group": "filtro-de-control-kc06",
+   "src": "/products/valves/control-valves/filtro-de-control-kc06-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC06/FILTRO DE CONTROL KC06.png"
+  },
+  {
+   "group": "filtro-de-control-kc06",
+   "src": "/products/valves/control-valves/filtro-de-control-kc06-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC06/FILTRO DE CONTROL KC06_ (1).png"
+  },
+  {
+   "group": "filtro-de-control-kc06",
+   "src": "/products/valves/control-valves/filtro-de-control-kc06-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/FILTRO DE CONTROL KC06/FILTRO DE CONTROL KC06_.png"
+  },
+  {
+   "group": "kc-02",
+   "src": "/products/valves/control-valves/kc-02-1.webp",
+   "width": 1082,
+   "height": 1200,
+   "cutout": true,
+   "source": "FILTROS CONTROL DE FLUJO/KC-02/KC-02 3 .png"
+  },
+  {
+   "group": "kc-02",
+   "src": "/products/valves/control-valves/kc-02-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/KC-02/ORIGINAL/KC-02 1.jpg"
+  },
+  {
+   "group": "kc-02",
+   "src": "/products/valves/control-valves/kc-02-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/KC-02/ORIGINAL/KC-02 2.jpg"
+  },
+  {
+   "group": "kc-02",
+   "src": "/products/valves/control-valves/kc-02-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/KC-02/ORIGINAL/KC-02 3.jpg"
+  },
+  {
+   "group": "kc-03",
+   "src": "/products/valves/control-valves/kc-03-1.webp",
+   "width": 1173,
+   "height": 1200,
+   "cutout": true,
+   "source": "FILTROS CONTROL DE FLUJO/KC-03/KC-03 2 .png"
+  },
+  {
+   "group": "kc-03",
+   "src": "/products/valves/control-valves/kc-03-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/KC-03/ORIGINAL/KC-03 1.jpg"
+  },
+  {
+   "group": "kc-03",
+   "src": "/products/valves/control-valves/kc-03-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/KC-03/ORIGINAL/KC-03 2.jpg"
+  },
+  {
+   "group": "kc-04",
+   "src": "/products/valves/control-valves/kc-04-1.webp",
+   "width": 930,
+   "height": 1200,
+   "cutout": true,
+   "source": "FILTROS CONTROL DE FLUJO/KC-04/KC-04 1 .png"
+  },
+  {
+   "group": "kc-04",
+   "src": "/products/valves/control-valves/kc-04-2.webp",
+   "width": 926,
+   "height": 1200,
+   "cutout": true,
+   "source": "FILTROS CONTROL DE FLUJO/KC-04/KC-04 2 .png"
+  },
+  {
+   "group": "kc-04",
+   "src": "/products/valves/control-valves/kc-04-3.webp",
+   "width": 1200,
+   "height": 715,
+   "cutout": true,
+   "source": "FILTROS CONTROL DE FLUJO/KC-04/KC-04 3 .png"
+  },
+  {
+   "group": "kc-04",
+   "src": "/products/valves/control-valves/kc-04-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/KC-04/ORIGINAL/KC-04 1.jpg"
+  },
+  {
+   "group": "kc-06",
+   "src": "/products/valves/control-valves/kc-06-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/KC-06/ORIGINAL/KC-06 1.jpg"
+  },
+  {
+   "group": "kc-06",
+   "src": "/products/valves/control-valves/kc-06-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/KC-06/ORIGINAL/KC-06 2.jpg"
+  },
+  {
+   "group": "kc-06",
+   "src": "/products/valves/control-valves/kc-06-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "FILTROS CONTROL DE FLUJO/KC-06/ORIGINAL/KC-06 3.jpg"
+  },
+  {
+   "group": "mtcv-02w-k-20",
+   "src": "/products/valves/control-valves/mtcv-02w-k-20-1.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/MTCV-02W-K-20/ORIGINALES/MTCV-02W-K-20_03.JPG"
+  },
+  {
+   "group": "mtcv-02w-k-20",
+   "src": "/products/valves/control-valves/mtcv-02w-k-20-2.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/MTCV-02W-K-20/ORIGINALES/MTCV-02W-K-20_04.JPG"
+  },
+  {
+   "group": "mtcv-02w-k-20",
+   "src": "/products/valves/control-valves/mtcv-02w-k-20-3.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/MTCV-02W-K-20/ORIGINALES/MTCV-02W-K-20_05.JPG"
+  },
+  {
+   "group": "stu-g",
+   "src": "/products/valves/control-valves/stu-g-1.webp",
+   "width": 1200,
+   "height": 1013,
+   "cutout": true,
+   "source": "FILTROS CONTROL DE FLUJO/STU-G/STU-G . .png"
+  },
+  {
+   "group": "stu-g",
+   "src": "/products/valves/control-valves/stu-g-2.webp",
+   "width": 1200,
+   "height": 1007,
+   "cutout": true,
+   "source": "FILTROS CONTROL DE FLUJO/STU-G/STU-G 1 .png"
+  },
+  {
+   "group": "stu-g",
+   "src": "/products/valves/control-valves/stu-g-3.webp",
+   "width": 1200,
+   "height": 931,
+   "cutout": true,
+   "source": "FILTROS CONTROL DE FLUJO/STU-G/STU-G 3 .png"
+  },
+  {
+   "group": "stu-g",
+   "src": "/products/valves/control-valves/stu-g-4.webp",
+   "width": 1200,
+   "height": 1022,
+   "cutout": true,
+   "source": "FILTROS CONTROL DE FLUJO/STU-G/STU-G 4 .png"
+  },
+  {
+   "group": "valvulas-control-de-flujo",
+   "src": "/products/valves/control-valves/valvulas-control-de-flujo-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VÁLVULAS CONTROL DE FLUJO/2CONTROL DE FLUJO CETOP 5.png"
+  },
+  {
+   "group": "valvulas-control-de-flujo",
+   "src": "/products/valves/control-valves/valvulas-control-de-flujo-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VÁLVULAS CONTROL DE FLUJO/CONTROL DE FLUJO CETOP 5 2.png"
+  },
+  {
+   "group": "valvulas-control-de-flujo",
+   "src": "/products/valves/control-valves/valvulas-control-de-flujo-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VÁLVULAS CONTROL DE FLUJO/CONTROL DE FLUJO CETOP 5.png"
+  },
+  {
+   "group": "valvulas-control-de-flujo",
+   "src": "/products/valves/control-valves/valvulas-control-de-flujo-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VÁLVULAS CONTROL DE FLUJO/CONTROL DE FLUJO.png"
+  },
+  {
+   "group": "vbcdde-g12",
+   "src": "/products/valves/control-valves/vbcdde-g12-1.webp",
+   "width": 1200,
+   "height": 351,
+   "cutout": true,
+   "source": "VALVULAS DE CONTROL/VBCDDE-G12/VBCDDEG12 .png"
+  },
+  {
+   "group": "vbcdde-g12",
+   "src": "/products/valves/control-valves/vbcdde-g12-2.webp",
+   "width": 1200,
+   "height": 430,
+   "cutout": true,
+   "source": "VALVULAS DE CONTROL/VBCDDE-G12/VBCDDEG12 1 .png"
+  },
+  {
+   "group": "vbcdde-g12",
+   "src": "/products/valves/control-valves/vbcdde-g12-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VBCDDE-G12/ORIGINAL/VBCDDEG12 1.jpeg"
+  },
+  {
+   "group": "vbcdde-g12",
+   "src": "/products/valves/control-valves/vbcdde-g12-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VBCDDE-G12/ORIGINAL/VBCDDEG12 3.jpeg"
+  },
+  {
+   "group": "vbcdse-g12",
+   "src": "/products/valves/control-valves/vbcdse-g12.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VBCDSE G12/ORIGINAL/VBCD SE G12 3.jpeg"
+  },
+  {
+   "group": "vrse-g12",
+   "src": "/products/valves/control-valves/vrse-g12-1.webp",
+   "width": 1200,
+   "height": 494,
+   "cutout": true,
+   "source": "VALVULAS DE CONTROL/VRSE-G12/VRSE-G12 .png"
+  },
+  {
+   "group": "vrse-g12",
+   "src": "/products/valves/control-valves/vrse-g12-2.webp",
+   "width": 1200,
+   "height": 495,
+   "cutout": true,
+   "source": "VALVULAS DE CONTROL/VRSE-G12/VRSE-G12 3 .png"
+  },
+  {
+   "group": "vrse-g12",
+   "src": "/products/valves/control-valves/vrse-g12-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VRSE-G12/ORIGINALES/VRSE-G12 9.jpeg"
+  },
+  {
+   "group": "vrse-g12",
+   "src": "/products/valves/control-valves/vrse-g12-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VRSE-G12/ORIGINALES/VRSE-G12.jpeg"
+  }
+ ],
+ "valves/lifting-valves": [
+  {
+   "group": "valvulas-elevador",
+   "src": "/products/valves/lifting-valves/valvulas-elevador-1.webp",
+   "width": 890,
+   "height": 1200,
+   "cutout": true,
+   "source": "VALVULAS ELEVADOR/VALVULA ELEVADOR 9.png"
+  },
+  {
+   "group": "valvulas-elevador",
+   "src": "/products/valves/lifting-valves/valvulas-elevador-2.webp",
+   "width": 1029,
+   "height": 1200,
+   "cutout": true,
+   "source": "VALVULAS ELEVADOR/VALVULA ELEVADOR 4 2.png"
+  },
+  {
+   "group": "valvulas-elevador",
+   "src": "/products/valves/lifting-valves/valvulas-elevador-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULAS ELEVADOR/ORIGINALES/valvula elevador 2.jpg"
+  },
+  {
+   "group": "valvulas-elevador",
+   "src": "/products/valves/lifting-valves/valvulas-elevador-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULAS ELEVADOR/ORIGINALES/valvula elevador1.jpg"
+  }
+ ],
+ "valves/fusible-valves": [
+  {
+   "group": "valvulas-fusibles",
+   "src": "/products/valves/fusible-valves/valvulas-fusibles-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS FUSIBLES/1_22.png"
+  },
+  {
+   "group": "valvulas-fusibles",
+   "src": "/products/valves/fusible-valves/valvulas-fusibles-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS FUSIBLES/34.png"
+  }
+ ],
+ "valves/counterbalance-valves": [
+  {
+   "group": "contrabalance-1-2",
+   "src": "/products/valves/counterbalance-valves/contrabalance-1-2-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "CONTRABALANCE 1_2/3.png"
+  },
+  {
+   "group": "contrabalance-1-2",
+   "src": "/products/valves/counterbalance-valves/contrabalance-1-2-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "CONTRABALANCE 1_2/4.png"
+  },
+  {
+   "group": "contrabalance-3-4",
+   "src": "/products/valves/counterbalance-valves/contrabalance-3-4-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "CONTRABALANCE 3_4/1.png"
+  },
+  {
+   "group": "contrabalance-3-4",
+   "src": "/products/valves/counterbalance-valves/contrabalance-3-4-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "CONTRABALANCE 3_4/2.png"
+  }
+ ],
+ "valves/vrse-valves": [
+  {
+   "group": "vrse",
+   "src": "/products/valves/vrse-valves/vrse-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VRSE/VRSE.png"
+  },
+  {
+   "group": "vrse",
+   "src": "/products/valves/vrse-valves/vrse-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VRSE/VRSE1.png"
+  },
+  {
+   "group": "vrse-g12",
+   "src": "/products/valves/vrse-valves/vrse-g12-1.webp",
+   "width": 1200,
+   "height": 494,
+   "cutout": true,
+   "source": "VALVULAS DE CONTROL/VRSE-G12/VRSE-G12 .png"
+  },
+  {
+   "group": "vrse-g12",
+   "src": "/products/valves/vrse-valves/vrse-g12-2.webp",
+   "width": 1200,
+   "height": 495,
+   "cutout": true,
+   "source": "VALVULAS DE CONTROL/VRSE-G12/VRSE-G12 3 .png"
+  },
+  {
+   "group": "vrse-g12",
+   "src": "/products/valves/vrse-valves/vrse-g12-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VRSE-G12/ORIGINALES/VRSE-G12 9.jpeg"
+  },
+  {
+   "group": "vrse-g12",
+   "src": "/products/valves/vrse-valves/vrse-g12-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULAS DE CONTROL/VRSE-G12/ORIGINALES/VRSE-G12.jpeg"
+  }
+ ],
+ "valves/cartridge-valves": [
+  {
+   "group": "cb2at11alhn",
+   "src": "/products/valves/cartridge-valves/cb2at11alhn-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CB2AT11ALHN/1.png"
+  },
+  {
+   "group": "cb2at11alhn",
+   "src": "/products/valves/cartridge-valves/cb2at11alhn-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CB2AT11ALHN/2.png"
+  },
+  {
+   "group": "cb2at11alin",
+   "src": "/products/valves/cartridge-valves/cb2at11alin-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CB2AT11ALIN/1.png"
+  },
+  {
+   "group": "cb2at11alin",
+   "src": "/products/valves/cartridge-valves/cb2at11alin-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CB2AT11ALIN/2.png"
+  },
+  {
+   "group": "cb2at11alin",
+   "src": "/products/valves/cartridge-valves/cb2at11alin-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CB2AT11ALIN/3.png"
+  },
+  {
+   "group": "cb3at2alhn",
+   "src": "/products/valves/cartridge-valves/cb3at2alhn-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/CB3AT2ALHN/1.png"
+  },
+  {
+   "group": "cb3at2alhn",
+   "src": "/products/valves/cartridge-valves/cb3at2alhn-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CB3AT2ALHN/1.png"
+  },
+  {
+   "group": "cb3at2alhn",
+   "src": "/products/valves/cartridge-valves/cb3at2alhn-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CB3AT2ALHN/2.png"
+  },
+  {
+   "group": "cb3at2alhn",
+   "src": "/products/valves/cartridge-valves/cb3at2alhn-4.webp",
+   "width": 1080,
+   "height": 952,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/CB3AT2ALHN/2.png"
+  },
+  {
+   "group": "ck2bt11axcn",
+   "src": "/products/valves/cartridge-valves/ck2bt11axcn-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CK2BT11AXCN/1.png"
+  },
+  {
+   "group": "ck2bt11axcn",
+   "src": "/products/valves/cartridge-valves/ck2bt11axcn-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CK2BT11AXCN/2.png"
+  },
+  {
+   "group": "ck2bt11axcn",
+   "src": "/products/valves/cartridge-valves/ck2bt11axcn-3.webp",
+   "width": 1080,
+   "height": 1079,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CK2BT11AXCN/3.png"
+  },
+  {
+   "group": "co2at11axcn",
+   "src": "/products/valves/cartridge-valves/co2at11axcn-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CO2AT11AXCN/1.png"
+  },
+  {
+   "group": "co2at11axcn",
+   "src": "/products/valves/cartridge-valves/co2at11axcn-2.webp",
+   "width": 1080,
+   "height": 890,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CO2AT11AXCN/2.png"
+  },
+  {
+   "group": "co3at24xen",
+   "src": "/products/valves/cartridge-valves/co3at24xen-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CO3AT24XEN/1.png"
+  },
+  {
+   "group": "co3at24xen",
+   "src": "/products/valves/cartridge-valves/co3at24xen-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CO3AT24XEN/2.png"
+  },
+  {
+   "group": "co3at24xen",
+   "src": "/products/valves/cartridge-valves/co3at24xen-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CO3AT24XEN/3.png"
+  },
+  {
+   "group": "contrabalance-12",
+   "src": "/products/valves/cartridge-valves/contrabalance-12-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/CONTRABALANCE 12/3.png"
+  },
+  {
+   "group": "contrabalance-12",
+   "src": "/products/valves/cartridge-valves/contrabalance-12-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/CONTRABALANCE 12/4.png"
+  },
+  {
+   "group": "contrabalance-12",
+   "src": "/products/valves/cartridge-valves/contrabalance-12-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CONTRABALANCE 12/3.png"
+  },
+  {
+   "group": "contrabalance-34",
+   "src": "/products/valves/cartridge-valves/contrabalance-34-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CONTRABALANCE 34/1.png"
+  },
+  {
+   "group": "contrabalance-34",
+   "src": "/products/valves/cartridge-valves/contrabalance-34-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CONTRABALANCE 34/2.png"
+  },
+  {
+   "group": "cs2dt11axxn",
+   "src": "/products/valves/cartridge-valves/cs2dt11axxn-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CS2DT11AXXN/2.png"
+  },
+  {
+   "group": "cs2dt11axxn",
+   "src": "/products/valves/cartridge-valves/cs2dt11axxn-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/CS2DT11AXXN/3.png"
+  },
+  {
+   "group": "fd2at13akan",
+   "src": "/products/valves/cartridge-valves/fd2at13akan-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/FD2AT13AKAN/1.png"
+  },
+  {
+   "group": "fd2at13akan",
+   "src": "/products/valves/cartridge-valves/fd2at13akan-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/FD2AT13AKAN/2.png"
+  },
+  {
+   "group": "fd2at13akan",
+   "src": "/products/valves/cartridge-valves/fd2at13akan-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/FD2AT13AKAN/2.png"
+  },
+  {
+   "group": "fd2at13akan",
+   "src": "/products/valves/cartridge-valves/fd2at13akan-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/FD2AT13AKAN/3.png"
+  },
+  {
+   "group": "ladrv6-10-33-2310",
+   "src": "/products/valves/cartridge-valves/ladrv6-10-33-2310-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/KETA/LADRV6-10-33 2310/1.png"
+  },
+  {
+   "group": "ladrv6-10-33-2310",
+   "src": "/products/valves/cartridge-valves/ladrv6-10-33-2310-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/KETA/LADRV6-10-33 2310/2.png"
+  },
+  {
+   "group": "ladrv6-10-33-2310",
+   "src": "/products/valves/cartridge-valves/ladrv6-10-33-2310-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/KETA/LADRV6-10-33 2310/3.png"
+  },
+  {
+   "group": "ladrv6-10-33-2310",
+   "src": "/products/valves/cartridge-valves/ladrv6-10-33-2310-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/KETA/LADRV6-10-33 2310/1.png"
+  },
+  {
+   "group": "lcbcalhn-2",
+   "src": "/products/valves/cartridge-valves/lcbcalhn-2-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/KETA/LCBCALHN 2/1.png"
+  },
+  {
+   "group": "lcbcalhn-2",
+   "src": "/products/valves/cartridge-valves/lcbcalhn-2-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/KETA/LCBCALHN 2/2.png"
+  },
+  {
+   "group": "lcbcalhn-2",
+   "src": "/products/valves/cartridge-valves/lcbcalhn-2-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/KETA/LCBCALHN 2/3.png"
+  },
+  {
+   "group": "lcbcalhn-2",
+   "src": "/products/valves/cartridge-valves/lcbcalhn-2-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/KETA/LCBCALHN 2/1.png"
+  },
+  {
+   "group": "lo2ct-11axan",
+   "src": "/products/valves/cartridge-valves/lo2ct-11axan-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/LO2CT-11AXAN/1.png"
+  },
+  {
+   "group": "lo2ct-11axan",
+   "src": "/products/valves/cartridge-valves/lo2ct-11axan-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/LO2CT-11AXAN/3.png"
+  },
+  {
+   "group": "lo2ct-11axan",
+   "src": "/products/valves/cartridge-valves/lo2ct-11axan-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/LO2CT-11AXAN/2.png"
+  },
+  {
+   "group": "lo2ct-11axan",
+   "src": "/products/valves/cartridge-valves/lo2ct-11axan-4.webp",
+   "width": 1080,
+   "height": 869,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/LO2CT-11AXAN/2.png"
+  },
+  {
+   "group": "lpbdb-lan",
+   "src": "/products/valves/cartridge-valves/lpbdb-lan-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/LPBDB-LAN/1.png"
+  },
+  {
+   "group": "lpbdb-lan",
+   "src": "/products/valves/cartridge-valves/lpbdb-lan-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/LPBDB-LAN/1_2.png"
+  },
+  {
+   "group": "lpbdb-lan",
+   "src": "/products/valves/cartridge-valves/lpbdb-lan-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/LPBDB-LAN/3.png"
+  },
+  {
+   "group": "lpbdb-lan",
+   "src": "/products/valves/cartridge-valves/lpbdb-lan-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/LPBDB-LAN/1.png"
+  },
+  {
+   "group": "lrpec-lan",
+   "src": "/products/valves/cartridge-valves/lrpec-lan.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/LRPEC-LAN/4.png"
+  },
+  {
+   "group": "lsv2-08-2ncp",
+   "src": "/products/valves/cartridge-valves/lsv2-08-2ncp-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/LSV2-08-2NCP/1.png"
+  },
+  {
+   "group": "lsv2-08-2ncp",
+   "src": "/products/valves/cartridge-valves/lsv2-08-2ncp-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/LSV2-08-2NCP/3.png"
+  },
+  {
+   "group": "lsv2-08-2ncp-m",
+   "src": "/products/valves/cartridge-valves/lsv2-08-2ncp-m-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/LSV2-08-2NCP-M/1.png"
+  },
+  {
+   "group": "lsv2-08-2ncp-m",
+   "src": "/products/valves/cartridge-valves/lsv2-08-2ncp-m-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/LSV2-08-2NCP-M/2.png"
+  },
+  {
+   "group": "mh082lan",
+   "src": "/products/valves/cartridge-valves/mh082lan-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/MH082LAN/4.png"
+  },
+  {
+   "group": "mh082lan",
+   "src": "/products/valves/cartridge-valves/mh082lan-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/MH082LAN/5.png"
+  },
+  {
+   "group": "mh082lan",
+   "src": "/products/valves/cartridge-valves/mh082lan-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/MH082LAN/4.png"
+  },
+  {
+   "group": "mh082lan",
+   "src": "/products/valves/cartridge-valves/mh082lan-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/MH082LAN/5.png"
+  },
+  {
+   "group": "mh102-lan",
+   "src": "/products/valves/cartridge-valves/mh102-lan-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/MH102-LAN/1.png"
+  },
+  {
+   "group": "mh102-lan",
+   "src": "/products/valves/cartridge-valves/mh102-lan-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/MH102-LAN/2.png"
+  },
+  {
+   "group": "mh102-lan",
+   "src": "/products/valves/cartridge-valves/mh102-lan-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/MH102-LAN/3.png"
+  },
+  {
+   "group": "mh102-lan",
+   "src": "/products/valves/cartridge-valves/mh102-lan-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/MH102-LAN/2.png"
+  },
+  {
+   "group": "nf2dt-13alfn",
+   "src": "/products/valves/cartridge-valves/nf2dt-13alfn-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/NF2DT-13ALFN/1.png"
+  },
+  {
+   "group": "nf2dt-13alfn",
+   "src": "/products/valves/cartridge-valves/nf2dt-13alfn-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/NF2DT-13ALFN/2.png"
+  },
+  {
+   "group": "nf2dt-13alfn",
+   "src": "/products/valves/cartridge-valves/nf2dt-13alfn-3.webp",
+   "width": 1080,
+   "height": 908,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/NF2DT-13ALFN/2.png"
+  },
+  {
+   "group": "nf6dt-16alhn",
+   "src": "/products/valves/cartridge-valves/nf6dt-16alhn-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/NF6DT-16ALHN/1.png"
+  },
+  {
+   "group": "nf6dt-16alhn",
+   "src": "/products/valves/cartridge-valves/nf6dt-16alhn-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/NF6DT-16ALHN/2.png"
+  },
+  {
+   "group": "nf6dt-16alhn",
+   "src": "/products/valves/cartridge-valves/nf6dt-16alhn-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/NF6DT-16ALHN/3.png"
+  },
+  {
+   "group": "nf6dt-16alhn",
+   "src": "/products/valves/cartridge-valves/nf6dt-16alhn-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/NF6DT-16ALHN/1.png"
+  },
+  {
+   "group": "pb2bt11alan",
+   "src": "/products/valves/cartridge-valves/pb2bt11alan-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/PB2BT11ALAN/1.png"
+  },
+  {
+   "group": "pb2bt11alan",
+   "src": "/products/valves/cartridge-valves/pb2bt11alan-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/PB2BT11ALAN/2.png"
+  },
+  {
+   "group": "pb2bt11alan",
+   "src": "/products/valves/cartridge-valves/pb2bt11alan-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/PB2BT11ALAN/3.png"
+  },
+  {
+   "group": "pb2bt11alan",
+   "src": "/products/valves/cartridge-valves/pb2bt11alan-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/PB2BT11ALAN/1.png"
+  },
+  {
+   "group": "pp2bt11alan",
+   "src": "/products/valves/cartridge-valves/pp2bt11alan-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/PP2BT11ALAN/2.png"
+  },
+  {
+   "group": "pp2bt11alan",
+   "src": "/products/valves/cartridge-valves/pp2bt11alan-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/PP2BT11ALAN/1.png"
+  },
+  {
+   "group": "pp2bt11alan",
+   "src": "/products/valves/cartridge-valves/pp2bt11alan-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/PP2BT11ALAN/2.png"
+  },
+  {
+   "group": "pp2bt11alan",
+   "src": "/products/valves/cartridge-valves/pp2bt11alan-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/PP2BT11ALAN/3.png"
+  },
+  {
+   "group": "pr2bt11alan",
+   "src": "/products/valves/cartridge-valves/pr2bt11alan-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/PR2BT11ALAN/3.png"
+  },
+  {
+   "group": "pr2bt11alan",
+   "src": "/products/valves/cartridge-valves/pr2bt11alan-2.webp",
+   "width": 1080,
+   "height": 919,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/PR2BT11ALAN/1.png"
+  },
+  {
+   "group": "rv2at11alan",
+   "src": "/products/valves/cartridge-valves/rv2at11alan-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/RV2AT11ALAN/1.png"
+  },
+  {
+   "group": "rv2at11alan",
+   "src": "/products/valves/cartridge-valves/rv2at11alan-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VALVULAS CARTUCHO/STEED/RV2AT11ALAN/2.png"
+  },
+  {
+   "group": "rv2at11alan",
+   "src": "/products/valves/cartridge-valves/rv2at11alan-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/RV2AT11ALAN/2.png"
+  },
+  {
+   "group": "rv2at11alan",
+   "src": "/products/valves/cartridge-valves/rv2at11alan-4.webp",
+   "width": 1080,
+   "height": 909,
+   "cutout": false,
+   "source": "VÁLVULAS DE CARTUCHO/STEED/RV2AT11ALAN/1.png"
+  },
+  {
+   "group": "steed",
+   "src": "/products/valves/cartridge-valves/steed-1.webp",
+   "width": 1200,
+   "height": 647,
+   "cutout": true,
+   "source": "VALVULAS CARTUCHO/STEED/VALVULA CARTUCHO 3 .png"
+  },
+  {
+   "group": "steed",
+   "src": "/products/valves/cartridge-valves/steed-2.webp",
+   "width": 1100,
+   "height": 686,
+   "cutout": true,
+   "source": "VALVULAS CARTUCHO/STEED/VALVULAS CARTUCHO .png"
+  },
+  {
+   "group": "valvula-cartucho-22",
+   "src": "/products/valves/cartridge-valves/valvula-cartucho-22-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA CARTUCHO 22/ORIGINAL/VALVULA CARTUCHO 22 1.JPG"
+  },
+  {
+   "group": "valvula-cartucho-22",
+   "src": "/products/valves/cartridge-valves/valvula-cartucho-22-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VALVULA CARTUCHO 22/ORIGINAL/VALVULA CARTUCHO 22 2.JPG"
+  }
+ ],
+ "valves/coils": [
+  {
+   "group": "bobina-cepto-3",
+   "src": "/products/valves/coils/bobina-cepto-3-1.webp",
+   "width": 735,
+   "height": 1200,
+   "cutout": true,
+   "source": "BOBINAS/BOBINA CEPTO 3/BOBINAS CETOP 3 1 .png"
+  },
+  {
+   "group": "bobina-cepto-3",
+   "src": "/products/valves/coils/bobina-cepto-3-2.webp",
+   "width": 1200,
+   "height": 487,
+   "cutout": true,
+   "source": "BOBINAS/BOBINA CEPTO 3/BOBINAS CETOP 3 3 .png"
+  },
+  {
+   "group": "bobina-cepto-3",
+   "src": "/products/valves/coils/bobina-cepto-3-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA CEPTO 3/ORIGINALES/BOBINAS CETOP 3 1.jpg"
+  },
+  {
+   "group": "bobina-cepto-3",
+   "src": "/products/valves/coils/bobina-cepto-3-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA CEPTO 3/ORIGINALES/BOBINAS CETOP 3 4.jpg"
+  },
+  {
+   "group": "bobina-cepto-5",
+   "src": "/products/valves/coils/bobina-cepto-5-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA CEPTO 5/ORIGINAL/BOBINAS CETOP 52.jpg"
+  },
+  {
+   "group": "bobina-cepto-5",
+   "src": "/products/valves/coils/bobina-cepto-5-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA CEPTO 5/ORIGINAL/BOBINAS CETOP 53.jpg"
+  },
+  {
+   "group": "bobina-cepto-5",
+   "src": "/products/valves/coils/bobina-cepto-5-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA CEPTO 5/ORIGINAL/BOBINAS CETOP 51.jpg"
+  },
+  {
+   "group": "bobina-cetop-3",
+   "src": "/products/valves/coils/bobina-cetop-3-1.webp",
+   "width": 1200,
+   "height": 1136,
+   "cutout": true,
+   "source": "BOBINAS/BOBINA CETOP 3/BOBINAS CETOP 3 1 .png"
+  },
+  {
+   "group": "bobina-cetop-3",
+   "src": "/products/valves/coils/bobina-cetop-3-2.webp",
+   "width": 1200,
+   "height": 629,
+   "cutout": true,
+   "source": "BOBINAS/BOBINA CETOP 3/BOBINAS CETOP 3 2 .png"
+  },
+  {
+   "group": "bobina-cetop-3",
+   "src": "/products/valves/coils/bobina-cetop-3-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA CETOP 3/ORIGINALES/BOBINAS CETOP 3 1.jpg"
+  },
+  {
+   "group": "bobina-cetop-3",
+   "src": "/products/valves/coils/bobina-cetop-3-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA CETOP 3/ORIGINALES/BOBINAS CETOP 3 2.jpg"
+  },
+  {
+   "group": "bobina-para-cartucho",
+   "src": "/products/valves/coils/bobina-para-cartucho-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA PARA CARTUCHO/BOBINA PARA CARTUCHO.png"
+  },
+  {
+   "group": "bobina-para-cartucho",
+   "src": "/products/valves/coils/bobina-para-cartucho-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA PARA CARTUCHO/BOBINA PARA CARTUCHO2.png"
+  },
+  {
+   "group": "bobina-para-cartucho",
+   "src": "/products/valves/coils/bobina-para-cartucho-3.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA PARA CARTUCHO/BOBINA PARA CARTUCHO3.png"
+  },
+  {
+   "group": "bobina-para-cartucho",
+   "src": "/products/valves/coils/bobina-para-cartucho-4.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "BOBINAS/BOBINA PARA CARTUCHO/BOBINA PARA CARTUCHO4.png"
+  },
+  {
+   "group": "bobinas",
+   "src": "/products/valves/coils/bobinas-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/ORIGINAL/BOBINA 73.JPG"
+  },
+  {
+   "group": "bobinas",
+   "src": "/products/valves/coils/bobinas-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/ORIGINAL/BOBINA 75.JPG"
+  },
+  {
+   "group": "bobinas",
+   "src": "/products/valves/coils/bobinas-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/ORIGINAL/BOBINA 77.JPG"
+  },
+  {
+   "group": "bobinas",
+   "src": "/products/valves/coils/bobinas-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BOBINAS/ORIGINAL/BOBINA 78.JPG"
+  },
+  {
+   "group": "bobinas-1",
+   "src": "/products/valves/coils/bobinas-1-1.webp",
+   "width": 1200,
+   "height": 897,
+   "cutout": true,
+   "source": "BOBINAS/BOBINAS 1/BOBINA 14   .png"
+  },
+  {
+   "group": "bobinas-1",
+   "src": "/products/valves/coils/bobinas-1-2.webp",
+   "width": 1200,
+   "height": 1195,
+   "cutout": true,
+   "source": "BOBINAS/BOBINAS 1/BOBINA 19   .png"
+  },
+  {
+   "group": "bobinas-1",
+   "src": "/products/valves/coils/bobinas-1-3.webp",
+   "width": 1050,
+   "height": 1200,
+   "cutout": true,
+   "source": "BOBINAS/BOBINAS 1/BOBINA 20   .png"
+  },
+  {
+   "group": "bobinas-1",
+   "src": "/products/valves/coils/bobinas-1-4.webp",
+   "width": 1200,
+   "height": 1109,
+   "cutout": true,
+   "source": "BOBINAS/BOBINAS 1/BOBINA 15   .png"
+  },
+  {
+   "group": "bobinas-2",
+   "src": "/products/valves/coils/bobinas-2-1.webp",
+   "width": 1200,
+   "height": 906,
+   "cutout": true,
+   "source": "BOBINAS/BOBINAS 2/BOBINA 88   .png"
+  },
+  {
+   "group": "bobinas-2",
+   "src": "/products/valves/coils/bobinas-2-2.webp",
+   "width": 1200,
+   "height": 780,
+   "cutout": true,
+   "source": "BOBINAS/BOBINAS 2/BOBINA 89   .png"
+  },
+  {
+   "group": "bobinas-3",
+   "src": "/products/valves/coils/bobinas-3.webp",
+   "width": 1200,
+   "height": 485,
+   "cutout": true,
+   "source": "BOBINAS/BOBINAS 3/BOBINA 91  .png"
+  }
+ ],
+ "hydraulic-motors/bmr-motor": [
+  {
+   "group": "motor-bmr",
+   "src": "/products/hydraulic-motors/bmr-motor/motor-bmr-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "MOTOR/MOTOR BMR/4.png"
+  },
+  {
+   "group": "motor-bmr",
+   "src": "/products/hydraulic-motors/bmr-motor/motor-bmr-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "MOTOR/MOTOR BMR/5.png"
+  },
+  {
+   "group": "motor-bmr",
+   "src": "/products/hydraulic-motors/bmr-motor/motor-bmr-3.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "MOTOR/MOTOR BMR/8.png"
+  }
+ ],
+ "filters/rfa": [
+  {
+   "group": "accesorios",
+   "src": "/products/filters/rfa/accesorios.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/Filter 6.png"
+  },
+  {
+   "group": "filtros",
+   "src": "/products/filters/rfa/filtros-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/ORIGINALES/2.jpg"
+  },
+  {
+   "group": "filtros",
+   "src": "/products/filters/rfa/filtros-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/ORIGINALES/3.jpg"
+  },
+  {
+   "group": "filtros",
+   "src": "/products/filters/rfa/filtros-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/ORIGINALES/4.jpg"
+  },
+  {
+   "group": "filtros",
+   "src": "/products/filters/rfa/filtros-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/ORIGINALES/FILTROS SUCCION .jpg"
+  },
+  {
+   "group": "filtros-de-succion",
+   "src": "/products/filters/rfa/filtros-de-succion-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN/Elemento de filtro para RFA 40-10.png"
+  },
+  {
+   "group": "filtros-de-succion",
+   "src": "/products/filters/rfa/filtros-de-succion-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN/Filtro de succión.png"
+  },
+  {
+   "group": "filtros-de-succion",
+   "src": "/products/filters/rfa/filtros-de-succion-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN/Filtro de succión2.png"
+  },
+  {
+   "group": "manometros",
+   "src": "/products/filters/rfa/manometros-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MANÓMETROS/2.png"
+  },
+  {
+   "group": "manometros",
+   "src": "/products/filters/rfa/manometros-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MANÓMETROS/3.png"
+  },
+  {
+   "group": "manometros",
+   "src": "/products/filters/rfa/manometros-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MANÓMETROS/5.png"
+  },
+  {
+   "group": "manometros",
+   "src": "/products/filters/rfa/manometros-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MANÓMETROS/8.png"
+  },
+  {
+   "group": "medidores",
+   "src": "/products/filters/rfa/medidores-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MEDIDORES/Medidor.png"
+  },
+  {
+   "group": "medidores",
+   "src": "/products/filters/rfa/medidores-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MEDIDORES/Medidores.png"
+  },
+  {
+   "group": "medidores",
+   "src": "/products/filters/rfa/medidores-3.webp",
+   "width": 600,
+   "height": 465,
+   "cutout": false,
+   "source": "ACCESORIOS/MEDIDORES/Medidor2.jpg"
+  }
+ ],
+ "filters/return-filter": [
+  {
+   "group": "filtros",
+   "src": "/products/filters/return-filter/filtros-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/ORIGINALES/2.jpg"
+  },
+  {
+   "group": "filtros",
+   "src": "/products/filters/return-filter/filtros-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/ORIGINALES/3.jpg"
+  },
+  {
+   "group": "filtros",
+   "src": "/products/filters/return-filter/filtros-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/ORIGINALES/4.jpg"
+  },
+  {
+   "group": "filtros",
+   "src": "/products/filters/return-filter/filtros-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/ORIGINALES/FILTROS SUCCION .jpg"
+  },
+  {
+   "group": "filtros-de-succion",
+   "src": "/products/filters/return-filter/filtros-de-succion-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN/Elemento de filtro para RFA 40-10.png"
+  },
+  {
+   "group": "filtros-de-succion",
+   "src": "/products/filters/return-filter/filtros-de-succion-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN/Filtro de succión.png"
+  },
+  {
+   "group": "filtros-de-succion",
+   "src": "/products/filters/return-filter/filtros-de-succion-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN/Filtro de succión2.png"
+  }
+ ],
+ "filters/suction-filter": [
+  {
+   "group": "filtros-de-succion",
+   "src": "/products/filters/suction-filter/filtros-de-succion-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN/Elemento de filtro para RFA 40-10.png"
+  },
+  {
+   "group": "filtros-de-succion",
+   "src": "/products/filters/suction-filter/filtros-de-succion-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN/Filtro de succión.png"
+  },
+  {
+   "group": "filtros-de-succion",
+   "src": "/products/filters/suction-filter/filtros-de-succion-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/FILTROS/FILTROS DE SUCCIÓN/Filtro de succión2.png"
+  }
+ ],
+ "power-units/rotcw-motor": [
+  {
+   "group": "motor-rotcw-modelo-md12160",
+   "src": "/products/power-units/rotcw-motor/motor-rotcw-modelo-md12160.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "MOTOR ROTCW MODELO MD12160/3.png"
+  }
+ ],
+ "power-units/compact-units": [
+  {
+   "group": "fabricadas",
+   "src": "/products/power-units/compact-units/fabricadas-1.webp",
+   "width": 317,
+   "height": 446,
+   "cutout": true,
+   "source": "UNIDADES DE POTENCIA/FABRICADAS/Unidad-Hidáulica-2 .png"
+  },
+  {
+   "group": "fabricadas",
+   "src": "/products/power-units/compact-units/fabricadas-2.webp",
+   "width": 1024,
+   "height": 1024,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/FABRICADAS/unidad de pontencia hidraulica 21-09 .png"
+  },
+  {
+   "group": "fabricadas",
+   "src": "/products/power-units/compact-units/fabricadas-3.webp",
+   "width": 1024,
+   "height": 1024,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/FABRICADAS/unidad de potencia hidraulica 21-09. .png"
+  },
+  {
+   "group": "fabricadas",
+   "src": "/products/power-units/compact-units/fabricadas-4.webp",
+   "width": 600,
+   "height": 420,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/FABRICADAS/Unidad-Hidáulica- .png"
+  },
+  {
+   "group": "minicentrales",
+   "src": "/products/power-units/compact-units/minicentrales-1.webp",
+   "width": 595,
+   "height": 1200,
+   "cutout": true,
+   "source": "MINICENTRALES/MINICENTRALES .png"
+  },
+  {
+   "group": "minicentrales",
+   "src": "/products/power-units/compact-units/minicentrales-2.webp",
+   "width": 415,
+   "height": 1200,
+   "cutout": true,
+   "source": "MINICENTRALES/MINICENTRALES 3 .png"
+  },
+  {
+   "group": "minicentrales",
+   "src": "/products/power-units/compact-units/minicentrales-3.webp",
+   "width": 800,
+   "height": 1200,
+   "cutout": false,
+   "source": "MINICENTRALES/ORIGINALES/MINICENTRALES 1.jpg"
+  },
+  {
+   "group": "minicentrales",
+   "src": "/products/power-units/compact-units/minicentrales-4.webp",
+   "width": 800,
+   "height": 1200,
+   "cutout": false,
+   "source": "MINICENTRALES/ORIGINALES/MINICENTRALES 2.jpg"
+  },
+  {
+   "group": "unidad-10mil-psi",
+   "src": "/products/power-units/compact-units/unidad-10mil-psi-1.webp",
+   "width": 800,
+   "height": 1200,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/UNIDAD 10MIL PSI/ORIGINAL/UNIDAD 10MIL PSI1.jpg"
+  },
+  {
+   "group": "unidad-10mil-psi",
+   "src": "/products/power-units/compact-units/unidad-10mil-psi-2.webp",
+   "width": 800,
+   "height": 1200,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/UNIDAD 10MIL PSI/ORIGINAL/UNIDAD 10MIL PSI2.jpg"
+  }
+ ],
+ "power-units/compact-units-10000-psi": [
+  {
+   "group": "fabricadas",
+   "src": "/products/power-units/compact-units-10000-psi/fabricadas-1.webp",
+   "width": 317,
+   "height": 446,
+   "cutout": true,
+   "source": "UNIDADES DE POTENCIA/FABRICADAS/Unidad-Hidáulica-2 .png"
+  },
+  {
+   "group": "fabricadas",
+   "src": "/products/power-units/compact-units-10000-psi/fabricadas-2.webp",
+   "width": 1024,
+   "height": 1024,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/FABRICADAS/unidad de pontencia hidraulica 21-09 .png"
+  },
+  {
+   "group": "fabricadas",
+   "src": "/products/power-units/compact-units-10000-psi/fabricadas-3.webp",
+   "width": 1024,
+   "height": 1024,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/FABRICADAS/unidad de potencia hidraulica 21-09. .png"
+  },
+  {
+   "group": "fabricadas",
+   "src": "/products/power-units/compact-units-10000-psi/fabricadas-4.webp",
+   "width": 600,
+   "height": 420,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/FABRICADAS/Unidad-Hidáulica- .png"
+  },
+  {
+   "group": "unidad-10mil-psi",
+   "src": "/products/power-units/compact-units-10000-psi/unidad-10mil-psi-1.webp",
+   "width": 800,
+   "height": 1200,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/UNIDAD 10MIL PSI/ORIGINAL/UNIDAD 10MIL PSI1.jpg"
+  },
+  {
+   "group": "unidad-10mil-psi",
+   "src": "/products/power-units/compact-units-10000-psi/unidad-10mil-psi-2.webp",
+   "width": 800,
+   "height": 1200,
+   "cutout": false,
+   "source": "UNIDADES DE POTENCIA/UNIDAD 10MIL PSI/ORIGINAL/UNIDAD 10MIL PSI2.jpg"
+  }
+ ],
+ "accessories/manometers": [
+  {
+   "group": "manometros",
+   "src": "/products/accessories/manometers/manometros-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MANÓMETROS/2.png"
+  },
+  {
+   "group": "manometros",
+   "src": "/products/accessories/manometers/manometros-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MANÓMETROS/3.png"
+  },
+  {
+   "group": "manometros",
+   "src": "/products/accessories/manometers/manometros-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MANÓMETROS/5.png"
+  },
+  {
+   "group": "manometros",
+   "src": "/products/accessories/manometers/manometros-4.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MANÓMETROS/8.png"
+  }
+ ],
+ "accessories/temperature-level-indicator": [
+  {
+   "group": "medidores",
+   "src": "/products/accessories/temperature-level-indicator/medidores-1.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "MEDIDORES/Medidor.png"
+  },
+  {
+   "group": "medidores",
+   "src": "/products/accessories/temperature-level-indicator/medidores-2.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MEDIDORES/Medidor.png"
+  },
+  {
+   "group": "medidores",
+   "src": "/products/accessories/temperature-level-indicator/medidores-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "ACCESORIOS/MEDIDORES/Medidores.png"
+  },
+  {
+   "group": "medidores",
+   "src": "/products/accessories/temperature-level-indicator/medidores-4.webp",
+   "width": 600,
+   "height": 465,
+   "cutout": false,
+   "source": "ACCESORIOS/MEDIDORES/Medidor2.jpg"
+  },
+  {
+   "group": "visores-de-saturacion",
+   "src": "/products/accessories/temperature-level-indicator/visores-de-saturacion-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VISORES DE SATURACIÓN/Visor de saturación2.png"
+  },
+  {
+   "group": "visores-de-saturacion",
+   "src": "/products/accessories/temperature-level-indicator/visores-de-saturacion-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VISORES DE SATURACIÓN/Visor de saturación5.png"
+  },
+  {
+   "group": "visores-de-saturacion",
+   "src": "/products/accessories/temperature-level-indicator/visores-de-saturacion-3.webp",
+   "width": 1080,
+   "height": 1080,
+   "cutout": false,
+   "source": "VISORES DE SATURACIÓN/FILTER INDICATOR.png"
+  },
+  {
+   "group": "visores-de-saturacion",
+   "src": "/products/accessories/temperature-level-indicator/visores-de-saturacion-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "VISORES DE SATURACIÓN/Visor de saturación.png"
+  }
+ ],
+ "accessories/couplings": [
+  {
+   "group": "acoples",
+   "src": "/products/accessories/couplings/acoples.webp",
+   "width": 872,
+   "height": 739,
+   "cutout": false,
+   "source": "ACOPLES/Acople araña .png"
+  }
+ ],
+ "accessories/accumulators": [
+  {
+   "group": "acumuladores",
+   "src": "/products/accessories/accumulators/acumuladores-1.webp",
+   "width": 1200,
+   "height": 790,
+   "cutout": true,
+   "source": "ACUMULADORES/ACUMULADOR .png"
+  },
+  {
+   "group": "acumuladores",
+   "src": "/products/accessories/accumulators/acumuladores-2.webp",
+   "width": 1200,
+   "height": 776,
+   "cutout": true,
+   "source": "ACUMULADORES/ACUMULADOR 6.png"
+  },
+  {
+   "group": "acumuladores",
+   "src": "/products/accessories/accumulators/acumuladores-3.webp",
+   "width": 1200,
+   "height": 673,
+   "cutout": true,
+   "source": "ACUMULADORES/ACUMULADOR 9.png"
+  },
+  {
+   "group": "acumuladores",
+   "src": "/products/accessories/accumulators/acumuladores-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "ACUMULADORES/ORIGINALES/DSC_8264.jpeg"
+  }
+ ],
+ "accessories/aluminum-head-filter": [
+  {
+   "group": "cabeza-de-aluminio-para-filtro",
+   "src": "/products/accessories/aluminum-head-filter/cabeza-de-aluminio-para-filtro-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CABEZA DE ALUMINIO PARA FILTRO/CABEZA DE ALUMINIO PARA FILTRO (2).png"
+  },
+  {
+   "group": "cabeza-de-aluminio-para-filtro",
+   "src": "/products/accessories/aluminum-head-filter/cabeza-de-aluminio-para-filtro-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CABEZA DE ALUMINIO PARA FILTRO/CABEZA DE ALUMINIO PARA FILTRO (3).png"
+  }
+ ],
+ "accessories/hoods": [
+  {
+   "group": "campanas",
+   "src": "/products/accessories/hoods/campanas-1.webp",
+   "width": 1051,
+   "height": 1039,
+   "cutout": false,
+   "source": "CAMPANAS/ORIGINAL/campana (2).jpg"
+  },
+  {
+   "group": "campanas",
+   "src": "/products/accessories/hoods/campanas-2.webp",
+   "width": 695,
+   "height": 1109,
+   "cutout": false,
+   "source": "CAMPANAS/ORIGINAL/campana.jpg"
+  }
+ ],
+ "accessories/din-connectors": [
+  {
+   "group": "ac",
+   "src": "/products/accessories/din-connectors/ac-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CONECTORES DIN/AC/AC (2).png"
+  },
+  {
+   "group": "ac",
+   "src": "/products/accessories/din-connectors/ac-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CONECTORES DIN/AC/AC.png"
+  },
+  {
+   "group": "dc",
+   "src": "/products/accessories/din-connectors/dc-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CONECTORES DIN/DC/DC (2).png"
+  },
+  {
+   "group": "dc",
+   "src": "/products/accessories/din-connectors/dc-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CONECTORES DIN/DC/DC.png"
+  }
+ ],
+ "accessories/cartridge-valve-body": [
+  {
+   "group": "cuerpo-valvula-cartucho-sae-10",
+   "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-10-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CUERPO VÁLVULA CARTUCHO SAE 10/CUERPO PARA VALVULA CARTUCHO SAE 10 (2).png"
+  },
+  {
+   "group": "cuerpo-valvula-cartucho-sae-10",
+   "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-10-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CUERPO VÁLVULA CARTUCHO SAE 10/CUERPO PARA VALVULA CARTUCHO SAE 10 (3).png"
+  },
+  {
+   "group": "cuerpo-valvula-cartucho-sae-10",
+   "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-10-3.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CUERPO VÁLVULA CARTUCHO SAE 10/CUERPO PARA VALVULA CARTUCHO SAE 10.png"
+  },
+  {
+   "group": "cuerpo-valvula-cartucho-sae-8",
+   "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-8-1.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CUERPO VÁLVULA CARTUCHO SAE 8/CUERPO PARA VALVULA CARTUCHO SAE 8 (2).png"
+  },
+  {
+   "group": "cuerpo-valvula-cartucho-sae-8",
+   "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-8-2.webp",
+   "width": 1200,
+   "height": 1200,
+   "cutout": false,
+   "source": "CUERPO VÁLVULA CARTUCHO SAE 8/CUERPO PARA VALVULA CARTUCHO SAE 8.png"
+  }
+ ],
+ "accessories/coolers": [
+  {
+   "group": "ah0607t",
+   "src": "/products/accessories/coolers/ah0607t-1.webp",
+   "width": 1200,
+   "height": 928,
+   "cutout": true,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/AH0607T/AH0607T. 1 .png"
+  },
+  {
+   "group": "ah0607t",
+   "src": "/products/accessories/coolers/ah0607t-2.webp",
+   "width": 1200,
+   "height": 856,
+   "cutout": true,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/AH0607T/AH0607T. 2 .png"
+  },
+  {
+   "group": "ah0608t",
+   "src": "/products/accessories/coolers/ah0608t-1.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/AH0608T/AH0608T0  .png"
+  },
+  {
+   "group": "ah0608t",
+   "src": "/products/accessories/coolers/ah0608t-2.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/AH0608T/AH0608T1  .png"
+  },
+  {
+   "group": "ah0608t",
+   "src": "/products/accessories/coolers/ah0608t-3.webp",
+   "width": 1200,
+   "height": 674,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/AH0608T/AH0608T2  .png"
+  },
+  {
+   "group": "ah1012-t",
+   "src": "/products/accessories/coolers/ah1012-t-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/AH1012 T/AH1012T.jpg"
+  },
+  {
+   "group": "ah1012-t",
+   "src": "/products/accessories/coolers/ah1012-t-2.webp",
+   "width": 1200,
+   "height": 775,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/AH1012 T/AH1012T SIN FONDO .png"
+  },
+  {
+   "group": "ah1417t",
+   "src": "/products/accessories/coolers/ah1417t.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/AH1417T/AH1417T.jpg"
+  },
+  {
+   "group": "intercambiador-de-calor-agua-aceite",
+   "src": "/products/accessories/coolers/intercambiador-de-calor-agua-aceite-1.webp",
+   "width": 1200,
+   "height": 539,
+   "cutout": true,
+   "source": "INTERCAMBIADOR DE CALOR AGUA ACEITE/INTERCAMBIADOR CALOR AGUA ACEITE1 .png"
+  },
+  {
+   "group": "intercambiador-de-calor-agua-aceite",
+   "src": "/products/accessories/coolers/intercambiador-de-calor-agua-aceite-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AGUA ACEITE/ORIGINALES/INTERCAMBIADOR CALOR AGUA ACEITE1.jpeg"
+  },
+  {
+   "group": "intercambiador-de-calor-agua-aceite",
+   "src": "/products/accessories/coolers/intercambiador-de-calor-agua-aceite-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AGUA ACEITE/ORIGINALES/INTERCAMBIADOR CALOR AGUA ACEITE2.jpeg"
+  },
+  {
+   "group": "intercambiador-de-calor-agua-aceite",
+   "src": "/products/accessories/coolers/intercambiador-de-calor-agua-aceite-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AGUA ACEITE/ORIGINALES/INTERCAMBIADOR CALOR AGUA ACEITE5.jpeg"
+  },
+  {
+   "group": "intercambiador-de-calor-aire-aceite",
+   "src": "/products/accessories/coolers/intercambiador-de-calor-aire-aceite-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/ORIGINALES/AH0607T. 1.jpeg"
+  },
+  {
+   "group": "intercambiador-de-calor-aire-aceite",
+   "src": "/products/accessories/coolers/intercambiador-de-calor-aire-aceite-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/ORIGINALES/AH0607T. 3.jpeg"
+  },
+  {
+   "group": "intercambiador-de-calor-aire-aceite",
+   "src": "/products/accessories/coolers/intercambiador-de-calor-aire-aceite-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/ORIGINALES/AH0607T.jpeg"
+  },
+  {
+   "group": "intercambiador-de-calor-aire-aceite",
+   "src": "/products/accessories/coolers/intercambiador-de-calor-aire-aceite-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "INTERCAMBIADOR DE CALOR AIRE ACEITE/ORIGINALES/AH0607T.jpg"
+  }
+ ],
+ "accessories/pressure-switch": [
+  {
+   "group": "hed40a-10350-g",
+   "src": "/products/accessories/pressure-switch/hed40a-10350-g-1.webp",
+   "width": 1024,
+   "height": 1200,
+   "cutout": true,
+   "source": "PRESESTATO/HED40A 10350 G/HED40A 10350 G 2 .png"
+  },
+  {
+   "group": "hed40a-10350-g",
+   "src": "/products/accessories/pressure-switch/hed40a-10350-g-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "PRESESTATO/HED40A 10350 G/ORIGINALES/HED40A 10350 G 5.JPG"
+  },
+  {
+   "group": "hed40a-10350-g",
+   "src": "/products/accessories/pressure-switch/hed40a-10350-g-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "PRESESTATO/HED40A 10350 G/ORIGINALES/HED40A 10350 G 6.JPG"
+  },
+  {
+   "group": "hed40a-10350-g",
+   "src": "/products/accessories/pressure-switch/hed40a-10350-g-4.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "PRESESTATO/HED40A 10350 G/ORIGINALES/HED40A 10350 G 1.JPG"
+  },
+  {
+   "group": "jcs-02h",
+   "src": "/products/accessories/pressure-switch/jcs-02h-1.webp",
+   "width": 1200,
+   "height": 606,
+   "cutout": true,
+   "source": "PRESESTATO/JCS-02H/JCS-02H .png"
+  },
+  {
+   "group": "jcs-02h",
+   "src": "/products/accessories/pressure-switch/jcs-02h-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "PRESESTATO/JCS-02H/ORIGINAL/JCS-02H 1.jpg"
+  },
+  {
+   "group": "jcs-02h",
+   "src": "/products/accessories/pressure-switch/jcs-02h-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "PRESESTATO/JCS-02H/ORIGINAL/JCS-02H 9.jpg"
+  }
+ ],
+ "accessories/subplates": [
+  {
+   "group": "subplaca-para-unidades-compactas",
+   "src": "/products/accessories/subplates/subplaca-para-unidades-compactas-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "SUBPLACAS/SUBPLACAS/SUBPLACA PARA UNIDADES COMPACTAS/SUBPLACA PARA UNIDAD COMPACTA.png"
+  },
+  {
+   "group": "subplaca-para-unidades-compactas",
+   "src": "/products/accessories/subplates/subplaca-para-unidades-compactas-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "SUBPLACAS/SUBPLACAS/SUBPLACA PARA UNIDADES COMPACTAS/SUMPLACA PARA UNIDAD COMPACTA2.png"
+  },
+  {
+   "group": "subplacas",
+   "src": "/products/accessories/subplates/subplacas-1.webp",
+   "width": 1200,
+   "height": 1024,
+   "cutout": true,
+   "source": "SUBPLACAS/Fondo de SUBPLACA S 00 2 eliminado.png"
+  },
+  {
+   "group": "subplacas",
+   "src": "/products/accessories/subplates/subplacas-2.webp",
+   "width": 1119,
+   "height": 1200,
+   "cutout": true,
+   "source": "SUBPLACAS/Fondo de SUBPLACA S 01 eliminado.png"
+  },
+  {
+   "group": "subplacas",
+   "src": "/products/accessories/subplates/subplacas-3.webp",
+   "width": 1200,
+   "height": 812,
+   "cutout": true,
+   "source": "SUBPLACAS/Fondo de SUBPLACA S 02 eliminado.png"
+  },
+  {
+   "group": "subplacas",
+   "src": "/products/accessories/subplates/subplacas-4.webp",
+   "width": 1158,
+   "height": 1200,
+   "cutout": true,
+   "source": "SUBPLACAS/SUBPLACA 03  .png"
+  }
+ ],
+ "accessories/mini-central-medium-block": [
+  {
+   "group": "bloque-medio-minicentral",
+   "src": "/products/accessories/mini-central-medium-block/bloque-medio-minicentral-1.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BLOQUE MEDIO MINICENTRAL/Bloque medio minicentral.png"
+  },
+  {
+   "group": "bloque-medio-minicentral",
+   "src": "/products/accessories/mini-central-medium-block/bloque-medio-minicentral-2.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BLOQUE MEDIO MINICENTRAL/Bloque medio minicentral2.png"
+  },
+  {
+   "group": "bloque-medio-minicentral",
+   "src": "/products/accessories/mini-central-medium-block/bloque-medio-minicentral-3.webp",
+   "width": 1200,
+   "height": 800,
+   "cutout": false,
+   "source": "BLOQUE MEDIO MINICENTRAL/Bloque medio minicentral3.png"
+  }
+ ]
+}

@@ -1,0 +1,4661 @@
+[
+ {
+  "slug": "bhp2b0d",
+  "category": "pumps",
+  "subcategory": "din-pumps",
+  "code": "BHP2B0D",
+  "name": {
+   "es": "Bombas DIN BHP2B0D",
+   "en": "DIN pumps BHP2B0D"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/din-pumps/bhp2b0d-1.webp",
+    "width": 1087,
+    "height": 1200
+   },
+   {
+    "src": "/products/pumps/din-pumps/bhp2b0d-2.webp",
+    "width": 1200,
+    "height": 1012
+   },
+   {
+    "src": "/products/pumps/din-pumps/bhp2b0d-3.webp",
+    "width": 1087,
+    "height": 1200
+   },
+   {
+    "src": "/products/pumps/din-pumps/bhp2b0d-4.webp",
+    "width": 973,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bhp2b0d4",
+  "category": "pumps",
+  "subcategory": "din-pumps",
+  "code": "BHP2B0D4",
+  "name": {
+   "es": "Bombas DIN BHP2B0D4",
+   "en": "DIN pumps BHP2B0D4"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/din-pumps/bhp2b0d4-1.webp",
+    "width": 1200,
+    "height": 820
+   },
+   {
+    "src": "/products/pumps/din-pumps/bhp2b0d4-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/pumps/din-pumps/bhp2b0d4-3.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bombas-bhp",
+  "category": "pumps",
+  "subcategory": "din-pumps",
+  "code": null,
+  "name": {
+   "es": "Bombas DIN",
+   "en": "DIN pumps"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/din-pumps/bombas-bhp-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/pumps/din-pumps/bombas-bhp-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/pumps/din-pumps/bombas-bhp-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/pumps/din-pumps/bombas-bhp-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "hgp-1a-f4rx2b",
+  "category": "pumps",
+  "subcategory": "sae-pumps",
+  "code": "HGP-1A-F4RX2B",
+  "name": {
+   "es": "Bombas SAE HGP-1A-F4RX2B",
+   "en": "SAE pumps HGP-1A-F4RX2B"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/sae-pumps/hgp-1a-f4rx2b-1.webp",
+    "width": 443,
+    "height": 417
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp-1a-f4rx2b-2.webp",
+    "width": 465,
+    "height": 355
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp-1a-f4rx2b-3.webp",
+    "width": 600,
+    "height": 465
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp-1a-f4rx2b-4.webp",
+    "width": 600,
+    "height": 465
+   }
+  ],
+  "references": [
+   "HGP 1A F4 R X 2B N1"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "hgp-1a-f6rx2b",
+  "category": "pumps",
+  "subcategory": "sae-pumps",
+  "code": "HGP-1A-F6RX2B",
+  "name": {
+   "es": "Bombas SAE HGP-1A-F6RX2B",
+   "en": "SAE pumps HGP-1A-F6RX2B"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/sae-pumps/hgp-1a-f6rx2b-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp-1a-f6rx2b-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp-1a-f6rx2b-3.webp",
+    "width": 600,
+    "height": 465
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp-1a-f6rx2b-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [
+   "HGP 1A F6 R X 2B N1"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "hgp-3a-f2rx2b",
+  "category": "pumps",
+  "subcategory": "sae-pumps",
+  "code": "HGP-3A-F2RX2B",
+  "name": {
+   "es": "Bombas SAE HGP-3A-F2RX2B",
+   "en": "SAE pumps HGP-3A-F2RX2B"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/sae-pumps/hgp-3a-f2rx2b-1.webp",
+    "width": 1200,
+    "height": 957
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp-3a-f2rx2b-2.webp",
+    "width": 1200,
+    "height": 852
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp-3a-f2rx2b-3.webp",
+    "width": 535,
+    "height": 362
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp-3a-f2rx2b-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "hgp4a-f28-rx12bbn",
+  "category": "pumps",
+  "subcategory": "sae-pumps",
+  "code": "HGP4A-F28-RX12BBN",
+  "name": {
+   "es": "Bombas SAE HGP4A-F28-RX12BBN",
+   "en": "SAE pumps HGP4A-F28-RX12BBN"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/sae-pumps/hgp4a-f28-rx12bbn-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp4a-f28-rx12bbn-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp4a-f28-rx12bbn-3.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "hgp4a-f45-rx12ban",
+  "category": "pumps",
+  "subcategory": "sae-pumps",
+  "code": "HGP4A-F45-RX12BAN",
+  "name": {
+   "es": "Bombas SAE HGP4A-F45-RX12BAN",
+   "en": "SAE pumps HGP4A-F45-RX12BAN"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/sae-pumps/hgp4a-f45-rx12ban-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp4a-f45-rx12ban-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp4a-f45-rx12ban-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/pumps/sae-pumps/hgp4a-f45-rx12ban-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cbk-f7-0",
+  "category": "pumps",
+  "subcategory": "cbk-pumps-compact-units",
+  "code": "CBK-F7-0",
+  "name": {
+   "es": "Bomba CBK para unidades compactas CBK-F7-0",
+   "en": "CBK pump for compact units CBK-F7-0"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/cbk-pumps-compact-units/cbk-f7-0-1.webp",
+    "width": 1200,
+    "height": 1117
+   },
+   {
+    "src": "/products/pumps/cbk-pumps-compact-units/cbk-f7-0-2.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/pumps/cbk-pumps-compact-units/cbk-f7-0-3.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/pumps/cbk-pumps-compact-units/cbk-f7-0-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bomba-de-pistones",
+  "category": "pumps",
+  "subcategory": "piston-pumps",
+  "code": "Bomba de pistones",
+  "name": {
+   "es": "Bombas de pistones Bomba de pistones",
+   "en": "Piston pumps Bomba de pistones"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Pumps-c.pdf",
+  "images": [
+   {
+    "src": "/products/pumps/piston-pumps/bomba-de-pistones-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/pumps/piston-pumps/bomba-de-pistones-2.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "3-0bl",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "3-0BL",
+  "name": {
+   "es": "Válvulas direccionales solenoide 3-0BL",
+   "en": "Solenoid directional valves 3-0BL"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/3-0bl.webp",
+    "width": 1200,
+    "height": 431
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "3-6c",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "3-6C",
+  "name": {
+   "es": "Válvulas direccionales solenoide 3-6C",
+   "en": "Solenoid directional valves 3-6C"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/3-6c-1.webp",
+    "width": 1200,
+    "height": 495
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/3-6c-2.webp",
+    "width": 1200,
+    "height": 391
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "3-8c",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "3-8C",
+  "name": {
+   "es": "Válvulas direccionales solenoide 3-8C",
+   "en": "Solenoid directional valves 3-8C"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/3-8c.webp",
+    "width": 1200,
+    "height": 418
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "4we10g",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "4WE10G",
+  "name": {
+   "es": "Válvulas direccionales solenoide 4WE10G",
+   "en": "Solenoid directional valves 4WE10G"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we10g-1.webp",
+    "width": 1200,
+    "height": 470
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we10g-2.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we10g-3.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we10g-4.webp",
+    "width": 1200,
+    "height": 674
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "4we16g",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "4WE16G",
+  "name": {
+   "es": "Válvulas direccionales solenoide 4WE16G",
+   "en": "Solenoid directional valves 4WE16G"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we16g-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we16g-2.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we16g-3.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we16g-4.webp",
+    "width": 1200,
+    "height": 674
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "4we6c",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "4WE6C",
+  "name": {
+   "es": "Válvulas direccionales solenoide 4WE6C",
+   "en": "Solenoid directional valves 4WE6C"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we6c-1.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we6c-2.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we6c-3.webp",
+    "width": 1200,
+    "height": 674
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "4we6hb",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "4WE6HB",
+  "name": {
+   "es": "Válvulas direccionales solenoide 4WE6HB",
+   "en": "Solenoid directional valves 4WE6HB"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we6hb-1.webp",
+    "width": 1200,
+    "height": 523
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we6hb-2.webp",
+    "width": 1200,
+    "height": 1149
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we6hb-3.webp",
+    "width": 1200,
+    "height": 1120
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/4we6hb-4.webp",
+    "width": 1200,
+    "height": 829
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "dg4v-3",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "DG4V-3",
+  "name": {
+   "es": "Válvulas direccionales solenoide DG4V-3",
+   "en": "Solenoid directional valves DG4V-3"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/dg4v-3-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/dg4v-3-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/dg4v-3-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/dg4v-3-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [
+   "DG4V 3 2C MA220 L 60",
+   "DG4V 3 0C MA220 L 60",
+   "DG4V 3 6C MA220 L 60",
+   "DG4V 3 8C MA220 L 60",
+   "DG4V 3 2C MA110 L 60",
+   "DG4V 3 8C MA110 L 60",
+   "DG4V 3 8C MD24 L 60",
+   "DG4V 3 2C MD12 L 60",
+   "DG4V 3 0A MA220 L 60",
+   "DG4V 3 0BL MA220 L 60",
+   "DG4V 3 0A MD24 L 60",
+   "DG4V 3 0BL MD12 L 60"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "dg4v-5-2c",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "DG4V-5-2C",
+  "name": {
+   "es": "Válvulas direccionales solenoide DG4V-5-2C",
+   "en": "Solenoid directional valves DG4V-5-2C"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/dg4v-5-2c.webp",
+    "width": 1200,
+    "height": 418
+   }
+  ],
+  "references": [
+   "DG4V 5 2C MA220 L 20",
+   "DG4V 5 2C MA110 L 20",
+   "DG4V 5 2C MD12 L 20"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "dg4v-5-oa-electro-valvulas",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": "DG4V-5-OA",
+  "name": {
+   "es": "Válvulas direccionales solenoide DG4V-5-OA",
+   "en": "Solenoid directional valves DG4V-5-OA"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/dg4v-5-oa-electro-valvulas-1.webp",
+    "width": 1200,
+    "height": 549
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/dg4v-5-oa-electro-valvulas-2.webp",
+    "width": 1200,
+    "height": 1044
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "electro-valvulas",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas direccionales solenoide",
+   "en": "Solenoid directional valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/electro-valvulas.webp",
+    "width": 1200,
+    "height": 674
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "varias",
+  "category": "valves",
+  "subcategory": "solenoid-directional-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas direccionales solenoide",
+   "en": "Solenoid directional valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/solenoid-directional-valves/varias-1.webp",
+    "width": 1200,
+    "height": 464
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/varias-2.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/varias-3.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/solenoid-directional-valves/varias-4.webp",
+    "width": 1200,
+    "height": 674
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "mando-1-palanca",
+  "category": "valves",
+  "subcategory": "monoblock-directional-control-valves",
+  "code": "Mando 1 palanca",
+  "name": {
+   "es": "Válvulas direccionales monoblock Mando 1 palanca",
+   "en": "Monoblock directional control valves Mando 1 palanca"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Monoblockvalves-c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-1-palanca-1.webp",
+    "width": 1200,
+    "height": 816
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-1-palanca-2.webp",
+    "width": 1100,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-1-palanca-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-1-palanca-4.webp",
+    "width": 1080,
+    "height": 931
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "mando-2-palanca",
+  "category": "valves",
+  "subcategory": "monoblock-directional-control-valves",
+  "code": "Mando 2 palanca",
+  "name": {
+   "es": "Válvulas direccionales monoblock Mando 2 palanca",
+   "en": "Monoblock directional control valves Mando 2 palanca"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Monoblockvalves-c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-2-palanca-1.webp",
+    "width": 1200,
+    "height": 777
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-2-palanca-2.webp",
+    "width": 353,
+    "height": 428
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-2-palanca-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-2-palanca-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "mando-3-palancas",
+  "category": "valves",
+  "subcategory": "monoblock-directional-control-valves",
+  "code": "Mando 3 palancas",
+  "name": {
+   "es": "Válvulas direccionales monoblock Mando 3 palancas",
+   "en": "Monoblock directional control valves Mando 3 palancas"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Monoblockvalves-c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-3-palancas-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-3-palancas-2.webp",
+    "width": 800,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mando-3-palancas-3.webp",
+    "width": 1080,
+    "height": 832
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "mandos-palancas",
+  "category": "valves",
+  "subcategory": "monoblock-directional-control-valves",
+  "code": "Mandos palancas",
+  "name": {
+   "es": "Válvulas direccionales monoblock Mandos palancas",
+   "en": "Monoblock directional control valves Mandos palancas"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Monoblockvalves-c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mandos-palancas-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mandos-palancas-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mandos-palancas-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/monoblock-directional-control-valves/mandos-palancas-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvula-cheque",
+  "category": "valves",
+  "subcategory": "check-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas cheque",
+   "en": "Check valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/check-valves/valvula-cheque-1.webp",
+    "width": 1200,
+    "height": 534
+   },
+   {
+    "src": "/products/valves/check-valves/valvula-cheque-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/check-valves/valvula-cheque-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/check-valves/valvula-cheque-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvulas-de-cheque-modular",
+  "category": "valves",
+  "subcategory": "check-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas cheque",
+   "en": "Check valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/check-valves/valvulas-de-cheque-modular-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/check-valves/valvulas-de-cheque-modular-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvula-de-alivio",
+  "category": "valves",
+  "subcategory": "relief-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas de alivio",
+   "en": "Relief valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG_pressure-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/relief-valves/valvula-de-alivio.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvula-bst-06-alivio-piston-pilotada",
+  "category": "valves",
+  "subcategory": "piloted-relief-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas de alivio pilotadas",
+   "en": "Piloted relief valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG_pressure-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/piloted-relief-valves/valvula-bst-06-alivio-piston-pilotada-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/piloted-relief-valves/valvula-bst-06-alivio-piston-pilotada-2.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvula-de-alivio-pilotada",
+  "category": "valves",
+  "subcategory": "piloted-relief-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas de alivio pilotadas",
+   "en": "Piloted relief valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG_pressure-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/piloted-relief-valves/valvula-de-alivio-pilotada-1.webp",
+    "width": 1200,
+    "height": 721
+   },
+   {
+    "src": "/products/valves/piloted-relief-valves/valvula-de-alivio-pilotada-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/piloted-relief-valves/valvula-de-alivio-pilotada-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/piloted-relief-valves/valvula-de-alivio-pilotada-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cit-03",
+  "category": "valves",
+  "subcategory": "in-line-check-valves",
+  "code": "CIT-03",
+  "name": {
+   "es": "Cheque en línea CIT-03",
+   "en": "In-line check valves CIT-03"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/in-line-check-valves/cit-03-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-03-2.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-03-3.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cit-04",
+  "category": "valves",
+  "subcategory": "in-line-check-valves",
+  "code": "CIT-04",
+  "name": {
+   "es": "Cheque en línea CIT-04",
+   "en": "In-line check valves CIT-04"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/in-line-check-valves/cit-04-1.webp",
+    "width": 1200,
+    "height": 805
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-04-2.webp",
+    "width": 1200,
+    "height": 907
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-04-3.webp",
+    "width": 1200,
+    "height": 1094
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-04-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cit-06-05",
+  "category": "valves",
+  "subcategory": "in-line-check-valves",
+  "code": "CIT-06-05",
+  "name": {
+   "es": "Cheque en línea CIT-06-05",
+   "en": "In-line check valves CIT-06-05"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/in-line-check-valves/cit-06-05-1.webp",
+    "width": 1200,
+    "height": 747
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-06-05-2.webp",
+    "width": 1200,
+    "height": 533
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-06-05-3.webp",
+    "width": 1200,
+    "height": 523
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-06-05-4.webp",
+    "width": 1200,
+    "height": 799
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cit-08",
+  "category": "valves",
+  "subcategory": "in-line-check-valves",
+  "code": "CIT-08",
+  "name": {
+   "es": "Cheque en línea CIT-08",
+   "en": "In-line check valves CIT-08"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/in-line-check-valves/cit-08-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-08-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-08-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/in-line-check-valves/cit-08-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvula-reductora",
+  "category": "valves",
+  "subcategory": "reduction-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas reductoras",
+   "en": "Reduction valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-modular-valves-c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/reduction-valves/valvula-reductora-1.webp",
+    "width": 1200,
+    "height": 622
+   },
+   {
+    "src": "/products/valves/reduction-valves/valvula-reductora-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/reduction-valves/valvula-reductora-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/reduction-valves/valvula-reductora-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvula-tipo-brand",
+  "category": "valves",
+  "subcategory": "brand-type-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas tipo Brand",
+   "en": "Brand type valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/brand-type-valves/valvula-tipo-brand-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/brand-type-valves/valvula-tipo-brand-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/brand-type-valves/valvula-tipo-brand-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/brand-type-valves/valvula-tipo-brand-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "aisladora-codo-volver-a-tomar-fotos",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "Aisladora codo volver a tomar",
+  "name": {
+   "es": "Válvulas de control Aisladora codo volver a tomar",
+   "en": "Control valves Aisladora codo volver a tomar"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/aisladora-codo-volver-a-tomar-fotos.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "aisladora-recta",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "Aisladora recta",
+  "name": {
+   "es": "Válvulas de control Aisladora recta",
+   "en": "Control valves Aisladora recta"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/aisladora-recta-1.webp",
+    "width": 1200,
+    "height": 638
+   },
+   {
+    "src": "/products/valves/control-valves/aisladora-recta-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/control-valves/aisladora-recta-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/control-valves/aisladora-recta-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "control-de-flujo-kc08",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "CONTROL-DE-FLUJO-KC08",
+  "name": {
+   "es": "Válvulas de control CONTROL-DE-FLUJO-KC08",
+   "en": "Control valves CONTROL-DE-FLUJO-KC08"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/control-de-flujo-kc08-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/control-valves/control-de-flujo-kc08-2.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "filtro-de-control-kc03",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas de control",
+   "en": "Control valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc03-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc03-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc03-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc03-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "filtro-de-control-kc04",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas de control",
+   "en": "Control valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc04-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc04-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc04-3.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "filtro-de-control-kc06",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas de control",
+   "en": "Control valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc06-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc06-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/filtro-de-control-kc06-3.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "kc-02",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "KC-02",
+  "name": {
+   "es": "Válvulas de control KC-02",
+   "en": "Control valves KC-02"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/kc-02-1.webp",
+    "width": 1082,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/control-valves/kc-02-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/control-valves/kc-02-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/control-valves/kc-02-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [
+   "KC02"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "kc-03",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "KC-03",
+  "name": {
+   "es": "Válvulas de control KC-03",
+   "en": "Control valves KC-03"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/kc-03-1.webp",
+    "width": 1173,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/control-valves/kc-03-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/control-valves/kc-03-3.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [
+   "KC03"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "kc-04",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "KC-04",
+  "name": {
+   "es": "Válvulas de control KC-04",
+   "en": "Control valves KC-04"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/kc-04-1.webp",
+    "width": 930,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/control-valves/kc-04-2.webp",
+    "width": 926,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/control-valves/kc-04-3.webp",
+    "width": 1200,
+    "height": 715
+   },
+   {
+    "src": "/products/valves/control-valves/kc-04-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [
+   "KC04"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "kc-06",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "KC-06",
+  "name": {
+   "es": "Válvulas de control KC-06",
+   "en": "Control valves KC-06"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/kc-06-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/control-valves/kc-06-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/control-valves/kc-06-3.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "mtcv-02w-k-20",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "MTCV-02W-K-20",
+  "name": {
+   "es": "Válvulas de control MTCV-02W-K-20",
+   "en": "Control valves MTCV-02W-K-20"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/mtcv-02w-k-20-1.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/control-valves/mtcv-02w-k-20-2.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/valves/control-valves/mtcv-02w-k-20-3.webp",
+    "width": 1200,
+    "height": 674
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "stu-g",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "Stu g",
+  "name": {
+   "es": "Válvulas de control Stu g",
+   "en": "Control valves Stu g"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/stu-g-1.webp",
+    "width": 1200,
+    "height": 1013
+   },
+   {
+    "src": "/products/valves/control-valves/stu-g-2.webp",
+    "width": 1200,
+    "height": 1007
+   },
+   {
+    "src": "/products/valves/control-valves/stu-g-3.webp",
+    "width": 1200,
+    "height": 931
+   },
+   {
+    "src": "/products/valves/control-valves/stu-g-4.webp",
+    "width": 1200,
+    "height": 1022
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvulas-control-de-flujo",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas de control",
+   "en": "Control valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/valvulas-control-de-flujo-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/valvulas-control-de-flujo-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/valvulas-control-de-flujo-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/control-valves/valvulas-control-de-flujo-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "vbcdde-g12",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "VBCDDE-G12",
+  "name": {
+   "es": "Válvulas de control VBCDDE-G12",
+   "en": "Control valves VBCDDE-G12"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/vbcdde-g12-1.webp",
+    "width": 1200,
+    "height": 351
+   },
+   {
+    "src": "/products/valves/control-valves/vbcdde-g12-2.webp",
+    "width": 1200,
+    "height": 430
+   },
+   {
+    "src": "/products/valves/control-valves/vbcdde-g12-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/control-valves/vbcdde-g12-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "vbcdse-g12",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "VBCDSE-G12",
+  "name": {
+   "es": "Válvulas de control VBCDSE-G12",
+   "en": "Control valves VBCDSE-G12"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/vbcdse-g12.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "vrse-g12",
+  "category": "valves",
+  "subcategory": "control-valves",
+  "code": "VRSE-G12",
+  "name": {
+   "es": "Válvulas de control VRSE-G12",
+   "en": "Control valves VRSE-G12"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/control-valves/vrse-g12-1.webp",
+    "width": 1200,
+    "height": 494
+   },
+   {
+    "src": "/products/valves/control-valves/vrse-g12-2.webp",
+    "width": 1200,
+    "height": 495
+   },
+   {
+    "src": "/products/valves/control-valves/vrse-g12-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/control-valves/vrse-g12-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvulas-elevador",
+  "category": "valves",
+  "subcategory": "lifting-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas de elevador",
+   "en": "Lifting valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/lifting-valves/valvulas-elevador-1.webp",
+    "width": 890,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/lifting-valves/valvulas-elevador-2.webp",
+    "width": 1029,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/lifting-valves/valvulas-elevador-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/lifting-valves/valvulas-elevador-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvulas-fusibles",
+  "category": "valves",
+  "subcategory": "fusible-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas fusibles",
+   "en": "Fusible valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/fusible-valves/valvulas-fusibles-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/fusible-valves/valvulas-fusibles-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "contrabalance-1-2",
+  "category": "valves",
+  "subcategory": "counterbalance-valves",
+  "code": "Contrabalance 1 2",
+  "name": {
+   "es": "Válvulas de contrabalance Contrabalance 1 2",
+   "en": "Counterbalance valves Contrabalance 1 2"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/counterbalance-valves/contrabalance-1-2-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/counterbalance-valves/contrabalance-1-2-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "contrabalance-3-4",
+  "category": "valves",
+  "subcategory": "counterbalance-valves",
+  "code": "Contrabalance 3 4",
+  "name": {
+   "es": "Válvulas de contrabalance Contrabalance 3 4",
+   "en": "Counterbalance valves Contrabalance 3 4"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/counterbalance-valves/contrabalance-3-4-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/counterbalance-valves/contrabalance-3-4-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "vrse",
+  "category": "valves",
+  "subcategory": "vrse-valves",
+  "code": "Vrse",
+  "name": {
+   "es": "Válvulas VRSE Vrse",
+   "en": "VRSE valves Vrse"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/vrse-valves/vrse-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/vrse-valves/vrse-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "vrse-g12",
+  "category": "valves",
+  "subcategory": "vrse-valves",
+  "code": "VRSE-G12",
+  "name": {
+   "es": "Válvulas VRSE VRSE-G12",
+   "en": "VRSE valves VRSE-G12"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/vrse-valves/vrse-g12-1.webp",
+    "width": 1200,
+    "height": 494
+   },
+   {
+    "src": "/products/valves/vrse-valves/vrse-g12-2.webp",
+    "width": 1200,
+    "height": 495
+   },
+   {
+    "src": "/products/valves/vrse-valves/vrse-g12-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/vrse-valves/vrse-g12-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cb2at11alhn",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Cb2at11alhn",
+  "name": {
+   "es": "Válvulas de cartucho Cb2at11alhn",
+   "en": "Cartridge valves Cb2at11alhn"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/cb2at11alhn-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/cb2at11alhn-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cb2at11alin",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Cb2at11alin",
+  "name": {
+   "es": "Válvulas de cartucho Cb2at11alin",
+   "en": "Cartridge valves Cb2at11alin"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/cb2at11alin-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/cb2at11alin-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/cb2at11alin-3.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cb3at2alhn",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Cb3at2alhn",
+  "name": {
+   "es": "Válvulas de cartucho Cb3at2alhn",
+   "en": "Cartridge valves Cb3at2alhn"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/cb3at2alhn-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/cb3at2alhn-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/cb3at2alhn-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/cb3at2alhn-4.webp",
+    "width": 1080,
+    "height": 952
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "ck2bt11axcn",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Ck2bt11axcn",
+  "name": {
+   "es": "Válvulas de cartucho Ck2bt11axcn",
+   "en": "Cartridge valves Ck2bt11axcn"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/ck2bt11axcn-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/ck2bt11axcn-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/ck2bt11axcn-3.webp",
+    "width": 1080,
+    "height": 1079
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "co2at11axcn",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Co2at11axcn",
+  "name": {
+   "es": "Válvulas de cartucho Co2at11axcn",
+   "en": "Cartridge valves Co2at11axcn"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/co2at11axcn-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/co2at11axcn-2.webp",
+    "width": 1080,
+    "height": 890
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "co3at24xen",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Co3at24xen",
+  "name": {
+   "es": "Válvulas de cartucho Co3at24xen",
+   "en": "Cartridge valves Co3at24xen"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/co3at24xen-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/co3at24xen-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/co3at24xen-3.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "contrabalance-12",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Contrabalance 12",
+  "name": {
+   "es": "Válvulas de cartucho Contrabalance 12",
+   "en": "Cartridge valves Contrabalance 12"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/contrabalance-12-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/contrabalance-12-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/contrabalance-12-3.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "contrabalance-34",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Contrabalance 34",
+  "name": {
+   "es": "Válvulas de cartucho Contrabalance 34",
+   "en": "Cartridge valves Contrabalance 34"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/contrabalance-34-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/contrabalance-34-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cs2dt11axxn",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Cs2dt11axxn",
+  "name": {
+   "es": "Válvulas de cartucho Cs2dt11axxn",
+   "en": "Cartridge valves Cs2dt11axxn"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/cs2dt11axxn-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/cs2dt11axxn-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "fd2at13akan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Fd2at13akan",
+  "name": {
+   "es": "Válvulas de cartucho Fd2at13akan",
+   "en": "Cartridge valves Fd2at13akan"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/fd2at13akan-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/fd2at13akan-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/fd2at13akan-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/fd2at13akan-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "ladrv6-10-33-2310",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "LADRV6-10-33-2310",
+  "name": {
+   "es": "Válvulas de cartucho LADRV6-10-33-2310",
+   "en": "Cartridge valves LADRV6-10-33-2310"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/ladrv6-10-33-2310-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/ladrv6-10-33-2310-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/ladrv6-10-33-2310-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/ladrv6-10-33-2310-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "lcbcalhn-2",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "LCBCALHN-2",
+  "name": {
+   "es": "Válvulas de cartucho LCBCALHN-2",
+   "en": "Cartridge valves LCBCALHN-2"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/lcbcalhn-2-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lcbcalhn-2-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lcbcalhn-2-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lcbcalhn-2-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "lo2ct-11axan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "LO2CT-11AXAN",
+  "name": {
+   "es": "Válvulas de cartucho LO2CT-11AXAN",
+   "en": "Cartridge valves LO2CT-11AXAN"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/lo2ct-11axan-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lo2ct-11axan-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lo2ct-11axan-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lo2ct-11axan-4.webp",
+    "width": 1080,
+    "height": 869
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "lpbdb-lan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Lpbdb lan",
+  "name": {
+   "es": "Válvulas de cartucho Lpbdb lan",
+   "en": "Cartridge valves Lpbdb lan"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/lpbdb-lan-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lpbdb-lan-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lpbdb-lan-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lpbdb-lan-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "lrpec-lan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Lrpec lan",
+  "name": {
+   "es": "Válvulas de cartucho Lrpec lan",
+   "en": "Cartridge valves Lrpec lan"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/lrpec-lan.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "lsv2-08-2ncp",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "LSV2-08-2NCP",
+  "name": {
+   "es": "Válvulas de cartucho LSV2-08-2NCP",
+   "en": "Cartridge valves LSV2-08-2NCP"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/lsv2-08-2ncp-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lsv2-08-2ncp-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [
+   "LSV2 08 2NCP M 1 H 6T",
+   "LSV2 08 2NCP M 2 H 6T",
+   "LSV2 08 2NCP M 3 H 6T",
+   "LSV2 08 2NCP M 4 H 6T"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "lsv2-08-2ncp-m",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "LSV2-08-2NCP-M",
+  "name": {
+   "es": "Válvulas de cartucho LSV2-08-2NCP-M",
+   "en": "Cartridge valves LSV2-08-2NCP-M"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/lsv2-08-2ncp-m-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/lsv2-08-2ncp-m-2.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [
+   "LSV2 08 2NCP M 1 H 6T",
+   "LSV2 08 2NCP M 2 H 6T",
+   "LSV2 08 2NCP M 3 H 6T",
+   "LSV2 08 2NCP M 4 H 6T"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "mh082lan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "MH082LAN",
+  "name": {
+   "es": "Válvulas de cartucho MH082LAN",
+   "en": "Cartridge valves MH082LAN"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/mh082lan-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/mh082lan-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/mh082lan-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/mh082lan-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "mh102-lan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "MH102-LAN",
+  "name": {
+   "es": "Válvulas de cartucho MH102-LAN",
+   "en": "Cartridge valves MH102-LAN"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/mh102-lan-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/mh102-lan-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/mh102-lan-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/mh102-lan-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "nf2dt-13alfn",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "NF2DT-13ALFN",
+  "name": {
+   "es": "Válvulas de cartucho NF2DT-13ALFN",
+   "en": "Cartridge valves NF2DT-13ALFN"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/nf2dt-13alfn-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/nf2dt-13alfn-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/nf2dt-13alfn-3.webp",
+    "width": 1080,
+    "height": 908
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "nf6dt-16alhn",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "NF6DT-16ALHN",
+  "name": {
+   "es": "Válvulas de cartucho NF6DT-16ALHN",
+   "en": "Cartridge valves NF6DT-16ALHN"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/nf6dt-16alhn-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/nf6dt-16alhn-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/nf6dt-16alhn-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/nf6dt-16alhn-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "pb2bt11alan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Pb2bt11alan",
+  "name": {
+   "es": "Válvulas de cartucho Pb2bt11alan",
+   "en": "Cartridge valves Pb2bt11alan"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/pb2bt11alan-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/pb2bt11alan-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/pb2bt11alan-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/pb2bt11alan-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "pp2bt11alan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Pp2bt11alan",
+  "name": {
+   "es": "Válvulas de cartucho Pp2bt11alan",
+   "en": "Cartridge valves Pp2bt11alan"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/pp2bt11alan-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/pp2bt11alan-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/pp2bt11alan-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/pp2bt11alan-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "pr2bt11alan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Pr2bt11alan",
+  "name": {
+   "es": "Válvulas de cartucho Pr2bt11alan",
+   "en": "Cartridge valves Pr2bt11alan"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/pr2bt11alan-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/pr2bt11alan-2.webp",
+    "width": 1080,
+    "height": 919
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "rv2at11alan",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Rv2at11alan",
+  "name": {
+   "es": "Válvulas de cartucho Rv2at11alan",
+   "en": "Cartridge valves Rv2at11alan"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/rv2at11alan-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/rv2at11alan-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/rv2at11alan-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/valves/cartridge-valves/rv2at11alan-4.webp",
+    "width": 1080,
+    "height": 909
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "steed",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": "Steed",
+  "name": {
+   "es": "Válvulas de cartucho Steed",
+   "en": "Cartridge valves Steed"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/steed-1.webp",
+    "width": 1200,
+    "height": 647
+   },
+   {
+    "src": "/products/valves/cartridge-valves/steed-2.webp",
+    "width": 1100,
+    "height": 686
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "valvula-cartucho-22",
+  "category": "valves",
+  "subcategory": "cartridge-valves",
+  "code": null,
+  "name": {
+   "es": "Válvulas de cartucho",
+   "en": "Cartridge valves"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/cartridge-valves/valvula-cartucho-22-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/cartridge-valves/valvula-cartucho-22-2.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bobina-cepto-3",
+  "category": "valves",
+  "subcategory": "coils",
+  "code": "Bobina cepto 3",
+  "name": {
+   "es": "Bobinas Bobina cepto 3",
+   "en": "Coils Bobina cepto 3"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/coils/bobina-cepto-3-1.webp",
+    "width": 735,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/coils/bobina-cepto-3-2.webp",
+    "width": 1200,
+    "height": 487
+   },
+   {
+    "src": "/products/valves/coils/bobina-cepto-3-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/coils/bobina-cepto-3-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bobina-cepto-5",
+  "category": "valves",
+  "subcategory": "coils",
+  "code": "Bobina cepto 5",
+  "name": {
+   "es": "Bobinas Bobina cepto 5",
+   "en": "Coils Bobina cepto 5"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/coils/bobina-cepto-5-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/coils/bobina-cepto-5-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/coils/bobina-cepto-5-3.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bobina-cetop-3",
+  "category": "valves",
+  "subcategory": "coils",
+  "code": "Bobina cetop 3",
+  "name": {
+   "es": "Bobinas Bobina cetop 3",
+   "en": "Coils Bobina cetop 3"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/coils/bobina-cetop-3-1.webp",
+    "width": 1200,
+    "height": 1136
+   },
+   {
+    "src": "/products/valves/coils/bobina-cetop-3-2.webp",
+    "width": 1200,
+    "height": 629
+   },
+   {
+    "src": "/products/valves/coils/bobina-cetop-3-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/coils/bobina-cetop-3-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bobina-para-cartucho",
+  "category": "valves",
+  "subcategory": "coils",
+  "code": "Bobina para cartucho",
+  "name": {
+   "es": "Bobinas Bobina para cartucho",
+   "en": "Coils Bobina para cartucho"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/coils/bobina-para-cartucho-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/coils/bobina-para-cartucho-2.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/coils/bobina-para-cartucho-3.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/coils/bobina-para-cartucho-4.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bobinas",
+  "category": "valves",
+  "subcategory": "coils",
+  "code": "Bobinas",
+  "name": {
+   "es": "Bobinas Bobinas",
+   "en": "Coils Bobinas"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/coils/bobinas-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/coils/bobinas-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/coils/bobinas-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/valves/coils/bobinas-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bobinas-1",
+  "category": "valves",
+  "subcategory": "coils",
+  "code": "Bobinas 1",
+  "name": {
+   "es": "Bobinas Bobinas 1",
+   "en": "Coils Bobinas 1"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/coils/bobinas-1-1.webp",
+    "width": 1200,
+    "height": 897
+   },
+   {
+    "src": "/products/valves/coils/bobinas-1-2.webp",
+    "width": 1200,
+    "height": 1195
+   },
+   {
+    "src": "/products/valves/coils/bobinas-1-3.webp",
+    "width": 1050,
+    "height": 1200
+   },
+   {
+    "src": "/products/valves/coils/bobinas-1-4.webp",
+    "width": 1200,
+    "height": 1109
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bobinas-2",
+  "category": "valves",
+  "subcategory": "coils",
+  "code": "Bobinas 2",
+  "name": {
+   "es": "Bobinas Bobinas 2",
+   "en": "Coils Bobinas 2"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/coils/bobinas-2-1.webp",
+    "width": 1200,
+    "height": 906
+   },
+   {
+    "src": "/products/valves/coils/bobinas-2-2.webp",
+    "width": 1200,
+    "height": 780
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bobinas-3",
+  "category": "valves",
+  "subcategory": "coils",
+  "code": "Bobinas 3",
+  "name": {
+   "es": "Bobinas Bobinas 3",
+   "en": "Coils Bobinas 3"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-directional-valves_c.pdf",
+  "images": [
+   {
+    "src": "/products/valves/coils/bobinas-3.webp",
+    "width": 1200,
+    "height": 485
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "motor-bmr",
+  "category": "hydraulic-motors",
+  "subcategory": "bmr-motor",
+  "code": null,
+  "name": {
+   "es": "Motor BMR",
+   "en": "BMR motor"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-BMR-c.pdf",
+  "images": [
+   {
+    "src": "/products/hydraulic-motors/bmr-motor/motor-bmr-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/hydraulic-motors/bmr-motor/motor-bmr-2.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/hydraulic-motors/bmr-motor/motor-bmr-3.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "accesorios",
+  "category": "filters",
+  "subcategory": "rfa",
+  "code": "Accesorios",
+  "name": {
+   "es": "RFA Accesorios",
+   "en": "RFA Accesorios"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/filters/rfa/accesorios.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "filtros",
+  "category": "filters",
+  "subcategory": "rfa",
+  "code": null,
+  "name": {
+   "es": "RFA",
+   "en": "RFA"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/filters/rfa/filtros-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/filters/rfa/filtros-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/filters/rfa/filtros-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/filters/rfa/filtros-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "filtros-de-succion",
+  "category": "filters",
+  "subcategory": "rfa",
+  "code": null,
+  "name": {
+   "es": "RFA",
+   "en": "RFA"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/filters/rfa/filtros-de-succion-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/rfa/filtros-de-succion-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/rfa/filtros-de-succion-3.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "manometros",
+  "category": "filters",
+  "subcategory": "rfa",
+  "code": "Manometros",
+  "name": {
+   "es": "RFA Manometros",
+   "en": "RFA Manometros"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/filters/rfa/manometros-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/rfa/manometros-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/rfa/manometros-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/rfa/manometros-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "medidores",
+  "category": "filters",
+  "subcategory": "rfa",
+  "code": "Medidores",
+  "name": {
+   "es": "RFA Medidores",
+   "en": "RFA Medidores"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/filters/rfa/medidores-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/rfa/medidores-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/rfa/medidores-3.webp",
+    "width": 600,
+    "height": 465
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "filtros",
+  "category": "filters",
+  "subcategory": "return-filter",
+  "code": null,
+  "name": {
+   "es": "Filtro de retorno",
+   "en": "Return filter"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/filters/return-filter/filtros-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/filters/return-filter/filtros-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/filters/return-filter/filtros-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/filters/return-filter/filtros-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "filtros-de-succion",
+  "category": "filters",
+  "subcategory": "return-filter",
+  "code": null,
+  "name": {
+   "es": "Filtro de retorno",
+   "en": "Return filter"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/filters/return-filter/filtros-de-succion-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/return-filter/filtros-de-succion-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/return-filter/filtros-de-succion-3.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "filtros-de-succion",
+  "category": "filters",
+  "subcategory": "suction-filter",
+  "code": null,
+  "name": {
+   "es": "Filtro de succión",
+   "en": "Suction filter"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/filters/suction-filter/filtros-de-succion-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/suction-filter/filtros-de-succion-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/filters/suction-filter/filtros-de-succion-3.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "motor-rotcw-modelo-md12160",
+  "category": "power-units",
+  "subcategory": "rotcw-motor",
+  "code": null,
+  "name": {
+   "es": "Motor ROTCW",
+   "en": "ROTCW motor"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/MINI POWER PACK KLUG.pdf",
+  "images": [
+   {
+    "src": "/products/power-units/rotcw-motor/motor-rotcw-modelo-md12160.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "fabricadas",
+  "category": "power-units",
+  "subcategory": "compact-units",
+  "code": "Fabricadas",
+  "name": {
+   "es": "Unidades compactas Fabricadas",
+   "en": "Compact units Fabricadas"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/MINI POWER PACK KLUG.pdf",
+  "images": [
+   {
+    "src": "/products/power-units/compact-units/fabricadas-1.webp",
+    "width": 317,
+    "height": 446
+   },
+   {
+    "src": "/products/power-units/compact-units/fabricadas-2.webp",
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "src": "/products/power-units/compact-units/fabricadas-3.webp",
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "src": "/products/power-units/compact-units/fabricadas-4.webp",
+    "width": 600,
+    "height": 420
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "minicentrales",
+  "category": "power-units",
+  "subcategory": "compact-units",
+  "code": "Minicentrales",
+  "name": {
+   "es": "Unidades compactas Minicentrales",
+   "en": "Compact units Minicentrales"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/MINI POWER PACK KLUG.pdf",
+  "images": [
+   {
+    "src": "/products/power-units/compact-units/minicentrales-1.webp",
+    "width": 595,
+    "height": 1200
+   },
+   {
+    "src": "/products/power-units/compact-units/minicentrales-2.webp",
+    "width": 415,
+    "height": 1200
+   },
+   {
+    "src": "/products/power-units/compact-units/minicentrales-3.webp",
+    "width": 800,
+    "height": 1200
+   },
+   {
+    "src": "/products/power-units/compact-units/minicentrales-4.webp",
+    "width": 800,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "unidad-10mil-psi",
+  "category": "power-units",
+  "subcategory": "compact-units",
+  "code": "UNIDAD-10MIL-PSI",
+  "name": {
+   "es": "Unidades compactas UNIDAD-10MIL-PSI",
+   "en": "Compact units UNIDAD-10MIL-PSI"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/MINI POWER PACK KLUG.pdf",
+  "images": [
+   {
+    "src": "/products/power-units/compact-units/unidad-10mil-psi-1.webp",
+    "width": 800,
+    "height": 1200
+   },
+   {
+    "src": "/products/power-units/compact-units/unidad-10mil-psi-2.webp",
+    "width": 800,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "fabricadas",
+  "category": "power-units",
+  "subcategory": "compact-units-10000-psi",
+  "code": "Fabricadas",
+  "name": {
+   "es": "Unidades compactas 10.000 psi Fabricadas",
+   "en": "Compact units 10.000 psi Fabricadas"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/MINI POWER PACK KLUG.pdf",
+  "images": [
+   {
+    "src": "/products/power-units/compact-units-10000-psi/fabricadas-1.webp",
+    "width": 317,
+    "height": 446
+   },
+   {
+    "src": "/products/power-units/compact-units-10000-psi/fabricadas-2.webp",
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "src": "/products/power-units/compact-units-10000-psi/fabricadas-3.webp",
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "src": "/products/power-units/compact-units-10000-psi/fabricadas-4.webp",
+    "width": 600,
+    "height": 420
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "unidad-10mil-psi",
+  "category": "power-units",
+  "subcategory": "compact-units-10000-psi",
+  "code": "UNIDAD-10MIL-PSI",
+  "name": {
+   "es": "Unidades compactas 10.000 psi UNIDAD-10MIL-PSI",
+   "en": "Compact units 10.000 psi UNIDAD-10MIL-PSI"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/MINI POWER PACK KLUG.pdf",
+  "images": [
+   {
+    "src": "/products/power-units/compact-units-10000-psi/unidad-10mil-psi-1.webp",
+    "width": 800,
+    "height": 1200
+   },
+   {
+    "src": "/products/power-units/compact-units-10000-psi/unidad-10mil-psi-2.webp",
+    "width": 800,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "manometros",
+  "category": "accessories",
+  "subcategory": "manometers",
+  "code": "Manometros",
+  "name": {
+   "es": "Manómetros Manometros",
+   "en": "Manometers Manometros"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/manometers/manometros-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/accessories/manometers/manometros-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/accessories/manometers/manometros-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/accessories/manometers/manometros-4.webp",
+    "width": 1080,
+    "height": 1080
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "medidores",
+  "category": "accessories",
+  "subcategory": "temperature-level-indicator",
+  "code": "Medidores",
+  "name": {
+   "es": "Visor de nivel y temperatura Medidores",
+   "en": "Temperature and level indicator Medidores"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/temperature-level-indicator/medidores-1.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/accessories/temperature-level-indicator/medidores-2.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/accessories/temperature-level-indicator/medidores-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/accessories/temperature-level-indicator/medidores-4.webp",
+    "width": 600,
+    "height": 465
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "visores-de-saturacion",
+  "category": "accessories",
+  "subcategory": "temperature-level-indicator",
+  "code": "Visores de saturacion",
+  "name": {
+   "es": "Visor de nivel y temperatura Visores de saturacion",
+   "en": "Temperature and level indicator Visores de saturacion"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/temperature-level-indicator/visores-de-saturacion-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/temperature-level-indicator/visores-de-saturacion-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/temperature-level-indicator/visores-de-saturacion-3.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "src": "/products/accessories/temperature-level-indicator/visores-de-saturacion-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "acoples",
+  "category": "accessories",
+  "subcategory": "couplings",
+  "code": "Acoples",
+  "name": {
+   "es": "Acoples Acoples",
+   "en": "Couplings Acoples"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/couplings/acoples.webp",
+    "width": 872,
+    "height": 739
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "acumuladores",
+  "category": "accessories",
+  "subcategory": "accumulators",
+  "code": "Acumuladores",
+  "name": {
+   "es": "Acumuladores Acumuladores",
+   "en": "Accumulators Acumuladores"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/CATALOG_ACCUMULATORS.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/accumulators/acumuladores-1.webp",
+    "width": 1200,
+    "height": 790
+   },
+   {
+    "src": "/products/accessories/accumulators/acumuladores-2.webp",
+    "width": 1200,
+    "height": 776
+   },
+   {
+    "src": "/products/accessories/accumulators/acumuladores-3.webp",
+    "width": 1200,
+    "height": 673
+   },
+   {
+    "src": "/products/accessories/accumulators/acumuladores-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cabeza-de-aluminio-para-filtro",
+  "category": "accessories",
+  "subcategory": "aluminum-head-filter",
+  "code": "Cabeza de aluminio para",
+  "name": {
+   "es": "Cabeza de aluminio para filtro Cabeza de aluminio para",
+   "en": "Aluminum head for filter Cabeza de aluminio para"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/aluminum-head-filter/cabeza-de-aluminio-para-filtro-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/accessories/aluminum-head-filter/cabeza-de-aluminio-para-filtro-2.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "campanas",
+  "category": "accessories",
+  "subcategory": "hoods",
+  "code": "Campanas",
+  "name": {
+   "es": "Campanas Campanas",
+   "en": "Hoods Campanas"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/hoods/campanas-1.webp",
+    "width": 1051,
+    "height": 1039
+   },
+   {
+    "src": "/products/accessories/hoods/campanas-2.webp",
+    "width": 695,
+    "height": 1109
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "ac",
+  "category": "accessories",
+  "subcategory": "din-connectors",
+  "code": "Ac",
+  "name": {
+   "es": "Conectores DIN Ac",
+   "en": "DIN connectors Ac"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/din-connectors/ac-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/accessories/din-connectors/ac-2.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "dc",
+  "category": "accessories",
+  "subcategory": "din-connectors",
+  "code": "Dc",
+  "name": {
+   "es": "Conectores DIN Dc",
+   "en": "DIN connectors Dc"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/din-connectors/dc-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/accessories/din-connectors/dc-2.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cuerpo-valvula-cartucho-sae-10",
+  "category": "accessories",
+  "subcategory": "cartridge-valve-body",
+  "code": "CUERPO-VALVULA-CARTUCHO-SAE-10",
+  "name": {
+   "es": "Cuerpo válvula cartucho CUERPO-VALVULA-CARTUCHO-SAE-10",
+   "en": "Cartridge valve body CUERPO-VALVULA-CARTUCHO-SAE-10"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-10-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-10-2.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-10-3.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "cuerpo-valvula-cartucho-sae-8",
+  "category": "accessories",
+  "subcategory": "cartridge-valve-body",
+  "code": "CUERPO-VALVULA-CARTUCHO-SAE-8",
+  "name": {
+   "es": "Cuerpo válvula cartucho CUERPO-VALVULA-CARTUCHO-SAE-8",
+   "en": "Cartridge valve body CUERPO-VALVULA-CARTUCHO-SAE-8"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-8-1.webp",
+    "width": 1200,
+    "height": 1200
+   },
+   {
+    "src": "/products/accessories/cartridge-valve-body/cuerpo-valvula-cartucho-sae-8-2.webp",
+    "width": 1200,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "ah0607t",
+  "category": "accessories",
+  "subcategory": "coolers",
+  "code": "AH0607T",
+  "name": {
+   "es": "Enfriadores AH0607T",
+   "en": "Coolers AH0607T"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Coolers-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/coolers/ah0607t-1.webp",
+    "width": 1200,
+    "height": 928
+   },
+   {
+    "src": "/products/accessories/coolers/ah0607t-2.webp",
+    "width": 1200,
+    "height": 856
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "ah0608t",
+  "category": "accessories",
+  "subcategory": "coolers",
+  "code": "AH0608T",
+  "name": {
+   "es": "Enfriadores AH0608T",
+   "en": "Coolers AH0608T"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Coolers-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/coolers/ah0608t-1.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/accessories/coolers/ah0608t-2.webp",
+    "width": 1200,
+    "height": 674
+   },
+   {
+    "src": "/products/accessories/coolers/ah0608t-3.webp",
+    "width": 1200,
+    "height": 674
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "ah1012-t",
+  "category": "accessories",
+  "subcategory": "coolers",
+  "code": "AH1012-T",
+  "name": {
+   "es": "Enfriadores AH1012-T",
+   "en": "Coolers AH1012-T"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Coolers-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/coolers/ah1012-t-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/coolers/ah1012-t-2.webp",
+    "width": 1200,
+    "height": 775
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "ah1417t",
+  "category": "accessories",
+  "subcategory": "coolers",
+  "code": "AH1417T",
+  "name": {
+   "es": "Enfriadores AH1417T",
+   "en": "Coolers AH1417T"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Coolers-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/coolers/ah1417t.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "intercambiador-de-calor-agua-aceite",
+  "category": "accessories",
+  "subcategory": "coolers",
+  "code": "Intercambiador de calor agua aceite",
+  "name": {
+   "es": "Enfriadores Intercambiador de calor agua aceite",
+   "en": "Coolers Intercambiador de calor agua aceite"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Coolers-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/coolers/intercambiador-de-calor-agua-aceite-1.webp",
+    "width": 1200,
+    "height": 539
+   },
+   {
+    "src": "/products/accessories/coolers/intercambiador-de-calor-agua-aceite-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/coolers/intercambiador-de-calor-agua-aceite-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/coolers/intercambiador-de-calor-agua-aceite-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "intercambiador-de-calor-aire-aceite",
+  "category": "accessories",
+  "subcategory": "coolers",
+  "code": "Intercambiador de calor aire aceite",
+  "name": {
+   "es": "Enfriadores Intercambiador de calor aire aceite",
+   "en": "Coolers Intercambiador de calor aire aceite"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Coolers-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/coolers/intercambiador-de-calor-aire-aceite-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/coolers/intercambiador-de-calor-aire-aceite-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/coolers/intercambiador-de-calor-aire-aceite-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/coolers/intercambiador-de-calor-aire-aceite-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "hed40a-10350-g",
+  "category": "accessories",
+  "subcategory": "pressure-switch",
+  "code": "HED40A-10350-G",
+  "name": {
+   "es": "Presostato HED40A-10350-G",
+   "en": "Pressure switch HED40A-10350-G"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/pressure-switch/hed40a-10350-g-1.webp",
+    "width": 1024,
+    "height": 1200
+   },
+   {
+    "src": "/products/accessories/pressure-switch/hed40a-10350-g-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/pressure-switch/hed40a-10350-g-3.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/pressure-switch/hed40a-10350-g-4.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [
+   "HED40A 10/350 G"
+  ],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "jcs-02h",
+  "category": "accessories",
+  "subcategory": "pressure-switch",
+  "code": "JCS-02H",
+  "name": {
+   "es": "Presostato JCS-02H",
+   "en": "Pressure switch JCS-02H"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/pressure-switch/jcs-02h-1.webp",
+    "width": 1200,
+    "height": 606
+   },
+   {
+    "src": "/products/accessories/pressure-switch/jcs-02h-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/pressure-switch/jcs-02h-3.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "subplaca-para-unidades-compactas",
+  "category": "accessories",
+  "subcategory": "subplates",
+  "code": "Subplaca para unidades compactas",
+  "name": {
+   "es": "Subplacas Subplaca para unidades compactas",
+   "en": "Subplates Subplaca para unidades compactas"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/subplates/subplaca-para-unidades-compactas-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/subplates/subplaca-para-unidades-compactas-2.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "subplacas",
+  "category": "accessories",
+  "subcategory": "subplates",
+  "code": "Subplacas",
+  "name": {
+   "es": "Subplacas Subplacas",
+   "en": "Subplates Subplacas"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/subplates/subplacas-1.webp",
+    "width": 1200,
+    "height": 1024
+   },
+   {
+    "src": "/products/accessories/subplates/subplacas-2.webp",
+    "width": 1119,
+    "height": 1200
+   },
+   {
+    "src": "/products/accessories/subplates/subplacas-3.webp",
+    "width": 1200,
+    "height": 812
+   },
+   {
+    "src": "/products/accessories/subplates/subplacas-4.webp",
+    "width": 1158,
+    "height": 1200
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ },
+ {
+  "slug": "bloque-medio-minicentral",
+  "category": "accessories",
+  "subcategory": "mini-central-medium-block",
+  "code": "Bloque medio minicentral",
+  "name": {
+   "es": "Bloque medio minicentral Bloque medio minicentral",
+   "en": "Mini-central medium block Bloque medio minicentral"
+  },
+  "description": {
+   "es": "",
+   "en": ""
+  },
+  "catalog": "/catalogs/KLUG-Components-c.pdf",
+  "images": [
+   {
+    "src": "/products/accessories/mini-central-medium-block/bloque-medio-minicentral-1.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/mini-central-medium-block/bloque-medio-minicentral-2.webp",
+    "width": 1200,
+    "height": 800
+   },
+   {
+    "src": "/products/accessories/mini-central-medium-block/bloque-medio-minicentral-3.webp",
+    "width": 1200,
+    "height": 800
+   }
+  ],
+  "references": [],
+  "specs": [],
+  "figures": []
+ }
+]
